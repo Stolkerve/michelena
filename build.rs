@@ -30,7 +30,7 @@ fn main() {
     println!("cargo:rerun-if-changed=build.rs");
 
     let mut file = File::create(dest.join("bindings.rs")).unwrap();
-    Registry::new(Api::Gl, (4, 6), Profile::Core, Fallbacks::All, [])
+    Registry::new(Api::Gl, (4, 1), Profile::Core, Fallbacks::All, [])
         .write_bindings(StructGenerator, &mut file)
         .unwrap();
 }

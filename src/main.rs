@@ -6,9 +6,18 @@ mod vertex_array;
 // use core::str;
 // use std::ffi::{c_char, CStr, CString};
 
+use std::ffi::c_void;
+
 use gl::Gl;
 use gl_buffers::{VertexAttributeTypes, VertexBuffer};
-use sdl3::event::Event;
+use sdl3::{
+    event::Event,
+    get_error,
+    sys::video::{
+        SDL_GL_SetAttribute, SDL_GL_CONTEXT_MAJOR_VERSION, SDL_GL_CONTEXT_MINOR_VERSION,
+        SDL_GL_CONTEXT_PROFILE_CORE, SDL_GL_CONTEXT_PROFILE_MASK,
+    },
+};
 
 pub mod gl {
     #![allow(clippy::all)]
@@ -18,6 +27,20 @@ pub mod gl {
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let sdl_context = sdl3::init()?;
     let video_subsystem = sdl_context.video()?;
+    video_subsystem
+        .gl_load_library_default()
+        .map_err(|e| e.to_string())?;
+    unsafe {
+        if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4) {
+            println!("{:?}", sdl3::get_error());
+        }
+        if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1) {
+            println!("{:?}", sdl3::get_error());
+        }
+        if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE) {
+            println!("{:?}", sdl3::get_error());
+        }
+    }
 
     let window = video_subsystem
         .window("rust-sdl3 demo: Window", 800, 600)
@@ -31,7 +54,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .gl_make_current(&gl_context)
         .map_err(|e| e.to_string())?;
 
-    let gl = Gl::load_with(|s| window.subsystem().gl_get_proc_address(s).unwrap() as *const _);
+    let gl = Gl::load_with(|s| {
+        if let Some(f) = window.subsystem().gl_get_proc_address(s) {
+            return f as *const _;
+        }
+        println!("OpenGL function not found {}", s);
+        return std::ptr::null() as *const c_void;
+    });
 
     let mut event_pump = sdl_context.event_pump().map_err(|e| e.to_string())?;
 

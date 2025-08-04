@@ -119,11 +119,9 @@ pub type GLhalfNV = super::__gl_imports::raw::c_ushort;
 pub type GLvdpauSurfaceNV = GLintptr;
 
 }
-#[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92D9;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_ATTRIBUTES: types::GLenum = 0x8B89;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_ATTRIBUTE_MAX_LENGTH: types::GLenum = 0x8B8A;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_PROGRAM: types::GLenum = 0x8259;
-#[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_RESOURCES: types::GLenum = 0x92F5;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_SUBROUTINES: types::GLenum = 0x8DE5;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_SUBROUTINE_MAX_LENGTH: types::GLenum = 0x8E48;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_SUBROUTINE_UNIFORMS: types::GLenum = 0x8DE6;
@@ -134,9 +132,7 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_UNIFORM_BLOCKS: types::GLenum = 0x8A36;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_UNIFORM_BLOCK_MAX_NAME_LENGTH: types::GLenum = 0x8A35;
 #[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_UNIFORM_MAX_LENGTH: types::GLenum = 0x8B87;
-#[allow(dead_code, non_upper_case_globals)] pub const ACTIVE_VARIABLES: types::GLenum = 0x9305;
 #[allow(dead_code, non_upper_case_globals)] pub const ALIASED_LINE_WIDTH_RANGE: types::GLenum = 0x846E;
-#[allow(dead_code, non_upper_case_globals)] pub const ALL_BARRIER_BITS: types::GLenum = 0xFFFFFFFF;
 #[allow(dead_code, non_upper_case_globals)] pub const ALL_SHADER_BITS: types::GLenum = 0xFFFFFFFF;
 #[allow(dead_code, non_upper_case_globals)] pub const ALPHA: types::GLenum = 0x1906;
 #[allow(dead_code, non_upper_case_globals)] pub const ALREADY_SIGNALED: types::GLenum = 0x911A;
@@ -145,28 +141,9 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const AND_INVERTED: types::GLenum = 0x1504;
 #[allow(dead_code, non_upper_case_globals)] pub const AND_REVERSE: types::GLenum = 0x1502;
 #[allow(dead_code, non_upper_case_globals)] pub const ANY_SAMPLES_PASSED: types::GLenum = 0x8C2F;
-#[allow(dead_code, non_upper_case_globals)] pub const ANY_SAMPLES_PASSED_CONSERVATIVE: types::GLenum = 0x8D6A;
 #[allow(dead_code, non_upper_case_globals)] pub const ARRAY_BUFFER: types::GLenum = 0x8892;
 #[allow(dead_code, non_upper_case_globals)] pub const ARRAY_BUFFER_BINDING: types::GLenum = 0x8894;
-#[allow(dead_code, non_upper_case_globals)] pub const ARRAY_SIZE: types::GLenum = 0x92FB;
-#[allow(dead_code, non_upper_case_globals)] pub const ARRAY_STRIDE: types::GLenum = 0x92FE;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BARRIER_BIT: types::GLenum = 0x00001000;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER: types::GLenum = 0x92C0;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTERS: types::GLenum = 0x92C5;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_ACTIVE_ATOMIC_COUNTER_INDICES: types::GLenum = 0x92C6;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_BINDING: types::GLenum = 0x92C1;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_DATA_SIZE: types::GLenum = 0x92C4;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_INDEX: types::GLenum = 0x9301;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER: types::GLenum = 0x90ED;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_FRAGMENT_SHADER: types::GLenum = 0x92CB;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_GEOMETRY_SHADER: types::GLenum = 0x92CA;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_CONTROL_SHADER: types::GLenum = 0x92C8;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_TESS_EVALUATION_SHADER: types::GLenum = 0x92C9;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_REFERENCED_BY_VERTEX_SHADER: types::GLenum = 0x92C7;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_SIZE: types::GLenum = 0x92C3;
-#[allow(dead_code, non_upper_case_globals)] pub const ATOMIC_COUNTER_BUFFER_START: types::GLenum = 0x92C2;
 #[allow(dead_code, non_upper_case_globals)] pub const ATTACHED_SHADERS: types::GLenum = 0x8B85;
-#[allow(dead_code, non_upper_case_globals)] pub const AUTO_GENERATE_MIPMAP: types::GLenum = 0x8295;
 #[allow(dead_code, non_upper_case_globals)] pub const BACK: types::GLenum = 0x0405;
 #[allow(dead_code, non_upper_case_globals)] pub const BACK_LEFT: types::GLenum = 0x0402;
 #[allow(dead_code, non_upper_case_globals)] pub const BACK_RIGHT: types::GLenum = 0x0403;
@@ -185,42 +162,26 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const BLEND_SRC: types::GLenum = 0x0BE1;
 #[allow(dead_code, non_upper_case_globals)] pub const BLEND_SRC_ALPHA: types::GLenum = 0x80CB;
 #[allow(dead_code, non_upper_case_globals)] pub const BLEND_SRC_RGB: types::GLenum = 0x80C9;
-#[allow(dead_code, non_upper_case_globals)] pub const BLOCK_INDEX: types::GLenum = 0x92FD;
 #[allow(dead_code, non_upper_case_globals)] pub const BLUE: types::GLenum = 0x1905;
 #[allow(dead_code, non_upper_case_globals)] pub const BLUE_INTEGER: types::GLenum = 0x8D96;
 #[allow(dead_code, non_upper_case_globals)] pub const BOOL: types::GLenum = 0x8B56;
 #[allow(dead_code, non_upper_case_globals)] pub const BOOL_VEC2: types::GLenum = 0x8B57;
 #[allow(dead_code, non_upper_case_globals)] pub const BOOL_VEC3: types::GLenum = 0x8B58;
 #[allow(dead_code, non_upper_case_globals)] pub const BOOL_VEC4: types::GLenum = 0x8B59;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER: types::GLenum = 0x82E0;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_ACCESS: types::GLenum = 0x88BB;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_ACCESS_FLAGS: types::GLenum = 0x911F;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_BINDING: types::GLenum = 0x9302;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_DATA_SIZE: types::GLenum = 0x9303;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_IMMUTABLE_STORAGE: types::GLenum = 0x821F;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_MAPPED: types::GLenum = 0x88BC;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_MAP_LENGTH: types::GLenum = 0x9120;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_MAP_OFFSET: types::GLenum = 0x9121;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_MAP_POINTER: types::GLenum = 0x88BD;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_SIZE: types::GLenum = 0x8764;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_STORAGE_FLAGS: types::GLenum = 0x8220;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_UPDATE_BARRIER_BIT: types::GLenum = 0x00000200;
 #[allow(dead_code, non_upper_case_globals)] pub const BUFFER_USAGE: types::GLenum = 0x8765;
-#[allow(dead_code, non_upper_case_globals)] pub const BUFFER_VARIABLE: types::GLenum = 0x92E5;
 #[allow(dead_code, non_upper_case_globals)] pub const BYTE: types::GLenum = 0x1400;
-#[allow(dead_code, non_upper_case_globals)] pub const CAVEAT_SUPPORT: types::GLenum = 0x82B8;
 #[allow(dead_code, non_upper_case_globals)] pub const CCW: types::GLenum = 0x0901;
 #[allow(dead_code, non_upper_case_globals)] pub const CLAMP_READ_COLOR: types::GLenum = 0x891C;
 #[allow(dead_code, non_upper_case_globals)] pub const CLAMP_TO_BORDER: types::GLenum = 0x812D;
 #[allow(dead_code, non_upper_case_globals)] pub const CLAMP_TO_EDGE: types::GLenum = 0x812F;
 #[allow(dead_code, non_upper_case_globals)] pub const CLEAR: types::GLenum = 0x1500;
-#[allow(dead_code, non_upper_case_globals)] pub const CLEAR_BUFFER: types::GLenum = 0x82B4;
-#[allow(dead_code, non_upper_case_globals)] pub const CLEAR_TEXTURE: types::GLenum = 0x9365;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIENT_MAPPED_BUFFER_BARRIER_BIT: types::GLenum = 0x00004000;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIENT_STORAGE_BIT: types::GLenum = 0x0200;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIPPING_INPUT_PRIMITIVES: types::GLenum = 0x82F6;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIPPING_OUTPUT_PRIMITIVES: types::GLenum = 0x82F7;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIP_DEPTH_MODE: types::GLenum = 0x935D;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE0: types::GLenum = 0x3000;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE1: types::GLenum = 0x3001;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE2: types::GLenum = 0x3002;
@@ -229,7 +190,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE5: types::GLenum = 0x3005;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE6: types::GLenum = 0x3006;
 #[allow(dead_code, non_upper_case_globals)] pub const CLIP_DISTANCE7: types::GLenum = 0x3007;
-#[allow(dead_code, non_upper_case_globals)] pub const CLIP_ORIGIN: types::GLenum = 0x935C;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR: types::GLenum = 0x1800;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_ATTACHMENT0: types::GLenum = 0x8CE0;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_ATTACHMENT1: types::GLenum = 0x8CE1;
@@ -265,99 +225,40 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_ATTACHMENT9: types::GLenum = 0x8CE9;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_BUFFER_BIT: types::GLenum = 0x00004000;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_CLEAR_VALUE: types::GLenum = 0x0C22;
-#[allow(dead_code, non_upper_case_globals)] pub const COLOR_COMPONENTS: types::GLenum = 0x8283;
-#[allow(dead_code, non_upper_case_globals)] pub const COLOR_ENCODING: types::GLenum = 0x8296;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_LOGIC_OP: types::GLenum = 0x0BF2;
-#[allow(dead_code, non_upper_case_globals)] pub const COLOR_RENDERABLE: types::GLenum = 0x8286;
 #[allow(dead_code, non_upper_case_globals)] pub const COLOR_WRITEMASK: types::GLenum = 0x0C23;
-#[allow(dead_code, non_upper_case_globals)] pub const COMMAND_BARRIER_BIT: types::GLenum = 0x00000040;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPARE_REF_TO_TEXTURE: types::GLenum = 0x884E;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPATIBLE_SUBROUTINES: types::GLenum = 0x8E4B;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPILE_STATUS: types::GLenum = 0x8B81;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_R11_EAC: types::GLenum = 0x9270;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RED: types::GLenum = 0x8225;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RED_RGTC1: types::GLenum = 0x8DBB;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RG: types::GLenum = 0x8226;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RG11_EAC: types::GLenum = 0x9272;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGB: types::GLenum = 0x84ED;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGB8_ETC2: types::GLenum = 0x9274;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2: types::GLenum = 0x9276;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGBA: types::GLenum = 0x84EE;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGBA8_ETC2_EAC: types::GLenum = 0x9278;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGBA_BPTC_UNORM: types::GLenum = 0x8E8C;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGB_BPTC_SIGNED_FLOAT: types::GLenum = 0x8E8E;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT: types::GLenum = 0x8E8F;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_RG_RGTC2: types::GLenum = 0x8DBD;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SIGNED_R11_EAC: types::GLenum = 0x9271;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SIGNED_RED_RGTC1: types::GLenum = 0x8DBC;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SIGNED_RG11_EAC: types::GLenum = 0x9273;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SIGNED_RG_RGTC2: types::GLenum = 0x8DBE;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB: types::GLenum = 0x8C48;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB8_ALPHA8_ETC2_EAC: types::GLenum = 0x9279;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB8_ETC2: types::GLenum = 0x9275;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2: types::GLenum = 0x9277;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB_ALPHA: types::GLenum = 0x8C49;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_SRGB_ALPHA_BPTC_UNORM: types::GLenum = 0x8E8D;
 #[allow(dead_code, non_upper_case_globals)] pub const COMPRESSED_TEXTURE_FORMATS: types::GLenum = 0x86A3;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_SHADER: types::GLenum = 0x91B9;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_SHADER_BIT: types::GLenum = 0x00000020;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_SHADER_INVOCATIONS: types::GLenum = 0x82F5;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_SUBROUTINE: types::GLenum = 0x92ED;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_SUBROUTINE_UNIFORM: types::GLenum = 0x92F3;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_TEXTURE: types::GLenum = 0x82A0;
-#[allow(dead_code, non_upper_case_globals)] pub const COMPUTE_WORK_GROUP_SIZE: types::GLenum = 0x8267;
 #[allow(dead_code, non_upper_case_globals)] pub const CONDITION_SATISFIED: types::GLenum = 0x911C;
 #[allow(dead_code, non_upper_case_globals)] pub const CONSTANT_ALPHA: types::GLenum = 0x8003;
 #[allow(dead_code, non_upper_case_globals)] pub const CONSTANT_COLOR: types::GLenum = 0x8001;
 #[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_COMPATIBILITY_PROFILE_BIT: types::GLenum = 0x00000002;
 #[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_CORE_PROFILE_BIT: types::GLenum = 0x00000001;
 #[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_FLAGS: types::GLenum = 0x821E;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_FLAG_DEBUG_BIT: types::GLenum = 0x00000002;
 #[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT: types::GLenum = 0x00000001;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_FLAG_NO_ERROR_BIT: types::GLenum = 0x00000008;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_FLAG_ROBUST_ACCESS_BIT: types::GLenum = 0x00000004;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_LOST: types::GLenum = 0x0507;
 #[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_PROFILE_MASK: types::GLenum = 0x9126;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_RELEASE_BEHAVIOR: types::GLenum = 0x82FB;
-#[allow(dead_code, non_upper_case_globals)] pub const CONTEXT_RELEASE_BEHAVIOR_FLUSH: types::GLenum = 0x82FC;
 #[allow(dead_code, non_upper_case_globals)] pub const COPY: types::GLenum = 0x1503;
 #[allow(dead_code, non_upper_case_globals)] pub const COPY_INVERTED: types::GLenum = 0x150C;
 #[allow(dead_code, non_upper_case_globals)] pub const COPY_READ_BUFFER: types::GLenum = 0x8F36;
-#[allow(dead_code, non_upper_case_globals)] pub const COPY_READ_BUFFER_BINDING: types::GLenum = 0x8F36;
 #[allow(dead_code, non_upper_case_globals)] pub const COPY_WRITE_BUFFER: types::GLenum = 0x8F37;
-#[allow(dead_code, non_upper_case_globals)] pub const COPY_WRITE_BUFFER_BINDING: types::GLenum = 0x8F37;
 #[allow(dead_code, non_upper_case_globals)] pub const CULL_FACE: types::GLenum = 0x0B44;
 #[allow(dead_code, non_upper_case_globals)] pub const CULL_FACE_MODE: types::GLenum = 0x0B45;
 #[allow(dead_code, non_upper_case_globals)] pub const CURRENT_PROGRAM: types::GLenum = 0x8B8D;
 #[allow(dead_code, non_upper_case_globals)] pub const CURRENT_QUERY: types::GLenum = 0x8865;
 #[allow(dead_code, non_upper_case_globals)] pub const CURRENT_VERTEX_ATTRIB: types::GLenum = 0x8626;
 #[allow(dead_code, non_upper_case_globals)] pub const CW: types::GLenum = 0x0900;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_CALLBACK_FUNCTION: types::GLenum = 0x8244;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_CALLBACK_USER_PARAM: types::GLenum = 0x8245;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_GROUP_STACK_DEPTH: types::GLenum = 0x826D;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_LOGGED_MESSAGES: types::GLenum = 0x9145;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_NEXT_LOGGED_MESSAGE_LENGTH: types::GLenum = 0x8243;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_OUTPUT: types::GLenum = 0x92E0;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_OUTPUT_SYNCHRONOUS: types::GLenum = 0x8242;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SEVERITY_HIGH: types::GLenum = 0x9146;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SEVERITY_LOW: types::GLenum = 0x9148;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SEVERITY_MEDIUM: types::GLenum = 0x9147;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SEVERITY_NOTIFICATION: types::GLenum = 0x826B;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_API: types::GLenum = 0x8246;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_APPLICATION: types::GLenum = 0x824A;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_OTHER: types::GLenum = 0x824B;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_SHADER_COMPILER: types::GLenum = 0x8248;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_THIRD_PARTY: types::GLenum = 0x8249;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_SOURCE_WINDOW_SYSTEM: types::GLenum = 0x8247;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_DEPRECATED_BEHAVIOR: types::GLenum = 0x824D;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_ERROR: types::GLenum = 0x824C;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_MARKER: types::GLenum = 0x8268;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_OTHER: types::GLenum = 0x8251;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_PERFORMANCE: types::GLenum = 0x8250;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_POP_GROUP: types::GLenum = 0x826A;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_PORTABILITY: types::GLenum = 0x824F;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_PUSH_GROUP: types::GLenum = 0x8269;
-#[allow(dead_code, non_upper_case_globals)] pub const DEBUG_TYPE_UNDEFINED_BEHAVIOR: types::GLenum = 0x824E;
 #[allow(dead_code, non_upper_case_globals)] pub const DECR: types::GLenum = 0x1E03;
 #[allow(dead_code, non_upper_case_globals)] pub const DECR_WRAP: types::GLenum = 0x8508;
 #[allow(dead_code, non_upper_case_globals)] pub const DELETE_STATUS: types::GLenum = 0x8B80;
@@ -373,18 +274,12 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_COMPONENT24: types::GLenum = 0x81A6;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_COMPONENT32: types::GLenum = 0x81A7;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_COMPONENT32F: types::GLenum = 0x8CAC;
-#[allow(dead_code, non_upper_case_globals)] pub const DEPTH_COMPONENTS: types::GLenum = 0x8284;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_FUNC: types::GLenum = 0x0B74;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_RANGE: types::GLenum = 0x0B70;
-#[allow(dead_code, non_upper_case_globals)] pub const DEPTH_RENDERABLE: types::GLenum = 0x8287;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_STENCIL: types::GLenum = 0x84F9;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_STENCIL_ATTACHMENT: types::GLenum = 0x821A;
-#[allow(dead_code, non_upper_case_globals)] pub const DEPTH_STENCIL_TEXTURE_MODE: types::GLenum = 0x90EA;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_TEST: types::GLenum = 0x0B71;
 #[allow(dead_code, non_upper_case_globals)] pub const DEPTH_WRITEMASK: types::GLenum = 0x0B72;
-#[allow(dead_code, non_upper_case_globals)] pub const DISPATCH_INDIRECT_BUFFER: types::GLenum = 0x90EE;
-#[allow(dead_code, non_upper_case_globals)] pub const DISPATCH_INDIRECT_BUFFER_BINDING: types::GLenum = 0x90EF;
-#[allow(dead_code, non_upper_case_globals)] pub const DISPLAY_LIST: types::GLenum = 0x82E7;
 #[allow(dead_code, non_upper_case_globals)] pub const DITHER: types::GLenum = 0x0BD0;
 #[allow(dead_code, non_upper_case_globals)] pub const DONT_CARE: types::GLenum = 0x1100;
 #[allow(dead_code, non_upper_case_globals)] pub const DOUBLE: types::GLenum = 0x140A;
@@ -427,8 +322,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const DYNAMIC_COPY: types::GLenum = 0x88EA;
 #[allow(dead_code, non_upper_case_globals)] pub const DYNAMIC_DRAW: types::GLenum = 0x88E8;
 #[allow(dead_code, non_upper_case_globals)] pub const DYNAMIC_READ: types::GLenum = 0x88E9;
-#[allow(dead_code, non_upper_case_globals)] pub const DYNAMIC_STORAGE_BIT: types::GLenum = 0x0100;
-#[allow(dead_code, non_upper_case_globals)] pub const ELEMENT_ARRAY_BARRIER_BIT: types::GLenum = 0x00000002;
 #[allow(dead_code, non_upper_case_globals)] pub const ELEMENT_ARRAY_BUFFER: types::GLenum = 0x8893;
 #[allow(dead_code, non_upper_case_globals)] pub const ELEMENT_ARRAY_BUFFER_BINDING: types::GLenum = 0x8895;
 #[allow(dead_code, non_upper_case_globals)] pub const EQUAL: types::GLenum = 0x0202;
@@ -437,7 +330,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const FALSE: types::GLboolean = 0;
 #[allow(dead_code, non_upper_case_globals)] pub const FASTEST: types::GLenum = 0x1101;
 #[allow(dead_code, non_upper_case_globals)] pub const FILL: types::GLenum = 0x1B02;
-#[allow(dead_code, non_upper_case_globals)] pub const FILTER: types::GLenum = 0x829A;
 #[allow(dead_code, non_upper_case_globals)] pub const FIRST_VERTEX_CONVENTION: types::GLenum = 0x8E4D;
 #[allow(dead_code, non_upper_case_globals)] pub const FIXED: types::GLenum = 0x140C;
 #[allow(dead_code, non_upper_case_globals)] pub const FIXED_ONLY: types::GLenum = 0x891D;
@@ -461,10 +353,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SHADER: types::GLenum = 0x8B30;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SHADER_BIT: types::GLenum = 0x00000002;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SHADER_DERIVATIVE_HINT: types::GLenum = 0x8B8B;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SHADER_INVOCATIONS: types::GLenum = 0x82F4;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SUBROUTINE: types::GLenum = 0x92EC;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_SUBROUTINE_UNIFORM: types::GLenum = 0x92F2;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAGMENT_TEXTURE: types::GLenum = 0x829F;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER: types::GLenum = 0x8D40;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE: types::GLenum = 0x8215;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_ATTACHMENT_BLUE_SIZE: types::GLenum = 0x8214;
@@ -480,24 +368,15 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE: types::GLenum = 0x8CD3;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER: types::GLenum = 0x8CD4;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL: types::GLenum = 0x8CD2;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_BARRIER_BIT: types::GLenum = 0x00000400;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_BINDING: types::GLenum = 0x8CA6;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_BLEND: types::GLenum = 0x828B;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_COMPLETE: types::GLenum = 0x8CD5;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT: types::GLenum = 0x8218;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT_FIXED_SAMPLE_LOCATIONS: types::GLenum = 0x9314;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT_HEIGHT: types::GLenum = 0x9311;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT_LAYERS: types::GLenum = 0x9312;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT_SAMPLES: types::GLenum = 0x9313;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_DEFAULT_WIDTH: types::GLenum = 0x9310;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_ATTACHMENT: types::GLenum = 0x8CD6;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER: types::GLenum = 0x8CDB;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS: types::GLenum = 0x8DA8;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT: types::GLenum = 0x8CD7;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_MULTISAMPLE: types::GLenum = 0x8D56;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_INCOMPLETE_READ_BUFFER: types::GLenum = 0x8CDC;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_RENDERABLE: types::GLenum = 0x8289;
-#[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_RENDERABLE_LAYERED: types::GLenum = 0x828A;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_SRGB: types::GLenum = 0x8DB9;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_UNDEFINED: types::GLenum = 0x8219;
 #[allow(dead_code, non_upper_case_globals)] pub const FRAMEBUFFER_UNSUPPORTED: types::GLenum = 0x8CDD;
@@ -506,7 +385,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const FRONT_FACE: types::GLenum = 0x0B46;
 #[allow(dead_code, non_upper_case_globals)] pub const FRONT_LEFT: types::GLenum = 0x0400;
 #[allow(dead_code, non_upper_case_globals)] pub const FRONT_RIGHT: types::GLenum = 0x0401;
-#[allow(dead_code, non_upper_case_globals)] pub const FULL_SUPPORT: types::GLenum = 0x82B7;
 #[allow(dead_code, non_upper_case_globals)] pub const FUNC_ADD: types::GLenum = 0x8006;
 #[allow(dead_code, non_upper_case_globals)] pub const FUNC_REVERSE_SUBTRACT: types::GLenum = 0x800B;
 #[allow(dead_code, non_upper_case_globals)] pub const FUNC_SUBTRACT: types::GLenum = 0x800A;
@@ -515,91 +393,22 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SHADER: types::GLenum = 0x8DD9;
 #[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SHADER_BIT: types::GLenum = 0x00000004;
 #[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SHADER_INVOCATIONS: types::GLenum = 0x887F;
-#[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SHADER_PRIMITIVES_EMITTED: types::GLenum = 0x82F3;
-#[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SUBROUTINE: types::GLenum = 0x92EB;
-#[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_SUBROUTINE_UNIFORM: types::GLenum = 0x92F1;
-#[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_TEXTURE: types::GLenum = 0x829E;
 #[allow(dead_code, non_upper_case_globals)] pub const GEOMETRY_VERTICES_OUT: types::GLenum = 0x8916;
 #[allow(dead_code, non_upper_case_globals)] pub const GEQUAL: types::GLenum = 0x0206;
-#[allow(dead_code, non_upper_case_globals)] pub const GET_TEXTURE_IMAGE_FORMAT: types::GLenum = 0x8291;
-#[allow(dead_code, non_upper_case_globals)] pub const GET_TEXTURE_IMAGE_TYPE: types::GLenum = 0x8292;
 #[allow(dead_code, non_upper_case_globals)] pub const GREATER: types::GLenum = 0x0204;
 #[allow(dead_code, non_upper_case_globals)] pub const GREEN: types::GLenum = 0x1904;
 #[allow(dead_code, non_upper_case_globals)] pub const GREEN_INTEGER: types::GLenum = 0x8D95;
-#[allow(dead_code, non_upper_case_globals)] pub const GUILTY_CONTEXT_RESET: types::GLenum = 0x8253;
 #[allow(dead_code, non_upper_case_globals)] pub const HALF_FLOAT: types::GLenum = 0x140B;
 #[allow(dead_code, non_upper_case_globals)] pub const HIGH_FLOAT: types::GLenum = 0x8DF2;
 #[allow(dead_code, non_upper_case_globals)] pub const HIGH_INT: types::GLenum = 0x8DF5;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_1D: types::GLenum = 0x904C;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_1D_ARRAY: types::GLenum = 0x9052;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_2D: types::GLenum = 0x904D;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_2D_ARRAY: types::GLenum = 0x9053;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_2D_MULTISAMPLE: types::GLenum = 0x9055;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_2D_MULTISAMPLE_ARRAY: types::GLenum = 0x9056;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_2D_RECT: types::GLenum = 0x904F;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_3D: types::GLenum = 0x904E;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_ACCESS: types::GLenum = 0x8F3E;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_FORMAT: types::GLenum = 0x906E;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_LAYER: types::GLenum = 0x8F3D;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_LAYERED: types::GLenum = 0x8F3C;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_LEVEL: types::GLenum = 0x8F3B;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BINDING_NAME: types::GLenum = 0x8F3A;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_BUFFER: types::GLenum = 0x9051;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_10_10_10_2: types::GLenum = 0x82C3;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_11_11_10: types::GLenum = 0x82C2;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_1_X_16: types::GLenum = 0x82BE;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_1_X_32: types::GLenum = 0x82BB;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_1_X_8: types::GLenum = 0x82C1;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_2_X_16: types::GLenum = 0x82BD;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_2_X_32: types::GLenum = 0x82BA;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_2_X_8: types::GLenum = 0x82C0;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_4_X_16: types::GLenum = 0x82BC;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_4_X_32: types::GLenum = 0x82B9;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CLASS_4_X_8: types::GLenum = 0x82BF;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_COMPATIBILITY_CLASS: types::GLenum = 0x82A8;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CUBE: types::GLenum = 0x9050;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_CUBE_MAP_ARRAY: types::GLenum = 0x9054;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_FORMAT_COMPATIBILITY_BY_CLASS: types::GLenum = 0x90C9;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_FORMAT_COMPATIBILITY_BY_SIZE: types::GLenum = 0x90C8;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_FORMAT_COMPATIBILITY_TYPE: types::GLenum = 0x90C7;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_PIXEL_FORMAT: types::GLenum = 0x82A9;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_PIXEL_TYPE: types::GLenum = 0x82AA;
-#[allow(dead_code, non_upper_case_globals)] pub const IMAGE_TEXEL_SIZE: types::GLenum = 0x82A7;
 #[allow(dead_code, non_upper_case_globals)] pub const IMPLEMENTATION_COLOR_READ_FORMAT: types::GLenum = 0x8B9B;
 #[allow(dead_code, non_upper_case_globals)] pub const IMPLEMENTATION_COLOR_READ_TYPE: types::GLenum = 0x8B9A;
 #[allow(dead_code, non_upper_case_globals)] pub const INCR: types::GLenum = 0x1E02;
 #[allow(dead_code, non_upper_case_globals)] pub const INCR_WRAP: types::GLenum = 0x8507;
 #[allow(dead_code, non_upper_case_globals)] pub const INFO_LOG_LENGTH: types::GLenum = 0x8B84;
-#[allow(dead_code, non_upper_case_globals)] pub const INNOCENT_CONTEXT_RESET: types::GLenum = 0x8254;
 #[allow(dead_code, non_upper_case_globals)] pub const INT: types::GLenum = 0x1404;
 #[allow(dead_code, non_upper_case_globals)] pub const INTERLEAVED_ATTRIBS: types::GLenum = 0x8C8C;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_ALPHA_SIZE: types::GLenum = 0x8274;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_ALPHA_TYPE: types::GLenum = 0x827B;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_BLUE_SIZE: types::GLenum = 0x8273;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_BLUE_TYPE: types::GLenum = 0x827A;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_DEPTH_SIZE: types::GLenum = 0x8275;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_DEPTH_TYPE: types::GLenum = 0x827C;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_GREEN_SIZE: types::GLenum = 0x8272;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_GREEN_TYPE: types::GLenum = 0x8279;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_PREFERRED: types::GLenum = 0x8270;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_RED_SIZE: types::GLenum = 0x8271;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_RED_TYPE: types::GLenum = 0x8278;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_SHARED_SIZE: types::GLenum = 0x8277;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_STENCIL_SIZE: types::GLenum = 0x8276;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_STENCIL_TYPE: types::GLenum = 0x827D;
-#[allow(dead_code, non_upper_case_globals)] pub const INTERNALFORMAT_SUPPORTED: types::GLenum = 0x826F;
 #[allow(dead_code, non_upper_case_globals)] pub const INT_2_10_10_10_REV: types::GLenum = 0x8D9F;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_1D: types::GLenum = 0x9057;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_1D_ARRAY: types::GLenum = 0x905D;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_2D: types::GLenum = 0x9058;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_2D_ARRAY: types::GLenum = 0x905E;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_2D_MULTISAMPLE: types::GLenum = 0x9060;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_2D_MULTISAMPLE_ARRAY: types::GLenum = 0x9061;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_2D_RECT: types::GLenum = 0x905A;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_3D: types::GLenum = 0x9059;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_BUFFER: types::GLenum = 0x905C;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_CUBE: types::GLenum = 0x905B;
-#[allow(dead_code, non_upper_case_globals)] pub const INT_IMAGE_CUBE_MAP_ARRAY: types::GLenum = 0x905F;
 #[allow(dead_code, non_upper_case_globals)] pub const INT_SAMPLER_1D: types::GLenum = 0x8DC9;
 #[allow(dead_code, non_upper_case_globals)] pub const INT_SAMPLER_1D_ARRAY: types::GLenum = 0x8DCE;
 #[allow(dead_code, non_upper_case_globals)] pub const INT_SAMPLER_2D: types::GLenum = 0x8DCA;
@@ -621,8 +430,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const INVALID_VALUE: types::GLenum = 0x0501;
 #[allow(dead_code, non_upper_case_globals)] pub const INVERT: types::GLenum = 0x150A;
 #[allow(dead_code, non_upper_case_globals)] pub const ISOLINES: types::GLenum = 0x8E7A;
-#[allow(dead_code, non_upper_case_globals)] pub const IS_PER_PATCH: types::GLenum = 0x92E7;
-#[allow(dead_code, non_upper_case_globals)] pub const IS_ROW_MAJOR: types::GLenum = 0x9300;
 #[allow(dead_code, non_upper_case_globals)] pub const KEEP: types::GLenum = 0x1E00;
 #[allow(dead_code, non_upper_case_globals)] pub const LAST_VERTEX_CONVENTION: types::GLenum = 0x8E4E;
 #[allow(dead_code, non_upper_case_globals)] pub const LAYER_PROVOKING_VERTEX: types::GLenum = 0x825E;
@@ -644,106 +451,50 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const LINE_WIDTH_GRANULARITY: types::GLenum = 0x0B23;
 #[allow(dead_code, non_upper_case_globals)] pub const LINE_WIDTH_RANGE: types::GLenum = 0x0B22;
 #[allow(dead_code, non_upper_case_globals)] pub const LINK_STATUS: types::GLenum = 0x8B82;
-#[allow(dead_code, non_upper_case_globals)] pub const LOCATION: types::GLenum = 0x930E;
-#[allow(dead_code, non_upper_case_globals)] pub const LOCATION_COMPONENT: types::GLenum = 0x934A;
-#[allow(dead_code, non_upper_case_globals)] pub const LOCATION_INDEX: types::GLenum = 0x930F;
 #[allow(dead_code, non_upper_case_globals)] pub const LOGIC_OP_MODE: types::GLenum = 0x0BF0;
-#[allow(dead_code, non_upper_case_globals)] pub const LOSE_CONTEXT_ON_RESET: types::GLenum = 0x8252;
 #[allow(dead_code, non_upper_case_globals)] pub const LOWER_LEFT: types::GLenum = 0x8CA1;
 #[allow(dead_code, non_upper_case_globals)] pub const LOW_FLOAT: types::GLenum = 0x8DF0;
 #[allow(dead_code, non_upper_case_globals)] pub const LOW_INT: types::GLenum = 0x8DF3;
 #[allow(dead_code, non_upper_case_globals)] pub const MAJOR_VERSION: types::GLenum = 0x821B;
-#[allow(dead_code, non_upper_case_globals)] pub const MANUAL_GENERATE_MIPMAP: types::GLenum = 0x8294;
-#[allow(dead_code, non_upper_case_globals)] pub const MAP_COHERENT_BIT: types::GLenum = 0x0080;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_FLUSH_EXPLICIT_BIT: types::GLenum = 0x0010;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_INVALIDATE_BUFFER_BIT: types::GLenum = 0x0008;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_INVALIDATE_RANGE_BIT: types::GLenum = 0x0004;
-#[allow(dead_code, non_upper_case_globals)] pub const MAP_PERSISTENT_BIT: types::GLenum = 0x0040;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_READ_BIT: types::GLenum = 0x0001;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_UNSYNCHRONIZED_BIT: types::GLenum = 0x0020;
 #[allow(dead_code, non_upper_case_globals)] pub const MAP_WRITE_BIT: types::GLenum = 0x0002;
-#[allow(dead_code, non_upper_case_globals)] pub const MATRIX_STRIDE: types::GLenum = 0x92FF;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX: types::GLenum = 0x8008;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_3D_TEXTURE_SIZE: types::GLenum = 0x8073;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_ARRAY_TEXTURE_LAYERS: types::GLenum = 0x88FF;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_ATOMIC_COUNTER_BUFFER_BINDINGS: types::GLenum = 0x92DC;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_ATOMIC_COUNTER_BUFFER_SIZE: types::GLenum = 0x92D8;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_CLIP_DISTANCES: types::GLenum = 0x0D32;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COLOR_ATTACHMENTS: types::GLenum = 0x8CDF;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COLOR_TEXTURE_SAMPLES: types::GLenum = 0x910E;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_ATOMIC_COUNTERS: types::GLenum = 0x92D7;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92D1;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_CLIP_AND_CULL_DISTANCES: types::GLenum = 0x82FA;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS: types::GLenum = 0x8266;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_DIMENSIONS: types::GLenum = 0x8282;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS: types::GLenum = 0x8A33;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_GEOMETRY_UNIFORM_COMPONENTS: types::GLenum = 0x8A32;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_IMAGE_UNIFORMS: types::GLenum = 0x90CF;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_IMAGE_UNITS_AND_FRAGMENT_OUTPUTS: types::GLenum = 0x8F39;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_SHADER_OUTPUT_RESOURCES: types::GLenum = 0x8F39;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90DC;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_TESS_CONTROL_UNIFORM_COMPONENTS: types::GLenum = 0x8E1E;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_TESS_EVALUATION_UNIFORM_COMPONENTS: types::GLenum = 0x8E1F;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8B4D;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_UNIFORM_BLOCKS: types::GLenum = 0x8A2E;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS: types::GLenum = 0x8A31;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_ATOMIC_COUNTERS: types::GLenum = 0x8265;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x8264;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_IMAGE_UNIFORMS: types::GLenum = 0x91BD;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90DB;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_SHARED_MEMORY_SIZE: types::GLenum = 0x8262;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_TEXTURE_IMAGE_UNITS: types::GLenum = 0x91BC;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_UNIFORM_BLOCKS: types::GLenum = 0x91BB;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_UNIFORM_COMPONENTS: types::GLenum = 0x8263;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_WORK_GROUP_COUNT: types::GLenum = 0x91BE;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_WORK_GROUP_INVOCATIONS: types::GLenum = 0x90EB;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_COMPUTE_WORK_GROUP_SIZE: types::GLenum = 0x91BF;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_CUBE_MAP_TEXTURE_SIZE: types::GLenum = 0x851C;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_CULL_DISTANCES: types::GLenum = 0x82F9;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_DEBUG_GROUP_STACK_DEPTH: types::GLenum = 0x826C;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_DEBUG_LOGGED_MESSAGES: types::GLenum = 0x9144;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_DEBUG_MESSAGE_LENGTH: types::GLenum = 0x9143;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_DEPTH: types::GLenum = 0x8280;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_DEPTH_TEXTURE_SAMPLES: types::GLenum = 0x910F;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_DRAW_BUFFERS: types::GLenum = 0x8824;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_DUAL_SOURCE_DRAW_BUFFERS: types::GLenum = 0x88FC;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_ELEMENTS_INDICES: types::GLenum = 0x80E9;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_ELEMENTS_VERTICES: types::GLenum = 0x80E8;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_ELEMENT_INDEX: types::GLenum = 0x8D6B;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_ATOMIC_COUNTERS: types::GLenum = 0x92D6;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92D0;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_IMAGE_UNIFORMS: types::GLenum = 0x90CE;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_INPUT_COMPONENTS: types::GLenum = 0x9125;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_INTERPOLATION_OFFSET: types::GLenum = 0x8E5C;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90DA;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_UNIFORM_BLOCKS: types::GLenum = 0x8A2D;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_UNIFORM_COMPONENTS: types::GLenum = 0x8B49;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAGMENT_UNIFORM_VECTORS: types::GLenum = 0x8DFD;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAMEBUFFER_HEIGHT: types::GLenum = 0x9316;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAMEBUFFER_LAYERS: types::GLenum = 0x9317;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAMEBUFFER_SAMPLES: types::GLenum = 0x9318;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_FRAMEBUFFER_WIDTH: types::GLenum = 0x9315;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_ATOMIC_COUNTERS: types::GLenum = 0x92D5;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92CF;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_IMAGE_UNIFORMS: types::GLenum = 0x90CD;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_INPUT_COMPONENTS: types::GLenum = 0x9123;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_OUTPUT_COMPONENTS: types::GLenum = 0x9124;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_OUTPUT_VERTICES: types::GLenum = 0x8DE0;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_SHADER_INVOCATIONS: types::GLenum = 0x8E5A;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90D7;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8C29;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS: types::GLenum = 0x8DE1;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_UNIFORM_BLOCKS: types::GLenum = 0x8A2C;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_GEOMETRY_UNIFORM_COMPONENTS: types::GLenum = 0x8DDF;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_HEIGHT: types::GLenum = 0x827F;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_IMAGE_SAMPLES: types::GLenum = 0x906D;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_IMAGE_UNITS: types::GLenum = 0x8F38;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_INTEGER_SAMPLES: types::GLenum = 0x9110;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_LABEL_LENGTH: types::GLenum = 0x82E8;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_LAYERS: types::GLenum = 0x8281;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_NAME_LENGTH: types::GLenum = 0x92F6;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_NUM_ACTIVE_VARIABLES: types::GLenum = 0x92F7;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_NUM_COMPATIBLE_SUBROUTINES: types::GLenum = 0x92F8;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_PATCH_VERTICES: types::GLenum = 0x8E7D;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_PROGRAM_TEXEL_OFFSET: types::GLenum = 0x8905;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_PROGRAM_TEXTURE_GATHER_OFFSET: types::GLenum = 0x8E5F;
@@ -752,26 +503,16 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_SAMPLES: types::GLenum = 0x8D57;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_SAMPLE_MASK_WORDS: types::GLenum = 0x8E59;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_SERVER_WAIT_TIMEOUT: types::GLenum = 0x9111;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_SHADER_STORAGE_BLOCK_SIZE: types::GLenum = 0x90DE;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_SHADER_STORAGE_BUFFER_BINDINGS: types::GLenum = 0x90DD;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_SUBROUTINES: types::GLenum = 0x8DE7;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_SUBROUTINE_UNIFORM_LOCATIONS: types::GLenum = 0x8DE8;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_ATOMIC_COUNTERS: types::GLenum = 0x92D3;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92CD;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_IMAGE_UNIFORMS: types::GLenum = 0x90CB;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_INPUT_COMPONENTS: types::GLenum = 0x886C;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_OUTPUT_COMPONENTS: types::GLenum = 0x8E83;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90D8;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8E81;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS: types::GLenum = 0x8E85;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_UNIFORM_BLOCKS: types::GLenum = 0x8E89;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_CONTROL_UNIFORM_COMPONENTS: types::GLenum = 0x8E7F;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_ATOMIC_COUNTERS: types::GLenum = 0x92D4;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92CE;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_IMAGE_UNIFORMS: types::GLenum = 0x90CC;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_INPUT_COMPONENTS: types::GLenum = 0x886D;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_OUTPUT_COMPONENTS: types::GLenum = 0x8E86;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90D9;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8E82;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_UNIFORM_BLOCKS: types::GLenum = 0x8E8A;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TESS_EVALUATION_UNIFORM_COMPONENTS: types::GLenum = 0x8E80;
@@ -780,7 +521,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TEXTURE_BUFFER_SIZE: types::GLenum = 0x8C2B;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8872;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TEXTURE_LOD_BIAS: types::GLenum = 0x84FD;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_TEXTURE_MAX_ANISOTROPY: types::GLenum = 0x84FF;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TEXTURE_SIZE: types::GLenum = 0x0D33;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TRANSFORM_FEEDBACK_BUFFERS: types::GLenum = 0x8E70;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS: types::GLenum = 0x8C8A;
@@ -788,19 +528,11 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS: types::GLenum = 0x8C80;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_UNIFORM_BLOCK_SIZE: types::GLenum = 0x8A30;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_UNIFORM_BUFFER_BINDINGS: types::GLenum = 0x8A2F;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_UNIFORM_LOCATIONS: types::GLenum = 0x826E;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VARYING_COMPONENTS: types::GLenum = 0x8B4B;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VARYING_FLOATS: types::GLenum = 0x8B4B;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VARYING_VECTORS: types::GLenum = 0x8DFC;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATOMIC_COUNTERS: types::GLenum = 0x92D2;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATOMIC_COUNTER_BUFFERS: types::GLenum = 0x92CC;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATTRIBS: types::GLenum = 0x8869;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATTRIB_BINDINGS: types::GLenum = 0x82DA;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATTRIB_RELATIVE_OFFSET: types::GLenum = 0x82D9;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_ATTRIB_STRIDE: types::GLenum = 0x82E5;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_IMAGE_UNIFORMS: types::GLenum = 0x90CA;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_OUTPUT_COMPONENTS: types::GLenum = 0x9122;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_SHADER_STORAGE_BLOCKS: types::GLenum = 0x90D6;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_STREAMS: types::GLenum = 0x8E71;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_TEXTURE_IMAGE_UNITS: types::GLenum = 0x8B4C;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_UNIFORM_BLOCKS: types::GLenum = 0x8A2B;
@@ -808,26 +540,20 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VERTEX_UNIFORM_VECTORS: types::GLenum = 0x8DFB;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VIEWPORTS: types::GLenum = 0x825B;
 #[allow(dead_code, non_upper_case_globals)] pub const MAX_VIEWPORT_DIMS: types::GLenum = 0x0D3A;
-#[allow(dead_code, non_upper_case_globals)] pub const MAX_WIDTH: types::GLenum = 0x827E;
 #[allow(dead_code, non_upper_case_globals)] pub const MEDIUM_FLOAT: types::GLenum = 0x8DF1;
 #[allow(dead_code, non_upper_case_globals)] pub const MEDIUM_INT: types::GLenum = 0x8DF4;
 #[allow(dead_code, non_upper_case_globals)] pub const MIN: types::GLenum = 0x8007;
 #[allow(dead_code, non_upper_case_globals)] pub const MINOR_VERSION: types::GLenum = 0x821C;
 #[allow(dead_code, non_upper_case_globals)] pub const MIN_FRAGMENT_INTERPOLATION_OFFSET: types::GLenum = 0x8E5B;
-#[allow(dead_code, non_upper_case_globals)] pub const MIN_MAP_BUFFER_ALIGNMENT: types::GLenum = 0x90BC;
 #[allow(dead_code, non_upper_case_globals)] pub const MIN_PROGRAM_TEXEL_OFFSET: types::GLenum = 0x8904;
 #[allow(dead_code, non_upper_case_globals)] pub const MIN_PROGRAM_TEXTURE_GATHER_OFFSET: types::GLenum = 0x8E5E;
 #[allow(dead_code, non_upper_case_globals)] pub const MIN_SAMPLE_SHADING_VALUE: types::GLenum = 0x8C37;
-#[allow(dead_code, non_upper_case_globals)] pub const MIPMAP: types::GLenum = 0x8293;
 #[allow(dead_code, non_upper_case_globals)] pub const MIRRORED_REPEAT: types::GLenum = 0x8370;
-#[allow(dead_code, non_upper_case_globals)] pub const MIRROR_CLAMP_TO_EDGE: types::GLenum = 0x8743;
 #[allow(dead_code, non_upper_case_globals)] pub const MULTISAMPLE: types::GLenum = 0x809D;
-#[allow(dead_code, non_upper_case_globals)] pub const NAME_LENGTH: types::GLenum = 0x92F9;
 #[allow(dead_code, non_upper_case_globals)] pub const NAND: types::GLenum = 0x150E;
 #[allow(dead_code, non_upper_case_globals)] pub const NEAREST: types::GLenum = 0x2600;
 #[allow(dead_code, non_upper_case_globals)] pub const NEAREST_MIPMAP_LINEAR: types::GLenum = 0x2702;
 #[allow(dead_code, non_upper_case_globals)] pub const NEAREST_MIPMAP_NEAREST: types::GLenum = 0x2700;
-#[allow(dead_code, non_upper_case_globals)] pub const NEGATIVE_ONE_TO_ONE: types::GLenum = 0x935E;
 #[allow(dead_code, non_upper_case_globals)] pub const NEVER: types::GLenum = 0x0200;
 #[allow(dead_code, non_upper_case_globals)] pub const NICEST: types::GLenum = 0x1102;
 #[allow(dead_code, non_upper_case_globals)] pub const NONE: types::GLenum = 0;
@@ -835,18 +561,12 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const NOR: types::GLenum = 0x1508;
 #[allow(dead_code, non_upper_case_globals)] pub const NOTEQUAL: types::GLenum = 0x0205;
 #[allow(dead_code, non_upper_case_globals)] pub const NO_ERROR: types::GLenum = 0;
-#[allow(dead_code, non_upper_case_globals)] pub const NO_RESET_NOTIFICATION: types::GLenum = 0x8261;
-#[allow(dead_code, non_upper_case_globals)] pub const NUM_ACTIVE_VARIABLES: types::GLenum = 0x9304;
 #[allow(dead_code, non_upper_case_globals)] pub const NUM_COMPATIBLE_SUBROUTINES: types::GLenum = 0x8E4A;
 #[allow(dead_code, non_upper_case_globals)] pub const NUM_COMPRESSED_TEXTURE_FORMATS: types::GLenum = 0x86A2;
 #[allow(dead_code, non_upper_case_globals)] pub const NUM_EXTENSIONS: types::GLenum = 0x821D;
 #[allow(dead_code, non_upper_case_globals)] pub const NUM_PROGRAM_BINARY_FORMATS: types::GLenum = 0x87FE;
-#[allow(dead_code, non_upper_case_globals)] pub const NUM_SAMPLE_COUNTS: types::GLenum = 0x9380;
 #[allow(dead_code, non_upper_case_globals)] pub const NUM_SHADER_BINARY_FORMATS: types::GLenum = 0x8DF9;
-#[allow(dead_code, non_upper_case_globals)] pub const NUM_SHADING_LANGUAGE_VERSIONS: types::GLenum = 0x82E9;
-#[allow(dead_code, non_upper_case_globals)] pub const NUM_SPIR_V_EXTENSIONS: types::GLenum = 0x9554;
 #[allow(dead_code, non_upper_case_globals)] pub const OBJECT_TYPE: types::GLenum = 0x9112;
-#[allow(dead_code, non_upper_case_globals)] pub const OFFSET: types::GLenum = 0x92FC;
 #[allow(dead_code, non_upper_case_globals)] pub const ONE: types::GLenum = 1;
 #[allow(dead_code, non_upper_case_globals)] pub const ONE_MINUS_CONSTANT_ALPHA: types::GLenum = 0x8004;
 #[allow(dead_code, non_upper_case_globals)] pub const ONE_MINUS_CONSTANT_COLOR: types::GLenum = 0x8002;
@@ -861,10 +581,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const OR_REVERSE: types::GLenum = 0x150B;
 #[allow(dead_code, non_upper_case_globals)] pub const OUT_OF_MEMORY: types::GLenum = 0x0505;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_ALIGNMENT: types::GLenum = 0x0D05;
-#[allow(dead_code, non_upper_case_globals)] pub const PACK_COMPRESSED_BLOCK_DEPTH: types::GLenum = 0x912D;
-#[allow(dead_code, non_upper_case_globals)] pub const PACK_COMPRESSED_BLOCK_HEIGHT: types::GLenum = 0x912C;
-#[allow(dead_code, non_upper_case_globals)] pub const PACK_COMPRESSED_BLOCK_SIZE: types::GLenum = 0x912E;
-#[allow(dead_code, non_upper_case_globals)] pub const PACK_COMPRESSED_BLOCK_WIDTH: types::GLenum = 0x912B;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_IMAGE_HEIGHT: types::GLenum = 0x806C;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_LSB_FIRST: types::GLenum = 0x0D01;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_ROW_LENGTH: types::GLenum = 0x0D02;
@@ -872,13 +588,10 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_SKIP_PIXELS: types::GLenum = 0x0D04;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_SKIP_ROWS: types::GLenum = 0x0D03;
 #[allow(dead_code, non_upper_case_globals)] pub const PACK_SWAP_BYTES: types::GLenum = 0x0D00;
-#[allow(dead_code, non_upper_case_globals)] pub const PARAMETER_BUFFER: types::GLenum = 0x80EE;
-#[allow(dead_code, non_upper_case_globals)] pub const PARAMETER_BUFFER_BINDING: types::GLenum = 0x80EF;
 #[allow(dead_code, non_upper_case_globals)] pub const PATCHES: types::GLenum = 0x000E;
 #[allow(dead_code, non_upper_case_globals)] pub const PATCH_DEFAULT_INNER_LEVEL: types::GLenum = 0x8E73;
 #[allow(dead_code, non_upper_case_globals)] pub const PATCH_DEFAULT_OUTER_LEVEL: types::GLenum = 0x8E74;
 #[allow(dead_code, non_upper_case_globals)] pub const PATCH_VERTICES: types::GLenum = 0x8E72;
-#[allow(dead_code, non_upper_case_globals)] pub const PIXEL_BUFFER_BARRIER_BIT: types::GLenum = 0x00000080;
 #[allow(dead_code, non_upper_case_globals)] pub const PIXEL_PACK_BUFFER: types::GLenum = 0x88EB;
 #[allow(dead_code, non_upper_case_globals)] pub const PIXEL_PACK_BUFFER_BINDING: types::GLenum = 0x88ED;
 #[allow(dead_code, non_upper_case_globals)] pub const PIXEL_UNPACK_BUFFER: types::GLenum = 0x88EC;
@@ -891,7 +604,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const POINT_SIZE_RANGE: types::GLenum = 0x0B12;
 #[allow(dead_code, non_upper_case_globals)] pub const POINT_SPRITE_COORD_ORIGIN: types::GLenum = 0x8CA0;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_MODE: types::GLenum = 0x0B40;
-#[allow(dead_code, non_upper_case_globals)] pub const POLYGON_OFFSET_CLAMP: types::GLenum = 0x8E1B;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_OFFSET_FACTOR: types::GLenum = 0x8038;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_OFFSET_FILL: types::GLenum = 0x8037;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_OFFSET_LINE: types::GLenum = 0x2A02;
@@ -900,18 +612,11 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_SMOOTH: types::GLenum = 0x0B41;
 #[allow(dead_code, non_upper_case_globals)] pub const POLYGON_SMOOTH_HINT: types::GLenum = 0x0C53;
 #[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVES_GENERATED: types::GLenum = 0x8C87;
-#[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVES_SUBMITTED: types::GLenum = 0x82EF;
 #[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVE_RESTART: types::GLenum = 0x8F9D;
-#[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVE_RESTART_FIXED_INDEX: types::GLenum = 0x8D69;
-#[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVE_RESTART_FOR_PATCHES_SUPPORTED: types::GLenum = 0x8221;
 #[allow(dead_code, non_upper_case_globals)] pub const PRIMITIVE_RESTART_INDEX: types::GLenum = 0x8F9E;
-#[allow(dead_code, non_upper_case_globals)] pub const PROGRAM: types::GLenum = 0x82E2;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_BINARY_FORMATS: types::GLenum = 0x87FF;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_BINARY_LENGTH: types::GLenum = 0x8741;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_BINARY_RETRIEVABLE_HINT: types::GLenum = 0x8257;
-#[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_INPUT: types::GLenum = 0x92E3;
-#[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_OUTPUT: types::GLenum = 0x92E4;
-#[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_PIPELINE: types::GLenum = 0x82E4;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_PIPELINE_BINDING: types::GLenum = 0x825A;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_POINT_SIZE: types::GLenum = 0x8642;
 #[allow(dead_code, non_upper_case_globals)] pub const PROGRAM_SEPARABLE: types::GLenum = 0x8258;
@@ -928,23 +633,13 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const PROXY_TEXTURE_RECTANGLE: types::GLenum = 0x84F7;
 #[allow(dead_code, non_upper_case_globals)] pub const QUADS: types::GLenum = 0x0007;
 #[allow(dead_code, non_upper_case_globals)] pub const QUADS_FOLLOW_PROVOKING_VERTEX_CONVENTION: types::GLenum = 0x8E4C;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY: types::GLenum = 0x82E3;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_BUFFER: types::GLenum = 0x9192;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_BUFFER_BARRIER_BIT: types::GLenum = 0x00008000;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_BUFFER_BINDING: types::GLenum = 0x9193;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_BY_REGION_NO_WAIT: types::GLenum = 0x8E16;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_BY_REGION_NO_WAIT_INVERTED: types::GLenum = 0x8E1A;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_BY_REGION_WAIT: types::GLenum = 0x8E15;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_BY_REGION_WAIT_INVERTED: types::GLenum = 0x8E19;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_COUNTER_BITS: types::GLenum = 0x8864;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_NO_WAIT: types::GLenum = 0x8E14;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_NO_WAIT_INVERTED: types::GLenum = 0x8E18;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_RESULT: types::GLenum = 0x8866;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_RESULT_AVAILABLE: types::GLenum = 0x8867;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_RESULT_NO_WAIT: types::GLenum = 0x9194;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_TARGET: types::GLenum = 0x82EA;
 #[allow(dead_code, non_upper_case_globals)] pub const QUERY_WAIT: types::GLenum = 0x8E13;
-#[allow(dead_code, non_upper_case_globals)] pub const QUERY_WAIT_INVERTED: types::GLenum = 0x8E17;
 #[allow(dead_code, non_upper_case_globals)] pub const R11F_G11F_B10F: types::GLenum = 0x8C3A;
 #[allow(dead_code, non_upper_case_globals)] pub const R16: types::GLenum = 0x822A;
 #[allow(dead_code, non_upper_case_globals)] pub const R16F: types::GLenum = 0x822D;
@@ -964,18 +659,9 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const READ_FRAMEBUFFER: types::GLenum = 0x8CA8;
 #[allow(dead_code, non_upper_case_globals)] pub const READ_FRAMEBUFFER_BINDING: types::GLenum = 0x8CAA;
 #[allow(dead_code, non_upper_case_globals)] pub const READ_ONLY: types::GLenum = 0x88B8;
-#[allow(dead_code, non_upper_case_globals)] pub const READ_PIXELS: types::GLenum = 0x828C;
-#[allow(dead_code, non_upper_case_globals)] pub const READ_PIXELS_FORMAT: types::GLenum = 0x828D;
-#[allow(dead_code, non_upper_case_globals)] pub const READ_PIXELS_TYPE: types::GLenum = 0x828E;
 #[allow(dead_code, non_upper_case_globals)] pub const READ_WRITE: types::GLenum = 0x88BA;
 #[allow(dead_code, non_upper_case_globals)] pub const RED: types::GLenum = 0x1903;
 #[allow(dead_code, non_upper_case_globals)] pub const RED_INTEGER: types::GLenum = 0x8D94;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_COMPUTE_SHADER: types::GLenum = 0x930B;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_FRAGMENT_SHADER: types::GLenum = 0x930A;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_GEOMETRY_SHADER: types::GLenum = 0x9309;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_TESS_CONTROL_SHADER: types::GLenum = 0x9307;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_TESS_EVALUATION_SHADER: types::GLenum = 0x9308;
-#[allow(dead_code, non_upper_case_globals)] pub const REFERENCED_BY_VERTEX_SHADER: types::GLenum = 0x9306;
 #[allow(dead_code, non_upper_case_globals)] pub const RENDERBUFFER: types::GLenum = 0x8D41;
 #[allow(dead_code, non_upper_case_globals)] pub const RENDERBUFFER_ALPHA_SIZE: types::GLenum = 0x8D53;
 #[allow(dead_code, non_upper_case_globals)] pub const RENDERBUFFER_BINDING: types::GLenum = 0x8CA7;
@@ -991,7 +677,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const RENDERER: types::GLenum = 0x1F01;
 #[allow(dead_code, non_upper_case_globals)] pub const REPEAT: types::GLenum = 0x2901;
 #[allow(dead_code, non_upper_case_globals)] pub const REPLACE: types::GLenum = 0x1E01;
-#[allow(dead_code, non_upper_case_globals)] pub const RESET_NOTIFICATION_STRATEGY: types::GLenum = 0x8256;
 #[allow(dead_code, non_upper_case_globals)] pub const RG: types::GLenum = 0x8227;
 #[allow(dead_code, non_upper_case_globals)] pub const RG16: types::GLenum = 0x822C;
 #[allow(dead_code, non_upper_case_globals)] pub const RG16F: types::GLenum = 0x822F;
@@ -1047,7 +732,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const RGB_INTEGER: types::GLenum = 0x8D98;
 #[allow(dead_code, non_upper_case_globals)] pub const RG_INTEGER: types::GLenum = 0x8228;
 #[allow(dead_code, non_upper_case_globals)] pub const RIGHT: types::GLenum = 0x0407;
-#[allow(dead_code, non_upper_case_globals)] pub const SAMPLER: types::GLenum = 0x82E6;
 #[allow(dead_code, non_upper_case_globals)] pub const SAMPLER_1D: types::GLenum = 0x8B5D;
 #[allow(dead_code, non_upper_case_globals)] pub const SAMPLER_1D_ARRAY: types::GLenum = 0x8DC0;
 #[allow(dead_code, non_upper_case_globals)] pub const SAMPLER_1D_ARRAY_SHADOW: types::GLenum = 0x8DC3;
@@ -1083,37 +767,18 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const SCISSOR_TEST: types::GLenum = 0x0C11;
 #[allow(dead_code, non_upper_case_globals)] pub const SEPARATE_ATTRIBS: types::GLenum = 0x8C8D;
 #[allow(dead_code, non_upper_case_globals)] pub const SET: types::GLenum = 0x150F;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER: types::GLenum = 0x82E1;
 #[allow(dead_code, non_upper_case_globals)] pub const SHADER_BINARY_FORMATS: types::GLenum = 0x8DF8;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_BINARY_FORMAT_SPIR_V: types::GLenum = 0x9551;
 #[allow(dead_code, non_upper_case_globals)] pub const SHADER_COMPILER: types::GLenum = 0x8DFA;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_IMAGE_ACCESS_BARRIER_BIT: types::GLenum = 0x00000020;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_IMAGE_ATOMIC: types::GLenum = 0x82A6;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_IMAGE_LOAD: types::GLenum = 0x82A4;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_IMAGE_STORE: types::GLenum = 0x82A5;
 #[allow(dead_code, non_upper_case_globals)] pub const SHADER_SOURCE_LENGTH: types::GLenum = 0x8B88;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BARRIER_BIT: types::GLenum = 0x00002000;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BLOCK: types::GLenum = 0x92E6;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BUFFER: types::GLenum = 0x90D2;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BUFFER_BINDING: types::GLenum = 0x90D3;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BUFFER_OFFSET_ALIGNMENT: types::GLenum = 0x90DF;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BUFFER_SIZE: types::GLenum = 0x90D5;
-#[allow(dead_code, non_upper_case_globals)] pub const SHADER_STORAGE_BUFFER_START: types::GLenum = 0x90D4;
 #[allow(dead_code, non_upper_case_globals)] pub const SHADER_TYPE: types::GLenum = 0x8B4F;
 #[allow(dead_code, non_upper_case_globals)] pub const SHADING_LANGUAGE_VERSION: types::GLenum = 0x8B8C;
 #[allow(dead_code, non_upper_case_globals)] pub const SHORT: types::GLenum = 0x1402;
 #[allow(dead_code, non_upper_case_globals)] pub const SIGNALED: types::GLenum = 0x9119;
 #[allow(dead_code, non_upper_case_globals)] pub const SIGNED_NORMALIZED: types::GLenum = 0x8F9C;
-#[allow(dead_code, non_upper_case_globals)] pub const SIMULTANEOUS_TEXTURE_AND_DEPTH_TEST: types::GLenum = 0x82AC;
-#[allow(dead_code, non_upper_case_globals)] pub const SIMULTANEOUS_TEXTURE_AND_DEPTH_WRITE: types::GLenum = 0x82AE;
-#[allow(dead_code, non_upper_case_globals)] pub const SIMULTANEOUS_TEXTURE_AND_STENCIL_TEST: types::GLenum = 0x82AD;
-#[allow(dead_code, non_upper_case_globals)] pub const SIMULTANEOUS_TEXTURE_AND_STENCIL_WRITE: types::GLenum = 0x82AF;
 #[allow(dead_code, non_upper_case_globals)] pub const SMOOTH_LINE_WIDTH_GRANULARITY: types::GLenum = 0x0B23;
 #[allow(dead_code, non_upper_case_globals)] pub const SMOOTH_LINE_WIDTH_RANGE: types::GLenum = 0x0B22;
 #[allow(dead_code, non_upper_case_globals)] pub const SMOOTH_POINT_SIZE_GRANULARITY: types::GLenum = 0x0B13;
 #[allow(dead_code, non_upper_case_globals)] pub const SMOOTH_POINT_SIZE_RANGE: types::GLenum = 0x0B12;
-#[allow(dead_code, non_upper_case_globals)] pub const SPIR_V_BINARY: types::GLenum = 0x9552;
-#[allow(dead_code, non_upper_case_globals)] pub const SPIR_V_EXTENSIONS: types::GLenum = 0x9553;
 #[allow(dead_code, non_upper_case_globals)] pub const SRC1_ALPHA: types::GLenum = 0x8589;
 #[allow(dead_code, non_upper_case_globals)] pub const SRC1_COLOR: types::GLenum = 0x88F9;
 #[allow(dead_code, non_upper_case_globals)] pub const SRC_ALPHA: types::GLenum = 0x0302;
@@ -1123,10 +788,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const SRGB8: types::GLenum = 0x8C41;
 #[allow(dead_code, non_upper_case_globals)] pub const SRGB8_ALPHA8: types::GLenum = 0x8C43;
 #[allow(dead_code, non_upper_case_globals)] pub const SRGB_ALPHA: types::GLenum = 0x8C42;
-#[allow(dead_code, non_upper_case_globals)] pub const SRGB_READ: types::GLenum = 0x8297;
-#[allow(dead_code, non_upper_case_globals)] pub const SRGB_WRITE: types::GLenum = 0x8298;
-#[allow(dead_code, non_upper_case_globals)] pub const STACK_OVERFLOW: types::GLenum = 0x0503;
-#[allow(dead_code, non_upper_case_globals)] pub const STACK_UNDERFLOW: types::GLenum = 0x0504;
 #[allow(dead_code, non_upper_case_globals)] pub const STATIC_COPY: types::GLenum = 0x88E6;
 #[allow(dead_code, non_upper_case_globals)] pub const STATIC_DRAW: types::GLenum = 0x88E4;
 #[allow(dead_code, non_upper_case_globals)] pub const STATIC_READ: types::GLenum = 0x88E5;
@@ -1141,7 +802,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_BACK_WRITEMASK: types::GLenum = 0x8CA5;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_BUFFER_BIT: types::GLenum = 0x00000400;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_CLEAR_VALUE: types::GLenum = 0x0B91;
-#[allow(dead_code, non_upper_case_globals)] pub const STENCIL_COMPONENTS: types::GLenum = 0x8285;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_FAIL: types::GLenum = 0x0B94;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_FUNC: types::GLenum = 0x0B92;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_INDEX: types::GLenum = 0x1901;
@@ -1152,7 +812,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_PASS_DEPTH_FAIL: types::GLenum = 0x0B95;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_PASS_DEPTH_PASS: types::GLenum = 0x0B96;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_REF: types::GLenum = 0x0B97;
-#[allow(dead_code, non_upper_case_globals)] pub const STENCIL_RENDERABLE: types::GLenum = 0x8288;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_TEST: types::GLenum = 0x0B90;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_VALUE_MASK: types::GLenum = 0x0B93;
 #[allow(dead_code, non_upper_case_globals)] pub const STENCIL_WRITEMASK: types::GLenum = 0x0B98;
@@ -1170,16 +829,8 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_OUTPUT_VERTICES: types::GLenum = 0x8E75;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_SHADER: types::GLenum = 0x8E88;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_SHADER_BIT: types::GLenum = 0x00000008;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_SHADER_PATCHES: types::GLenum = 0x82F1;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_SUBROUTINE: types::GLenum = 0x92E9;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_SUBROUTINE_UNIFORM: types::GLenum = 0x92EF;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_CONTROL_TEXTURE: types::GLenum = 0x829C;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_SHADER: types::GLenum = 0x8E87;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_SHADER_BIT: types::GLenum = 0x00000010;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_SHADER_INVOCATIONS: types::GLenum = 0x82F2;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_SUBROUTINE: types::GLenum = 0x92EA;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_SUBROUTINE_UNIFORM: types::GLenum = 0x92F0;
-#[allow(dead_code, non_upper_case_globals)] pub const TESS_EVALUATION_TEXTURE: types::GLenum = 0x829D;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_GEN_MODE: types::GLenum = 0x8E76;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_GEN_POINT_MODE: types::GLenum = 0x8E79;
 #[allow(dead_code, non_upper_case_globals)] pub const TESS_GEN_SPACING: types::GLenum = 0x8E77;
@@ -1242,17 +893,10 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BLUE_TYPE: types::GLenum = 0x8C12;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BORDER_COLOR: types::GLenum = 0x1004;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER: types::GLenum = 0x8C2A;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER_BINDING: types::GLenum = 0x8C2A;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER_DATA_STORE_BINDING: types::GLenum = 0x8C2D;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER_OFFSET: types::GLenum = 0x919D;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER_OFFSET_ALIGNMENT: types::GLenum = 0x919F;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_BUFFER_SIZE: types::GLenum = 0x919E;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPARE_FUNC: types::GLenum = 0x884D;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPARE_MODE: types::GLenum = 0x884C;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSED: types::GLenum = 0x86A1;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSED_BLOCK_HEIGHT: types::GLenum = 0x82B2;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSED_BLOCK_SIZE: types::GLenum = 0x82B3;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSED_BLOCK_WIDTH: types::GLenum = 0x82B1;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSED_IMAGE_SIZE: types::GLenum = 0x86A0;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_COMPRESSION_HINT: types::GLenum = 0x84EF;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_CUBE_MAP: types::GLenum = 0x8513;
@@ -1267,21 +911,13 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_DEPTH: types::GLenum = 0x8071;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_DEPTH_SIZE: types::GLenum = 0x884A;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_DEPTH_TYPE: types::GLenum = 0x8C16;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_FETCH_BARRIER_BIT: types::GLenum = 0x00000008;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_FIXED_SAMPLE_LOCATIONS: types::GLenum = 0x9107;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_GATHER: types::GLenum = 0x82A2;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_GATHER_SHADOW: types::GLenum = 0x82A3;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_GREEN_SIZE: types::GLenum = 0x805D;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_GREEN_TYPE: types::GLenum = 0x8C11;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_HEIGHT: types::GLenum = 0x1001;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_IMAGE_FORMAT: types::GLenum = 0x828F;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_IMAGE_TYPE: types::GLenum = 0x8290;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_IMMUTABLE_FORMAT: types::GLenum = 0x912F;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_IMMUTABLE_LEVELS: types::GLenum = 0x82DF;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_INTERNAL_FORMAT: types::GLenum = 0x1003;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_LOD_BIAS: types::GLenum = 0x8501;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_MAG_FILTER: types::GLenum = 0x2800;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_MAX_ANISOTROPY: types::GLenum = 0x84FE;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_MAX_LEVEL: types::GLenum = 0x813D;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_MAX_LOD: types::GLenum = 0x813B;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_MIN_FILTER: types::GLenum = 0x2801;
@@ -1290,7 +926,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_RED_SIZE: types::GLenum = 0x805C;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_RED_TYPE: types::GLenum = 0x8C10;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SAMPLES: types::GLenum = 0x9106;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SHADOW: types::GLenum = 0x82A1;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SHARED_SIZE: types::GLenum = 0x8C3F;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_STENCIL_SIZE: types::GLenum = 0x88F1;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SWIZZLE_A: types::GLenum = 0x8E45;
@@ -1298,13 +933,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SWIZZLE_G: types::GLenum = 0x8E43;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SWIZZLE_R: types::GLenum = 0x8E42;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_SWIZZLE_RGBA: types::GLenum = 0x8E46;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_TARGET: types::GLenum = 0x1006;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_UPDATE_BARRIER_BIT: types::GLenum = 0x00000100;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_VIEW: types::GLenum = 0x82B5;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_VIEW_MIN_LAYER: types::GLenum = 0x82DD;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_VIEW_MIN_LEVEL: types::GLenum = 0x82DB;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_VIEW_NUM_LAYERS: types::GLenum = 0x82DE;
-#[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_VIEW_NUM_LEVELS: types::GLenum = 0x82DC;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_WIDTH: types::GLenum = 0x1000;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_WRAP_R: types::GLenum = 0x8072;
 #[allow(dead_code, non_upper_case_globals)] pub const TEXTURE_WRAP_S: types::GLenum = 0x2802;
@@ -1313,26 +941,16 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TIMEOUT_IGNORED: types::GLuint64 = 0xFFFFFFFFFFFFFFFF;
 #[allow(dead_code, non_upper_case_globals)] pub const TIMESTAMP: types::GLenum = 0x8E28;
 #[allow(dead_code, non_upper_case_globals)] pub const TIME_ELAPSED: types::GLenum = 0x88BF;
-#[allow(dead_code, non_upper_case_globals)] pub const TOP_LEVEL_ARRAY_SIZE: types::GLenum = 0x930C;
-#[allow(dead_code, non_upper_case_globals)] pub const TOP_LEVEL_ARRAY_STRIDE: types::GLenum = 0x930D;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK: types::GLenum = 0x8E22;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_ACTIVE: types::GLenum = 0x8E24;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BARRIER_BIT: types::GLenum = 0x00000800;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BINDING: types::GLenum = 0x8E25;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER: types::GLenum = 0x8C8E;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_ACTIVE: types::GLenum = 0x8E24;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_BINDING: types::GLenum = 0x8C8F;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_INDEX: types::GLenum = 0x934B;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_MODE: types::GLenum = 0x8C7F;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_PAUSED: types::GLenum = 0x8E23;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_SIZE: types::GLenum = 0x8C85;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_START: types::GLenum = 0x8C84;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_BUFFER_STRIDE: types::GLenum = 0x934C;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_OVERFLOW: types::GLenum = 0x82EC;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_PAUSED: types::GLenum = 0x8E23;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN: types::GLenum = 0x8C88;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_STREAM_OVERFLOW: types::GLenum = 0x82ED;
-#[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_VARYING: types::GLenum = 0x92F4;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_VARYINGS: types::GLenum = 0x8C83;
 #[allow(dead_code, non_upper_case_globals)] pub const TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH: types::GLenum = 0x8C76;
 #[allow(dead_code, non_upper_case_globals)] pub const TRIANGLES: types::GLenum = 0x0004;
@@ -1341,20 +959,14 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const TRIANGLE_STRIP: types::GLenum = 0x0005;
 #[allow(dead_code, non_upper_case_globals)] pub const TRIANGLE_STRIP_ADJACENCY: types::GLenum = 0x000D;
 #[allow(dead_code, non_upper_case_globals)] pub const TRUE: types::GLboolean = 1;
-#[allow(dead_code, non_upper_case_globals)] pub const TYPE: types::GLenum = 0x92FA;
 #[allow(dead_code, non_upper_case_globals)] pub const UNDEFINED_VERTEX: types::GLenum = 0x8260;
-#[allow(dead_code, non_upper_case_globals)] pub const UNIFORM: types::GLenum = 0x92E1;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_ARRAY_STRIDE: types::GLenum = 0x8A3C;
-#[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_ATOMIC_COUNTER_BUFFER_INDEX: types::GLenum = 0x92DA;
-#[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BARRIER_BIT: types::GLenum = 0x00000004;
-#[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK: types::GLenum = 0x92E2;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_ACTIVE_UNIFORMS: types::GLenum = 0x8A42;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_ACTIVE_UNIFORM_INDICES: types::GLenum = 0x8A43;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_BINDING: types::GLenum = 0x8A3F;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_DATA_SIZE: types::GLenum = 0x8A40;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_INDEX: types::GLenum = 0x8A3A;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_NAME_LENGTH: types::GLenum = 0x8A41;
-#[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER: types::GLenum = 0x90EC;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_REFERENCED_BY_FRAGMENT_SHADER: types::GLenum = 0x8A46;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_REFERENCED_BY_GEOMETRY_SHADER: types::GLenum = 0x8A45;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER: types::GLenum = 0x84F0;
@@ -1371,12 +983,7 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_OFFSET: types::GLenum = 0x8A3B;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_SIZE: types::GLenum = 0x8A38;
 #[allow(dead_code, non_upper_case_globals)] pub const UNIFORM_TYPE: types::GLenum = 0x8A37;
-#[allow(dead_code, non_upper_case_globals)] pub const UNKNOWN_CONTEXT_RESET: types::GLenum = 0x8255;
 #[allow(dead_code, non_upper_case_globals)] pub const UNPACK_ALIGNMENT: types::GLenum = 0x0CF5;
-#[allow(dead_code, non_upper_case_globals)] pub const UNPACK_COMPRESSED_BLOCK_DEPTH: types::GLenum = 0x9129;
-#[allow(dead_code, non_upper_case_globals)] pub const UNPACK_COMPRESSED_BLOCK_HEIGHT: types::GLenum = 0x9128;
-#[allow(dead_code, non_upper_case_globals)] pub const UNPACK_COMPRESSED_BLOCK_SIZE: types::GLenum = 0x912A;
-#[allow(dead_code, non_upper_case_globals)] pub const UNPACK_COMPRESSED_BLOCK_WIDTH: types::GLenum = 0x9127;
 #[allow(dead_code, non_upper_case_globals)] pub const UNPACK_IMAGE_HEIGHT: types::GLenum = 0x806E;
 #[allow(dead_code, non_upper_case_globals)] pub const UNPACK_LSB_FIRST: types::GLenum = 0x0CF1;
 #[allow(dead_code, non_upper_case_globals)] pub const UNPACK_ROW_LENGTH: types::GLenum = 0x0CF2;
@@ -1396,18 +1003,6 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_5_9_9_9_REV: types::GLenum = 0x8C3E;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_8_8_8_8: types::GLenum = 0x8035;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_8_8_8_8_REV: types::GLenum = 0x8367;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_ATOMIC_COUNTER: types::GLenum = 0x92DB;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_1D: types::GLenum = 0x9062;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_1D_ARRAY: types::GLenum = 0x9068;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_2D: types::GLenum = 0x9063;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_2D_ARRAY: types::GLenum = 0x9069;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_2D_MULTISAMPLE: types::GLenum = 0x906B;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_2D_MULTISAMPLE_ARRAY: types::GLenum = 0x906C;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_2D_RECT: types::GLenum = 0x9065;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_3D: types::GLenum = 0x9064;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_BUFFER: types::GLenum = 0x9067;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_CUBE: types::GLenum = 0x9066;
-#[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_IMAGE_CUBE_MAP_ARRAY: types::GLenum = 0x906A;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_SAMPLER_1D: types::GLenum = 0x8DD1;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_SAMPLER_1D_ARRAY: types::GLenum = 0x8DD6;
 #[allow(dead_code, non_upper_case_globals)] pub const UNSIGNED_INT_SAMPLER_2D: types::GLenum = 0x8DD2;
@@ -1434,59 +1029,27 @@ pub type GLvdpauSurfaceNV = GLintptr;
 #[allow(dead_code, non_upper_case_globals)] pub const VALIDATE_STATUS: types::GLenum = 0x8B83;
 #[allow(dead_code, non_upper_case_globals)] pub const VENDOR: types::GLenum = 0x1F00;
 #[allow(dead_code, non_upper_case_globals)] pub const VERSION: types::GLenum = 0x1F02;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ARRAY: types::GLenum = 0x8074;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ARRAY_BINDING: types::GLenum = 0x85B5;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_BARRIER_BIT: types::GLenum = 0x00000001;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_BUFFER_BINDING: types::GLenum = 0x889F;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_DIVISOR: types::GLenum = 0x88FE;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_ENABLED: types::GLenum = 0x8622;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_INTEGER: types::GLenum = 0x88FD;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_LONG: types::GLenum = 0x874E;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_NORMALIZED: types::GLenum = 0x886A;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_POINTER: types::GLenum = 0x8645;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_SIZE: types::GLenum = 0x8623;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_STRIDE: types::GLenum = 0x8624;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_ARRAY_TYPE: types::GLenum = 0x8625;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_BINDING: types::GLenum = 0x82D4;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_ATTRIB_RELATIVE_OFFSET: types::GLenum = 0x82D5;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_BINDING_BUFFER: types::GLenum = 0x8F4F;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_BINDING_DIVISOR: types::GLenum = 0x82D6;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_BINDING_OFFSET: types::GLenum = 0x82D7;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_BINDING_STRIDE: types::GLenum = 0x82D8;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_PROGRAM_POINT_SIZE: types::GLenum = 0x8642;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_SHADER: types::GLenum = 0x8B31;
 #[allow(dead_code, non_upper_case_globals)] pub const VERTEX_SHADER_BIT: types::GLenum = 0x00000001;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_SHADER_INVOCATIONS: types::GLenum = 0x82F0;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_SUBROUTINE: types::GLenum = 0x92E8;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_SUBROUTINE_UNIFORM: types::GLenum = 0x92EE;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTEX_TEXTURE: types::GLenum = 0x829B;
-#[allow(dead_code, non_upper_case_globals)] pub const VERTICES_SUBMITTED: types::GLenum = 0x82EE;
 #[allow(dead_code, non_upper_case_globals)] pub const VIEWPORT: types::GLenum = 0x0BA2;
 #[allow(dead_code, non_upper_case_globals)] pub const VIEWPORT_BOUNDS_RANGE: types::GLenum = 0x825D;
 #[allow(dead_code, non_upper_case_globals)] pub const VIEWPORT_INDEX_PROVOKING_VERTEX: types::GLenum = 0x825F;
 #[allow(dead_code, non_upper_case_globals)] pub const VIEWPORT_SUBPIXEL_BITS: types::GLenum = 0x825C;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_128_BITS: types::GLenum = 0x82C4;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_16_BITS: types::GLenum = 0x82CA;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_24_BITS: types::GLenum = 0x82C9;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_32_BITS: types::GLenum = 0x82C8;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_48_BITS: types::GLenum = 0x82C7;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_64_BITS: types::GLenum = 0x82C6;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_8_BITS: types::GLenum = 0x82CB;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_96_BITS: types::GLenum = 0x82C5;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_BPTC_FLOAT: types::GLenum = 0x82D3;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_BPTC_UNORM: types::GLenum = 0x82D2;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_RGTC1_RED: types::GLenum = 0x82D0;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_RGTC2_RG: types::GLenum = 0x82D1;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_S3TC_DXT1_RGB: types::GLenum = 0x82CC;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_S3TC_DXT1_RGBA: types::GLenum = 0x82CD;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_S3TC_DXT3_RGBA: types::GLenum = 0x82CE;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_CLASS_S3TC_DXT5_RGBA: types::GLenum = 0x82CF;
-#[allow(dead_code, non_upper_case_globals)] pub const VIEW_COMPATIBILITY_CLASS: types::GLenum = 0x82B6;
 #[allow(dead_code, non_upper_case_globals)] pub const WAIT_FAILED: types::GLenum = 0x911D;
 #[allow(dead_code, non_upper_case_globals)] pub const WRITE_ONLY: types::GLenum = 0x88B9;
 #[allow(dead_code, non_upper_case_globals)] pub const XOR: types::GLenum = 0x1506;
 #[allow(dead_code, non_upper_case_globals)] pub const ZERO: types::GLenum = 0;
-#[allow(dead_code, non_upper_case_globals)] pub const ZERO_TO_ONE: types::GLenum = 0x935F;
 
         #[allow(dead_code, missing_copy_implementations)]
         #[derive(Clone)]
@@ -1548,28 +1111,19 @@ pub BindBuffer: FnPtr,
 pub BindBufferBase: FnPtr,
 /// Fallbacks: BindBufferRangeEXT, BindBufferRangeNV
 pub BindBufferRange: FnPtr,
-pub BindBuffersBase: FnPtr,
-pub BindBuffersRange: FnPtr,
 /// Fallbacks: BindFragDataLocationEXT
 pub BindFragDataLocation: FnPtr,
 /// Fallbacks: BindFragDataLocationIndexedEXT
 pub BindFragDataLocationIndexed: FnPtr,
 pub BindFramebuffer: FnPtr,
-pub BindImageTexture: FnPtr,
-pub BindImageTextures: FnPtr,
 pub BindProgramPipeline: FnPtr,
 pub BindRenderbuffer: FnPtr,
 pub BindSampler: FnPtr,
-pub BindSamplers: FnPtr,
 /// Fallbacks: BindTextureEXT
 pub BindTexture: FnPtr,
-pub BindTextureUnit: FnPtr,
-pub BindTextures: FnPtr,
 pub BindTransformFeedback: FnPtr,
 /// Fallbacks: BindVertexArrayOES
 pub BindVertexArray: FnPtr,
-pub BindVertexBuffer: FnPtr,
-pub BindVertexBuffers: FnPtr,
 /// Fallbacks: BlendColorEXT
 pub BlendColor: FnPtr,
 /// Fallbacks: BlendEquationEXT
@@ -1589,21 +1143,15 @@ pub BlendFuncSeparatei: FnPtr,
 pub BlendFunci: FnPtr,
 /// Fallbacks: BlitFramebufferEXT, BlitFramebufferNV
 pub BlitFramebuffer: FnPtr,
-pub BlitNamedFramebuffer: FnPtr,
 /// Fallbacks: BufferDataARB
 pub BufferData: FnPtr,
-/// Fallbacks: BufferStorageEXT
-pub BufferStorage: FnPtr,
 /// Fallbacks: BufferSubDataARB
 pub BufferSubData: FnPtr,
 /// Fallbacks: CheckFramebufferStatusEXT
 pub CheckFramebufferStatus: FnPtr,
-pub CheckNamedFramebufferStatus: FnPtr,
 /// Fallbacks: ClampColorARB
 pub ClampColor: FnPtr,
 pub Clear: FnPtr,
-pub ClearBufferData: FnPtr,
-pub ClearBufferSubData: FnPtr,
 pub ClearBufferfi: FnPtr,
 pub ClearBufferfv: FnPtr,
 pub ClearBufferiv: FnPtr,
@@ -1612,21 +1160,9 @@ pub ClearColor: FnPtr,
 pub ClearDepth: FnPtr,
 /// Fallbacks: ClearDepthfOES
 pub ClearDepthf: FnPtr,
-pub ClearNamedBufferData: FnPtr,
-pub ClearNamedBufferSubData: FnPtr,
-pub ClearNamedFramebufferfi: FnPtr,
-pub ClearNamedFramebufferfv: FnPtr,
-pub ClearNamedFramebufferiv: FnPtr,
-pub ClearNamedFramebufferuiv: FnPtr,
 pub ClearStencil: FnPtr,
-/// Fallbacks: ClearTexImageEXT
-pub ClearTexImage: FnPtr,
-/// Fallbacks: ClearTexSubImageEXT
-pub ClearTexSubImage: FnPtr,
 /// Fallbacks: ClientWaitSyncAPPLE
 pub ClientWaitSync: FnPtr,
-/// Fallbacks: ClipControlEXT
-pub ClipControl: FnPtr,
 pub ColorMask: FnPtr,
 /// Fallbacks: ColorMaskIndexedEXT, ColorMaskiEXT, ColorMaskiOES
 pub ColorMaski: FnPtr,
@@ -1648,14 +1184,8 @@ pub CompressedTexSubImage1D: FnPtr,
 pub CompressedTexSubImage2D: FnPtr,
 /// Fallbacks: CompressedTexSubImage3DARB
 pub CompressedTexSubImage3D: FnPtr,
-pub CompressedTextureSubImage1D: FnPtr,
-pub CompressedTextureSubImage2D: FnPtr,
-pub CompressedTextureSubImage3D: FnPtr,
 /// Fallbacks: CopyBufferSubDataNV
 pub CopyBufferSubData: FnPtr,
-/// Fallbacks: CopyImageSubDataEXT, CopyImageSubDataOES
-pub CopyImageSubData: FnPtr,
-pub CopyNamedBufferSubData: FnPtr,
 /// Fallbacks: CopyTexImage1DEXT
 pub CopyTexImage1D: FnPtr,
 /// Fallbacks: CopyTexImage2DEXT
@@ -1666,30 +1196,12 @@ pub CopyTexSubImage1D: FnPtr,
 pub CopyTexSubImage2D: FnPtr,
 /// Fallbacks: CopyTexSubImage3DEXT
 pub CopyTexSubImage3D: FnPtr,
-pub CopyTextureSubImage1D: FnPtr,
-pub CopyTextureSubImage2D: FnPtr,
-pub CopyTextureSubImage3D: FnPtr,
-pub CreateBuffers: FnPtr,
-pub CreateFramebuffers: FnPtr,
 /// Fallbacks: CreateProgramObjectARB
 pub CreateProgram: FnPtr,
-pub CreateProgramPipelines: FnPtr,
-pub CreateQueries: FnPtr,
-pub CreateRenderbuffers: FnPtr,
-pub CreateSamplers: FnPtr,
 /// Fallbacks: CreateShaderObjectARB
 pub CreateShader: FnPtr,
 pub CreateShaderProgramv: FnPtr,
-pub CreateTextures: FnPtr,
-pub CreateTransformFeedbacks: FnPtr,
-pub CreateVertexArrays: FnPtr,
 pub CullFace: FnPtr,
-/// Fallbacks: DebugMessageCallbackARB, DebugMessageCallbackKHR
-pub DebugMessageCallback: FnPtr,
-/// Fallbacks: DebugMessageControlARB, DebugMessageControlKHR
-pub DebugMessageControl: FnPtr,
-/// Fallbacks: DebugMessageInsertARB, DebugMessageInsertKHR
-pub DebugMessageInsert: FnPtr,
 /// Fallbacks: DeleteBuffersARB
 pub DeleteBuffers: FnPtr,
 /// Fallbacks: DeleteFramebuffersEXT
@@ -1719,20 +1231,15 @@ pub DepthRangef: FnPtr,
 /// Fallbacks: DetachObjectARB
 pub DetachShader: FnPtr,
 pub Disable: FnPtr,
-pub DisableVertexArrayAttrib: FnPtr,
 /// Fallbacks: DisableVertexAttribArrayARB
 pub DisableVertexAttribArray: FnPtr,
 /// Fallbacks: DisableIndexedEXT, DisableiEXT, DisableiNV, DisableiOES
 pub Disablei: FnPtr,
-pub DispatchCompute: FnPtr,
-pub DispatchComputeIndirect: FnPtr,
 /// Fallbacks: DrawArraysEXT
 pub DrawArrays: FnPtr,
 pub DrawArraysIndirect: FnPtr,
 /// Fallbacks: DrawArraysInstancedANGLE, DrawArraysInstancedARB, DrawArraysInstancedEXT, DrawArraysInstancedNV
 pub DrawArraysInstanced: FnPtr,
-/// Fallbacks: DrawArraysInstancedBaseInstanceEXT
-pub DrawArraysInstancedBaseInstance: FnPtr,
 pub DrawBuffer: FnPtr,
 /// Fallbacks: DrawBuffersARB, DrawBuffersATI, DrawBuffersEXT
 pub DrawBuffers: FnPtr,
@@ -1742,24 +1249,16 @@ pub DrawElementsBaseVertex: FnPtr,
 pub DrawElementsIndirect: FnPtr,
 /// Fallbacks: DrawElementsInstancedANGLE, DrawElementsInstancedARB, DrawElementsInstancedEXT, DrawElementsInstancedNV
 pub DrawElementsInstanced: FnPtr,
-/// Fallbacks: DrawElementsInstancedBaseInstanceEXT
-pub DrawElementsInstancedBaseInstance: FnPtr,
 /// Fallbacks: DrawElementsInstancedBaseVertexEXT, DrawElementsInstancedBaseVertexOES
 pub DrawElementsInstancedBaseVertex: FnPtr,
-/// Fallbacks: DrawElementsInstancedBaseVertexBaseInstanceEXT
-pub DrawElementsInstancedBaseVertexBaseInstance: FnPtr,
 /// Fallbacks: DrawRangeElementsEXT
 pub DrawRangeElements: FnPtr,
 /// Fallbacks: DrawRangeElementsBaseVertexEXT, DrawRangeElementsBaseVertexOES
 pub DrawRangeElementsBaseVertex: FnPtr,
 /// Fallbacks: DrawTransformFeedbackEXT, DrawTransformFeedbackNV
 pub DrawTransformFeedback: FnPtr,
-/// Fallbacks: DrawTransformFeedbackInstancedEXT
-pub DrawTransformFeedbackInstanced: FnPtr,
 pub DrawTransformFeedbackStream: FnPtr,
-pub DrawTransformFeedbackStreamInstanced: FnPtr,
 pub Enable: FnPtr,
-pub EnableVertexArrayAttrib: FnPtr,
 /// Fallbacks: EnableVertexAttribArrayARB
 pub EnableVertexAttribArray: FnPtr,
 /// Fallbacks: EnableIndexedEXT, EnableiEXT, EnableiNV, EnableiOES
@@ -1777,8 +1276,6 @@ pub Finish: FnPtr,
 pub Flush: FnPtr,
 /// Fallbacks: FlushMappedBufferRangeAPPLE, FlushMappedBufferRangeEXT
 pub FlushMappedBufferRange: FnPtr,
-pub FlushMappedNamedBufferRange: FnPtr,
-pub FramebufferParameteri: FnPtr,
 /// Fallbacks: FramebufferRenderbufferEXT
 pub FramebufferRenderbuffer: FnPtr,
 /// Fallbacks: FramebufferTextureARB, FramebufferTextureEXT, FramebufferTextureOES
@@ -1809,8 +1306,6 @@ pub GenTransformFeedbacks: FnPtr,
 pub GenVertexArrays: FnPtr,
 /// Fallbacks: GenerateMipmapEXT
 pub GenerateMipmap: FnPtr,
-pub GenerateTextureMipmap: FnPtr,
-pub GetActiveAtomicCounterBufferiv: FnPtr,
 /// Fallbacks: GetActiveAttribARB
 pub GetActiveAttrib: FnPtr,
 pub GetActiveSubroutineName: FnPtr,
@@ -1837,10 +1332,6 @@ pub GetBufferPointerv: FnPtr,
 pub GetBufferSubData: FnPtr,
 /// Fallbacks: GetCompressedTexImageARB
 pub GetCompressedTexImage: FnPtr,
-pub GetCompressedTextureImage: FnPtr,
-pub GetCompressedTextureSubImage: FnPtr,
-/// Fallbacks: GetDebugMessageLogARB, GetDebugMessageLogKHR
-pub GetDebugMessageLog: FnPtr,
 /// Fallbacks: GetDoubleIndexedvEXT, GetDoublei_vEXT
 pub GetDoublei_v: FnPtr,
 pub GetDoublev: FnPtr,
@@ -1854,49 +1345,21 @@ pub GetFragDataIndex: FnPtr,
 pub GetFragDataLocation: FnPtr,
 /// Fallbacks: GetFramebufferAttachmentParameterivEXT
 pub GetFramebufferAttachmentParameteriv: FnPtr,
-pub GetFramebufferParameteriv: FnPtr,
-/// Fallbacks: GetGraphicsResetStatusEXT, GetGraphicsResetStatusKHR
-pub GetGraphicsResetStatus: FnPtr,
 pub GetInteger64i_v: FnPtr,
 /// Fallbacks: GetInteger64vAPPLE
 pub GetInteger64v: FnPtr,
 /// Fallbacks: GetIntegerIndexedvEXT
 pub GetIntegeri_v: FnPtr,
 pub GetIntegerv: FnPtr,
-pub GetInternalformati64v: FnPtr,
-pub GetInternalformativ: FnPtr,
 /// Fallbacks: GetMultisamplefvNV
 pub GetMultisamplefv: FnPtr,
-pub GetNamedBufferParameteri64v: FnPtr,
-pub GetNamedBufferParameteriv: FnPtr,
-pub GetNamedBufferPointerv: FnPtr,
-pub GetNamedBufferSubData: FnPtr,
-pub GetNamedFramebufferAttachmentParameteriv: FnPtr,
-pub GetNamedFramebufferParameteriv: FnPtr,
-pub GetNamedRenderbufferParameteriv: FnPtr,
-/// Fallbacks: GetObjectLabelKHR
-pub GetObjectLabel: FnPtr,
-/// Fallbacks: GetObjectPtrLabelKHR
-pub GetObjectPtrLabel: FnPtr,
-/// Fallbacks: GetPointervEXT, GetPointervKHR
-pub GetPointerv: FnPtr,
 /// Fallbacks: GetProgramBinaryOES
 pub GetProgramBinary: FnPtr,
 pub GetProgramInfoLog: FnPtr,
-pub GetProgramInterfaceiv: FnPtr,
 pub GetProgramPipelineInfoLog: FnPtr,
 pub GetProgramPipelineiv: FnPtr,
-pub GetProgramResourceIndex: FnPtr,
-pub GetProgramResourceLocation: FnPtr,
-pub GetProgramResourceLocationIndex: FnPtr,
-pub GetProgramResourceName: FnPtr,
-pub GetProgramResourceiv: FnPtr,
 pub GetProgramStageiv: FnPtr,
 pub GetProgramiv: FnPtr,
-pub GetQueryBufferObjecti64v: FnPtr,
-pub GetQueryBufferObjectiv: FnPtr,
-pub GetQueryBufferObjectui64v: FnPtr,
-pub GetQueryBufferObjectuiv: FnPtr,
 pub GetQueryIndexediv: FnPtr,
 /// Fallbacks: GetQueryObjecti64vEXT
 pub GetQueryObjecti64v: FnPtr,
@@ -1936,19 +1399,8 @@ pub GetTexParameterIiv: FnPtr,
 pub GetTexParameterIuiv: FnPtr,
 pub GetTexParameterfv: FnPtr,
 pub GetTexParameteriv: FnPtr,
-pub GetTextureImage: FnPtr,
-pub GetTextureLevelParameterfv: FnPtr,
-pub GetTextureLevelParameteriv: FnPtr,
-pub GetTextureParameterIiv: FnPtr,
-pub GetTextureParameterIuiv: FnPtr,
-pub GetTextureParameterfv: FnPtr,
-pub GetTextureParameteriv: FnPtr,
-pub GetTextureSubImage: FnPtr,
 /// Fallbacks: GetTransformFeedbackVaryingEXT
 pub GetTransformFeedbackVarying: FnPtr,
-pub GetTransformFeedbacki64_v: FnPtr,
-pub GetTransformFeedbacki_v: FnPtr,
-pub GetTransformFeedbackiv: FnPtr,
 pub GetUniformBlockIndex: FnPtr,
 pub GetUniformIndices: FnPtr,
 /// Fallbacks: GetUniformLocationARB
@@ -1961,9 +1413,6 @@ pub GetUniformfv: FnPtr,
 pub GetUniformiv: FnPtr,
 /// Fallbacks: GetUniformuivEXT
 pub GetUniformuiv: FnPtr,
-pub GetVertexArrayIndexed64iv: FnPtr,
-pub GetVertexArrayIndexediv: FnPtr,
-pub GetVertexArrayiv: FnPtr,
 /// Fallbacks: GetVertexAttribIivEXT
 pub GetVertexAttribIiv: FnPtr,
 /// Fallbacks: GetVertexAttribIuivEXT
@@ -1978,36 +1427,7 @@ pub GetVertexAttribdv: FnPtr,
 pub GetVertexAttribfv: FnPtr,
 /// Fallbacks: GetVertexAttribivARB, GetVertexAttribivNV
 pub GetVertexAttribiv: FnPtr,
-pub GetnColorTable: FnPtr,
-pub GetnCompressedTexImage: FnPtr,
-pub GetnConvolutionFilter: FnPtr,
-pub GetnHistogram: FnPtr,
-pub GetnMapdv: FnPtr,
-pub GetnMapfv: FnPtr,
-pub GetnMapiv: FnPtr,
-pub GetnMinmax: FnPtr,
-pub GetnPixelMapfv: FnPtr,
-pub GetnPixelMapuiv: FnPtr,
-pub GetnPixelMapusv: FnPtr,
-pub GetnPolygonStipple: FnPtr,
-pub GetnSeparableFilter: FnPtr,
-pub GetnTexImage: FnPtr,
-pub GetnUniformdv: FnPtr,
-/// Fallbacks: GetnUniformfvEXT, GetnUniformfvKHR
-pub GetnUniformfv: FnPtr,
-/// Fallbacks: GetnUniformivEXT, GetnUniformivKHR
-pub GetnUniformiv: FnPtr,
-/// Fallbacks: GetnUniformuivKHR
-pub GetnUniformuiv: FnPtr,
 pub Hint: FnPtr,
-pub InvalidateBufferData: FnPtr,
-pub InvalidateBufferSubData: FnPtr,
-pub InvalidateFramebuffer: FnPtr,
-pub InvalidateNamedFramebufferData: FnPtr,
-pub InvalidateNamedFramebufferSubData: FnPtr,
-pub InvalidateSubFramebuffer: FnPtr,
-pub InvalidateTexImage: FnPtr,
-pub InvalidateTexSubImage: FnPtr,
 /// Fallbacks: IsBufferARB
 pub IsBuffer: FnPtr,
 pub IsEnabled: FnPtr,
@@ -2038,27 +1458,14 @@ pub LogicOp: FnPtr,
 pub MapBuffer: FnPtr,
 /// Fallbacks: MapBufferRangeEXT
 pub MapBufferRange: FnPtr,
-pub MapNamedBuffer: FnPtr,
-pub MapNamedBufferRange: FnPtr,
-/// Fallbacks: MemoryBarrierEXT
-pub MemoryBarrier: FnPtr,
-pub MemoryBarrierByRegion: FnPtr,
 /// Fallbacks: MinSampleShadingARB, MinSampleShadingOES
 pub MinSampleShading: FnPtr,
 /// Fallbacks: MultiDrawArraysEXT
 pub MultiDrawArrays: FnPtr,
-/// Fallbacks: MultiDrawArraysIndirectAMD, MultiDrawArraysIndirectEXT
-pub MultiDrawArraysIndirect: FnPtr,
-/// Fallbacks: MultiDrawArraysIndirectCountARB
-pub MultiDrawArraysIndirectCount: FnPtr,
 /// Fallbacks: MultiDrawElementsEXT
 pub MultiDrawElements: FnPtr,
 /// Fallbacks: MultiDrawElementsBaseVertexEXT
 pub MultiDrawElementsBaseVertex: FnPtr,
-/// Fallbacks: MultiDrawElementsIndirectAMD, MultiDrawElementsIndirectEXT
-pub MultiDrawElementsIndirect: FnPtr,
-/// Fallbacks: MultiDrawElementsIndirectCountARB
-pub MultiDrawElementsIndirectCount: FnPtr,
 pub MultiTexCoordP1ui: FnPtr,
 pub MultiTexCoordP1uiv: FnPtr,
 pub MultiTexCoordP2ui: FnPtr,
@@ -2067,26 +1474,8 @@ pub MultiTexCoordP3ui: FnPtr,
 pub MultiTexCoordP3uiv: FnPtr,
 pub MultiTexCoordP4ui: FnPtr,
 pub MultiTexCoordP4uiv: FnPtr,
-pub NamedBufferData: FnPtr,
-/// Fallbacks: NamedBufferStorageEXT
-pub NamedBufferStorage: FnPtr,
-/// Fallbacks: NamedBufferSubDataEXT
-pub NamedBufferSubData: FnPtr,
-pub NamedFramebufferDrawBuffer: FnPtr,
-pub NamedFramebufferDrawBuffers: FnPtr,
-pub NamedFramebufferParameteri: FnPtr,
-pub NamedFramebufferReadBuffer: FnPtr,
-pub NamedFramebufferRenderbuffer: FnPtr,
-pub NamedFramebufferTexture: FnPtr,
-pub NamedFramebufferTextureLayer: FnPtr,
-pub NamedRenderbufferStorage: FnPtr,
-pub NamedRenderbufferStorageMultisample: FnPtr,
 pub NormalP3ui: FnPtr,
 pub NormalP3uiv: FnPtr,
-/// Fallbacks: ObjectLabelKHR
-pub ObjectLabel: FnPtr,
-/// Fallbacks: ObjectPtrLabelKHR
-pub ObjectPtrLabel: FnPtr,
 pub PatchParameterfv: FnPtr,
 /// Fallbacks: PatchParameteriEXT, PatchParameteriOES
 pub PatchParameteri: FnPtr,
@@ -2106,10 +1495,6 @@ pub PointSize: FnPtr,
 /// Fallbacks: PolygonModeNV
 pub PolygonMode: FnPtr,
 pub PolygonOffset: FnPtr,
-/// Fallbacks: PolygonOffsetClampEXT
-pub PolygonOffsetClamp: FnPtr,
-/// Fallbacks: PopDebugGroupKHR
-pub PopDebugGroup: FnPtr,
 pub PrimitiveRestartIndex: FnPtr,
 /// Fallbacks: ProgramBinaryOES
 pub ProgramBinary: FnPtr,
@@ -2200,14 +1585,10 @@ pub ProgramUniformMatrix4x3dv: FnPtr,
 pub ProgramUniformMatrix4x3fv: FnPtr,
 /// Fallbacks: ProvokingVertexEXT
 pub ProvokingVertex: FnPtr,
-/// Fallbacks: PushDebugGroupKHR
-pub PushDebugGroup: FnPtr,
 /// Fallbacks: QueryCounterEXT
 pub QueryCounter: FnPtr,
 pub ReadBuffer: FnPtr,
 pub ReadPixels: FnPtr,
-/// Fallbacks: ReadnPixelsARB, ReadnPixelsEXT, ReadnPixelsKHR
-pub ReadnPixels: FnPtr,
 pub ReleaseShaderCompiler: FnPtr,
 /// Fallbacks: RenderbufferStorageEXT
 pub RenderbufferStorage: FnPtr,
@@ -2238,9 +1619,6 @@ pub SecondaryColorP3uiv: FnPtr,
 pub ShaderBinary: FnPtr,
 /// Fallbacks: ShaderSourceARB
 pub ShaderSource: FnPtr,
-pub ShaderStorageBlockBinding: FnPtr,
-/// Fallbacks: SpecializeShaderARB
-pub SpecializeShader: FnPtr,
 pub StencilFunc: FnPtr,
 pub StencilFuncSeparate: FnPtr,
 pub StencilMask: FnPtr,
@@ -2250,8 +1628,6 @@ pub StencilOp: FnPtr,
 pub StencilOpSeparate: FnPtr,
 /// Fallbacks: TexBufferARB, TexBufferEXT, TexBufferOES
 pub TexBuffer: FnPtr,
-/// Fallbacks: TexBufferRangeEXT, TexBufferRangeOES
-pub TexBufferRange: FnPtr,
 pub TexCoordP1ui: FnPtr,
 pub TexCoordP1uiv: FnPtr,
 pub TexCoordP2ui: FnPtr,
@@ -2274,42 +1650,12 @@ pub TexParameterf: FnPtr,
 pub TexParameterfv: FnPtr,
 pub TexParameteri: FnPtr,
 pub TexParameteriv: FnPtr,
-/// Fallbacks: TexStorage1DEXT
-pub TexStorage1D: FnPtr,
-/// Fallbacks: TexStorage2DEXT
-pub TexStorage2D: FnPtr,
-pub TexStorage2DMultisample: FnPtr,
-/// Fallbacks: TexStorage3DEXT
-pub TexStorage3D: FnPtr,
-/// Fallbacks: TexStorage3DMultisampleOES
-pub TexStorage3DMultisample: FnPtr,
 /// Fallbacks: TexSubImage1DEXT
 pub TexSubImage1D: FnPtr,
 /// Fallbacks: TexSubImage2DEXT
 pub TexSubImage2D: FnPtr,
 /// Fallbacks: TexSubImage3DEXT
 pub TexSubImage3D: FnPtr,
-pub TextureBarrier: FnPtr,
-pub TextureBuffer: FnPtr,
-pub TextureBufferRange: FnPtr,
-pub TextureParameterIiv: FnPtr,
-pub TextureParameterIuiv: FnPtr,
-pub TextureParameterf: FnPtr,
-pub TextureParameterfv: FnPtr,
-pub TextureParameteri: FnPtr,
-pub TextureParameteriv: FnPtr,
-pub TextureStorage1D: FnPtr,
-pub TextureStorage2D: FnPtr,
-pub TextureStorage2DMultisample: FnPtr,
-pub TextureStorage3D: FnPtr,
-pub TextureStorage3DMultisample: FnPtr,
-pub TextureSubImage1D: FnPtr,
-pub TextureSubImage2D: FnPtr,
-pub TextureSubImage3D: FnPtr,
-/// Fallbacks: TextureViewEXT, TextureViewOES
-pub TextureView: FnPtr,
-pub TransformFeedbackBufferBase: FnPtr,
-pub TransformFeedbackBufferRange: FnPtr,
 /// Fallbacks: TransformFeedbackVaryingsEXT
 pub TransformFeedbackVaryings: FnPtr,
 pub Uniform1d: FnPtr,
@@ -2399,21 +1745,12 @@ pub UniformMatrix4x3fv: FnPtr,
 pub UniformSubroutinesuiv: FnPtr,
 /// Fallbacks: UnmapBufferARB, UnmapBufferOES
 pub UnmapBuffer: FnPtr,
-pub UnmapNamedBuffer: FnPtr,
 /// Fallbacks: UseProgramObjectARB
 pub UseProgram: FnPtr,
 pub UseProgramStages: FnPtr,
 /// Fallbacks: ValidateProgramARB
 pub ValidateProgram: FnPtr,
 pub ValidateProgramPipeline: FnPtr,
-pub VertexArrayAttribBinding: FnPtr,
-pub VertexArrayAttribFormat: FnPtr,
-pub VertexArrayAttribIFormat: FnPtr,
-pub VertexArrayAttribLFormat: FnPtr,
-pub VertexArrayBindingDivisor: FnPtr,
-pub VertexArrayElementBuffer: FnPtr,
-pub VertexArrayVertexBuffer: FnPtr,
-pub VertexArrayVertexBuffers: FnPtr,
 /// Fallbacks: VertexAttrib1dARB, VertexAttrib1dNV
 pub VertexAttrib1d: FnPtr,
 /// Fallbacks: VertexAttrib1dvARB, VertexAttrib1dvNV
@@ -2486,10 +1823,8 @@ pub VertexAttrib4ubv: FnPtr,
 pub VertexAttrib4uiv: FnPtr,
 /// Fallbacks: VertexAttrib4usvARB
 pub VertexAttrib4usv: FnPtr,
-pub VertexAttribBinding: FnPtr,
 /// Fallbacks: VertexAttribDivisorANGLE, VertexAttribDivisorARB, VertexAttribDivisorEXT, VertexAttribDivisorNV
 pub VertexAttribDivisor: FnPtr,
-pub VertexAttribFormat: FnPtr,
 /// Fallbacks: VertexAttribI1iEXT
 pub VertexAttribI1i: FnPtr,
 /// Fallbacks: VertexAttribI1ivEXT
@@ -2530,7 +1865,6 @@ pub VertexAttribI4ui: FnPtr,
 pub VertexAttribI4uiv: FnPtr,
 /// Fallbacks: VertexAttribI4usvEXT
 pub VertexAttribI4usv: FnPtr,
-pub VertexAttribIFormat: FnPtr,
 /// Fallbacks: VertexAttribIPointerEXT
 pub VertexAttribIPointer: FnPtr,
 /// Fallbacks: VertexAttribL1dEXT
@@ -2549,7 +1883,6 @@ pub VertexAttribL3dv: FnPtr,
 pub VertexAttribL4d: FnPtr,
 /// Fallbacks: VertexAttribL4dvEXT
 pub VertexAttribL4dv: FnPtr,
-pub VertexAttribLFormat: FnPtr,
 /// Fallbacks: VertexAttribLPointerEXT
 pub VertexAttribLPointer: FnPtr,
 pub VertexAttribP1ui: FnPtr,
@@ -2562,7 +1895,6 @@ pub VertexAttribP4ui: FnPtr,
 pub VertexAttribP4uiv: FnPtr,
 /// Fallbacks: VertexAttribPointerARB
 pub VertexAttribPointer: FnPtr,
-pub VertexBindingDivisor: FnPtr,
 pub VertexP2ui: FnPtr,
 pub VertexP2uiv: FnPtr,
 pub VertexP3ui: FnPtr,
@@ -2618,24 +1950,15 @@ BindAttribLocation: FnPtr::new(metaloadfn("glBindAttribLocation", &["glBindAttri
 BindBuffer: FnPtr::new(metaloadfn("glBindBuffer", &["glBindBufferARB"])),
 BindBufferBase: FnPtr::new(metaloadfn("glBindBufferBase", &["glBindBufferBaseEXT", "glBindBufferBaseNV"])),
 BindBufferRange: FnPtr::new(metaloadfn("glBindBufferRange", &["glBindBufferRangeEXT", "glBindBufferRangeNV"])),
-BindBuffersBase: FnPtr::new(metaloadfn("glBindBuffersBase", &[])),
-BindBuffersRange: FnPtr::new(metaloadfn("glBindBuffersRange", &[])),
 BindFragDataLocation: FnPtr::new(metaloadfn("glBindFragDataLocation", &["glBindFragDataLocationEXT"])),
 BindFragDataLocationIndexed: FnPtr::new(metaloadfn("glBindFragDataLocationIndexed", &["glBindFragDataLocationIndexedEXT"])),
 BindFramebuffer: FnPtr::new(metaloadfn("glBindFramebuffer", &[])),
-BindImageTexture: FnPtr::new(metaloadfn("glBindImageTexture", &[])),
-BindImageTextures: FnPtr::new(metaloadfn("glBindImageTextures", &[])),
 BindProgramPipeline: FnPtr::new(metaloadfn("glBindProgramPipeline", &[])),
 BindRenderbuffer: FnPtr::new(metaloadfn("glBindRenderbuffer", &[])),
 BindSampler: FnPtr::new(metaloadfn("glBindSampler", &[])),
-BindSamplers: FnPtr::new(metaloadfn("glBindSamplers", &[])),
 BindTexture: FnPtr::new(metaloadfn("glBindTexture", &["glBindTextureEXT"])),
-BindTextureUnit: FnPtr::new(metaloadfn("glBindTextureUnit", &[])),
-BindTextures: FnPtr::new(metaloadfn("glBindTextures", &[])),
 BindTransformFeedback: FnPtr::new(metaloadfn("glBindTransformFeedback", &[])),
 BindVertexArray: FnPtr::new(metaloadfn("glBindVertexArray", &["glBindVertexArrayOES"])),
-BindVertexBuffer: FnPtr::new(metaloadfn("glBindVertexBuffer", &[])),
-BindVertexBuffers: FnPtr::new(metaloadfn("glBindVertexBuffers", &[])),
 BlendColor: FnPtr::new(metaloadfn("glBlendColor", &["glBlendColorEXT"])),
 BlendEquation: FnPtr::new(metaloadfn("glBlendEquation", &["glBlendEquationEXT"])),
 BlendEquationSeparate: FnPtr::new(metaloadfn("glBlendEquationSeparate", &["glBlendEquationSeparateEXT"])),
@@ -2646,16 +1969,11 @@ BlendFuncSeparate: FnPtr::new(metaloadfn("glBlendFuncSeparate", &["glBlendFuncSe
 BlendFuncSeparatei: FnPtr::new(metaloadfn("glBlendFuncSeparatei", &["glBlendFuncSeparateIndexedAMD", "glBlendFuncSeparateiARB", "glBlendFuncSeparateiEXT", "glBlendFuncSeparateiOES"])),
 BlendFunci: FnPtr::new(metaloadfn("glBlendFunci", &["glBlendFuncIndexedAMD", "glBlendFunciARB", "glBlendFunciEXT", "glBlendFunciOES"])),
 BlitFramebuffer: FnPtr::new(metaloadfn("glBlitFramebuffer", &["glBlitFramebufferEXT", "glBlitFramebufferNV"])),
-BlitNamedFramebuffer: FnPtr::new(metaloadfn("glBlitNamedFramebuffer", &[])),
 BufferData: FnPtr::new(metaloadfn("glBufferData", &["glBufferDataARB"])),
-BufferStorage: FnPtr::new(metaloadfn("glBufferStorage", &["glBufferStorageEXT"])),
 BufferSubData: FnPtr::new(metaloadfn("glBufferSubData", &["glBufferSubDataARB"])),
 CheckFramebufferStatus: FnPtr::new(metaloadfn("glCheckFramebufferStatus", &["glCheckFramebufferStatusEXT"])),
-CheckNamedFramebufferStatus: FnPtr::new(metaloadfn("glCheckNamedFramebufferStatus", &[])),
 ClampColor: FnPtr::new(metaloadfn("glClampColor", &["glClampColorARB"])),
 Clear: FnPtr::new(metaloadfn("glClear", &[])),
-ClearBufferData: FnPtr::new(metaloadfn("glClearBufferData", &[])),
-ClearBufferSubData: FnPtr::new(metaloadfn("glClearBufferSubData", &[])),
 ClearBufferfi: FnPtr::new(metaloadfn("glClearBufferfi", &[])),
 ClearBufferfv: FnPtr::new(metaloadfn("glClearBufferfv", &[])),
 ClearBufferiv: FnPtr::new(metaloadfn("glClearBufferiv", &[])),
@@ -2663,17 +1981,8 @@ ClearBufferuiv: FnPtr::new(metaloadfn("glClearBufferuiv", &[])),
 ClearColor: FnPtr::new(metaloadfn("glClearColor", &[])),
 ClearDepth: FnPtr::new(metaloadfn("glClearDepth", &[])),
 ClearDepthf: FnPtr::new(metaloadfn("glClearDepthf", &["glClearDepthfOES"])),
-ClearNamedBufferData: FnPtr::new(metaloadfn("glClearNamedBufferData", &[])),
-ClearNamedBufferSubData: FnPtr::new(metaloadfn("glClearNamedBufferSubData", &[])),
-ClearNamedFramebufferfi: FnPtr::new(metaloadfn("glClearNamedFramebufferfi", &[])),
-ClearNamedFramebufferfv: FnPtr::new(metaloadfn("glClearNamedFramebufferfv", &[])),
-ClearNamedFramebufferiv: FnPtr::new(metaloadfn("glClearNamedFramebufferiv", &[])),
-ClearNamedFramebufferuiv: FnPtr::new(metaloadfn("glClearNamedFramebufferuiv", &[])),
 ClearStencil: FnPtr::new(metaloadfn("glClearStencil", &[])),
-ClearTexImage: FnPtr::new(metaloadfn("glClearTexImage", &["glClearTexImageEXT"])),
-ClearTexSubImage: FnPtr::new(metaloadfn("glClearTexSubImage", &["glClearTexSubImageEXT"])),
 ClientWaitSync: FnPtr::new(metaloadfn("glClientWaitSync", &["glClientWaitSyncAPPLE"])),
-ClipControl: FnPtr::new(metaloadfn("glClipControl", &["glClipControlEXT"])),
 ColorMask: FnPtr::new(metaloadfn("glColorMask", &[])),
 ColorMaski: FnPtr::new(metaloadfn("glColorMaski", &["glColorMaskIndexedEXT", "glColorMaskiEXT", "glColorMaskiOES"])),
 ColorP3ui: FnPtr::new(metaloadfn("glColorP3ui", &[])),
@@ -2687,36 +1996,16 @@ CompressedTexImage3D: FnPtr::new(metaloadfn("glCompressedTexImage3D", &["glCompr
 CompressedTexSubImage1D: FnPtr::new(metaloadfn("glCompressedTexSubImage1D", &["glCompressedTexSubImage1DARB"])),
 CompressedTexSubImage2D: FnPtr::new(metaloadfn("glCompressedTexSubImage2D", &["glCompressedTexSubImage2DARB"])),
 CompressedTexSubImage3D: FnPtr::new(metaloadfn("glCompressedTexSubImage3D", &["glCompressedTexSubImage3DARB"])),
-CompressedTextureSubImage1D: FnPtr::new(metaloadfn("glCompressedTextureSubImage1D", &[])),
-CompressedTextureSubImage2D: FnPtr::new(metaloadfn("glCompressedTextureSubImage2D", &[])),
-CompressedTextureSubImage3D: FnPtr::new(metaloadfn("glCompressedTextureSubImage3D", &[])),
 CopyBufferSubData: FnPtr::new(metaloadfn("glCopyBufferSubData", &["glCopyBufferSubDataNV"])),
-CopyImageSubData: FnPtr::new(metaloadfn("glCopyImageSubData", &["glCopyImageSubDataEXT", "glCopyImageSubDataOES"])),
-CopyNamedBufferSubData: FnPtr::new(metaloadfn("glCopyNamedBufferSubData", &[])),
 CopyTexImage1D: FnPtr::new(metaloadfn("glCopyTexImage1D", &["glCopyTexImage1DEXT"])),
 CopyTexImage2D: FnPtr::new(metaloadfn("glCopyTexImage2D", &["glCopyTexImage2DEXT"])),
 CopyTexSubImage1D: FnPtr::new(metaloadfn("glCopyTexSubImage1D", &["glCopyTexSubImage1DEXT"])),
 CopyTexSubImage2D: FnPtr::new(metaloadfn("glCopyTexSubImage2D", &["glCopyTexSubImage2DEXT"])),
 CopyTexSubImage3D: FnPtr::new(metaloadfn("glCopyTexSubImage3D", &["glCopyTexSubImage3DEXT"])),
-CopyTextureSubImage1D: FnPtr::new(metaloadfn("glCopyTextureSubImage1D", &[])),
-CopyTextureSubImage2D: FnPtr::new(metaloadfn("glCopyTextureSubImage2D", &[])),
-CopyTextureSubImage3D: FnPtr::new(metaloadfn("glCopyTextureSubImage3D", &[])),
-CreateBuffers: FnPtr::new(metaloadfn("glCreateBuffers", &[])),
-CreateFramebuffers: FnPtr::new(metaloadfn("glCreateFramebuffers", &[])),
 CreateProgram: FnPtr::new(metaloadfn("glCreateProgram", &["glCreateProgramObjectARB"])),
-CreateProgramPipelines: FnPtr::new(metaloadfn("glCreateProgramPipelines", &[])),
-CreateQueries: FnPtr::new(metaloadfn("glCreateQueries", &[])),
-CreateRenderbuffers: FnPtr::new(metaloadfn("glCreateRenderbuffers", &[])),
-CreateSamplers: FnPtr::new(metaloadfn("glCreateSamplers", &[])),
 CreateShader: FnPtr::new(metaloadfn("glCreateShader", &["glCreateShaderObjectARB"])),
 CreateShaderProgramv: FnPtr::new(metaloadfn("glCreateShaderProgramv", &[])),
-CreateTextures: FnPtr::new(metaloadfn("glCreateTextures", &[])),
-CreateTransformFeedbacks: FnPtr::new(metaloadfn("glCreateTransformFeedbacks", &[])),
-CreateVertexArrays: FnPtr::new(metaloadfn("glCreateVertexArrays", &[])),
 CullFace: FnPtr::new(metaloadfn("glCullFace", &[])),
-DebugMessageCallback: FnPtr::new(metaloadfn("glDebugMessageCallback", &["glDebugMessageCallbackARB", "glDebugMessageCallbackKHR"])),
-DebugMessageControl: FnPtr::new(metaloadfn("glDebugMessageControl", &["glDebugMessageControlARB", "glDebugMessageControlKHR"])),
-DebugMessageInsert: FnPtr::new(metaloadfn("glDebugMessageInsert", &["glDebugMessageInsertARB", "glDebugMessageInsertKHR"])),
 DeleteBuffers: FnPtr::new(metaloadfn("glDeleteBuffers", &["glDeleteBuffersARB"])),
 DeleteFramebuffers: FnPtr::new(metaloadfn("glDeleteFramebuffers", &["glDeleteFramebuffersEXT"])),
 DeleteProgram: FnPtr::new(metaloadfn("glDeleteProgram", &[])),
@@ -2737,32 +2026,23 @@ DepthRangeIndexed: FnPtr::new(metaloadfn("glDepthRangeIndexed", &[])),
 DepthRangef: FnPtr::new(metaloadfn("glDepthRangef", &["glDepthRangefOES"])),
 DetachShader: FnPtr::new(metaloadfn("glDetachShader", &["glDetachObjectARB"])),
 Disable: FnPtr::new(metaloadfn("glDisable", &[])),
-DisableVertexArrayAttrib: FnPtr::new(metaloadfn("glDisableVertexArrayAttrib", &[])),
 DisableVertexAttribArray: FnPtr::new(metaloadfn("glDisableVertexAttribArray", &["glDisableVertexAttribArrayARB"])),
 Disablei: FnPtr::new(metaloadfn("glDisablei", &["glDisableIndexedEXT", "glDisableiEXT", "glDisableiNV", "glDisableiOES"])),
-DispatchCompute: FnPtr::new(metaloadfn("glDispatchCompute", &[])),
-DispatchComputeIndirect: FnPtr::new(metaloadfn("glDispatchComputeIndirect", &[])),
 DrawArrays: FnPtr::new(metaloadfn("glDrawArrays", &["glDrawArraysEXT"])),
 DrawArraysIndirect: FnPtr::new(metaloadfn("glDrawArraysIndirect", &[])),
 DrawArraysInstanced: FnPtr::new(metaloadfn("glDrawArraysInstanced", &["glDrawArraysInstancedANGLE", "glDrawArraysInstancedARB", "glDrawArraysInstancedEXT", "glDrawArraysInstancedNV"])),
-DrawArraysInstancedBaseInstance: FnPtr::new(metaloadfn("glDrawArraysInstancedBaseInstance", &["glDrawArraysInstancedBaseInstanceEXT"])),
 DrawBuffer: FnPtr::new(metaloadfn("glDrawBuffer", &[])),
 DrawBuffers: FnPtr::new(metaloadfn("glDrawBuffers", &["glDrawBuffersARB", "glDrawBuffersATI", "glDrawBuffersEXT"])),
 DrawElements: FnPtr::new(metaloadfn("glDrawElements", &[])),
 DrawElementsBaseVertex: FnPtr::new(metaloadfn("glDrawElementsBaseVertex", &["glDrawElementsBaseVertexEXT", "glDrawElementsBaseVertexOES"])),
 DrawElementsIndirect: FnPtr::new(metaloadfn("glDrawElementsIndirect", &[])),
 DrawElementsInstanced: FnPtr::new(metaloadfn("glDrawElementsInstanced", &["glDrawElementsInstancedANGLE", "glDrawElementsInstancedARB", "glDrawElementsInstancedEXT", "glDrawElementsInstancedNV"])),
-DrawElementsInstancedBaseInstance: FnPtr::new(metaloadfn("glDrawElementsInstancedBaseInstance", &["glDrawElementsInstancedBaseInstanceEXT"])),
 DrawElementsInstancedBaseVertex: FnPtr::new(metaloadfn("glDrawElementsInstancedBaseVertex", &["glDrawElementsInstancedBaseVertexEXT", "glDrawElementsInstancedBaseVertexOES"])),
-DrawElementsInstancedBaseVertexBaseInstance: FnPtr::new(metaloadfn("glDrawElementsInstancedBaseVertexBaseInstance", &["glDrawElementsInstancedBaseVertexBaseInstanceEXT"])),
 DrawRangeElements: FnPtr::new(metaloadfn("glDrawRangeElements", &["glDrawRangeElementsEXT"])),
 DrawRangeElementsBaseVertex: FnPtr::new(metaloadfn("glDrawRangeElementsBaseVertex", &["glDrawRangeElementsBaseVertexEXT", "glDrawRangeElementsBaseVertexOES"])),
 DrawTransformFeedback: FnPtr::new(metaloadfn("glDrawTransformFeedback", &["glDrawTransformFeedbackEXT", "glDrawTransformFeedbackNV"])),
-DrawTransformFeedbackInstanced: FnPtr::new(metaloadfn("glDrawTransformFeedbackInstanced", &["glDrawTransformFeedbackInstancedEXT"])),
 DrawTransformFeedbackStream: FnPtr::new(metaloadfn("glDrawTransformFeedbackStream", &[])),
-DrawTransformFeedbackStreamInstanced: FnPtr::new(metaloadfn("glDrawTransformFeedbackStreamInstanced", &[])),
 Enable: FnPtr::new(metaloadfn("glEnable", &[])),
-EnableVertexArrayAttrib: FnPtr::new(metaloadfn("glEnableVertexArrayAttrib", &[])),
 EnableVertexAttribArray: FnPtr::new(metaloadfn("glEnableVertexAttribArray", &["glEnableVertexAttribArrayARB"])),
 Enablei: FnPtr::new(metaloadfn("glEnablei", &["glEnableIndexedEXT", "glEnableiEXT", "glEnableiNV", "glEnableiOES"])),
 EndConditionalRender: FnPtr::new(metaloadfn("glEndConditionalRender", &["glEndConditionalRenderNV", "glEndConditionalRenderNVX"])),
@@ -2773,8 +2053,6 @@ FenceSync: FnPtr::new(metaloadfn("glFenceSync", &["glFenceSyncAPPLE"])),
 Finish: FnPtr::new(metaloadfn("glFinish", &[])),
 Flush: FnPtr::new(metaloadfn("glFlush", &[])),
 FlushMappedBufferRange: FnPtr::new(metaloadfn("glFlushMappedBufferRange", &["glFlushMappedBufferRangeAPPLE", "glFlushMappedBufferRangeEXT"])),
-FlushMappedNamedBufferRange: FnPtr::new(metaloadfn("glFlushMappedNamedBufferRange", &[])),
-FramebufferParameteri: FnPtr::new(metaloadfn("glFramebufferParameteri", &[])),
 FramebufferRenderbuffer: FnPtr::new(metaloadfn("glFramebufferRenderbuffer", &["glFramebufferRenderbufferEXT"])),
 FramebufferTexture: FnPtr::new(metaloadfn("glFramebufferTexture", &["glFramebufferTextureARB", "glFramebufferTextureEXT", "glFramebufferTextureOES"])),
 FramebufferTexture1D: FnPtr::new(metaloadfn("glFramebufferTexture1D", &["glFramebufferTexture1DEXT"])),
@@ -2792,8 +2070,6 @@ GenTextures: FnPtr::new(metaloadfn("glGenTextures", &[])),
 GenTransformFeedbacks: FnPtr::new(metaloadfn("glGenTransformFeedbacks", &["glGenTransformFeedbacksNV"])),
 GenVertexArrays: FnPtr::new(metaloadfn("glGenVertexArrays", &["glGenVertexArraysAPPLE", "glGenVertexArraysOES"])),
 GenerateMipmap: FnPtr::new(metaloadfn("glGenerateMipmap", &["glGenerateMipmapEXT"])),
-GenerateTextureMipmap: FnPtr::new(metaloadfn("glGenerateTextureMipmap", &[])),
-GetActiveAtomicCounterBufferiv: FnPtr::new(metaloadfn("glGetActiveAtomicCounterBufferiv", &[])),
 GetActiveAttrib: FnPtr::new(metaloadfn("glGetActiveAttrib", &["glGetActiveAttribARB"])),
 GetActiveSubroutineName: FnPtr::new(metaloadfn("glGetActiveSubroutineName", &[])),
 GetActiveSubroutineUniformName: FnPtr::new(metaloadfn("glGetActiveSubroutineUniformName", &[])),
@@ -2812,9 +2088,6 @@ GetBufferParameteriv: FnPtr::new(metaloadfn("glGetBufferParameteriv", &["glGetBu
 GetBufferPointerv: FnPtr::new(metaloadfn("glGetBufferPointerv", &["glGetBufferPointervARB", "glGetBufferPointervOES"])),
 GetBufferSubData: FnPtr::new(metaloadfn("glGetBufferSubData", &["glGetBufferSubDataARB"])),
 GetCompressedTexImage: FnPtr::new(metaloadfn("glGetCompressedTexImage", &["glGetCompressedTexImageARB"])),
-GetCompressedTextureImage: FnPtr::new(metaloadfn("glGetCompressedTextureImage", &[])),
-GetCompressedTextureSubImage: FnPtr::new(metaloadfn("glGetCompressedTextureSubImage", &[])),
-GetDebugMessageLog: FnPtr::new(metaloadfn("glGetDebugMessageLog", &["glGetDebugMessageLogARB", "glGetDebugMessageLogKHR"])),
 GetDoublei_v: FnPtr::new(metaloadfn("glGetDoublei_v", &["glGetDoubleIndexedvEXT", "glGetDoublei_vEXT"])),
 GetDoublev: FnPtr::new(metaloadfn("glGetDoublev", &[])),
 GetError: FnPtr::new(metaloadfn("glGetError", &[])),
@@ -2823,41 +2096,17 @@ GetFloatv: FnPtr::new(metaloadfn("glGetFloatv", &[])),
 GetFragDataIndex: FnPtr::new(metaloadfn("glGetFragDataIndex", &["glGetFragDataIndexEXT"])),
 GetFragDataLocation: FnPtr::new(metaloadfn("glGetFragDataLocation", &["glGetFragDataLocationEXT"])),
 GetFramebufferAttachmentParameteriv: FnPtr::new(metaloadfn("glGetFramebufferAttachmentParameteriv", &["glGetFramebufferAttachmentParameterivEXT"])),
-GetFramebufferParameteriv: FnPtr::new(metaloadfn("glGetFramebufferParameteriv", &[])),
-GetGraphicsResetStatus: FnPtr::new(metaloadfn("glGetGraphicsResetStatus", &["glGetGraphicsResetStatusEXT", "glGetGraphicsResetStatusKHR"])),
 GetInteger64i_v: FnPtr::new(metaloadfn("glGetInteger64i_v", &[])),
 GetInteger64v: FnPtr::new(metaloadfn("glGetInteger64v", &["glGetInteger64vAPPLE"])),
 GetIntegeri_v: FnPtr::new(metaloadfn("glGetIntegeri_v", &["glGetIntegerIndexedvEXT"])),
 GetIntegerv: FnPtr::new(metaloadfn("glGetIntegerv", &[])),
-GetInternalformati64v: FnPtr::new(metaloadfn("glGetInternalformati64v", &[])),
-GetInternalformativ: FnPtr::new(metaloadfn("glGetInternalformativ", &[])),
 GetMultisamplefv: FnPtr::new(metaloadfn("glGetMultisamplefv", &["glGetMultisamplefvNV"])),
-GetNamedBufferParameteri64v: FnPtr::new(metaloadfn("glGetNamedBufferParameteri64v", &[])),
-GetNamedBufferParameteriv: FnPtr::new(metaloadfn("glGetNamedBufferParameteriv", &[])),
-GetNamedBufferPointerv: FnPtr::new(metaloadfn("glGetNamedBufferPointerv", &[])),
-GetNamedBufferSubData: FnPtr::new(metaloadfn("glGetNamedBufferSubData", &[])),
-GetNamedFramebufferAttachmentParameteriv: FnPtr::new(metaloadfn("glGetNamedFramebufferAttachmentParameteriv", &[])),
-GetNamedFramebufferParameteriv: FnPtr::new(metaloadfn("glGetNamedFramebufferParameteriv", &[])),
-GetNamedRenderbufferParameteriv: FnPtr::new(metaloadfn("glGetNamedRenderbufferParameteriv", &[])),
-GetObjectLabel: FnPtr::new(metaloadfn("glGetObjectLabel", &["glGetObjectLabelKHR"])),
-GetObjectPtrLabel: FnPtr::new(metaloadfn("glGetObjectPtrLabel", &["glGetObjectPtrLabelKHR"])),
-GetPointerv: FnPtr::new(metaloadfn("glGetPointerv", &["glGetPointervEXT", "glGetPointervKHR"])),
 GetProgramBinary: FnPtr::new(metaloadfn("glGetProgramBinary", &["glGetProgramBinaryOES"])),
 GetProgramInfoLog: FnPtr::new(metaloadfn("glGetProgramInfoLog", &[])),
-GetProgramInterfaceiv: FnPtr::new(metaloadfn("glGetProgramInterfaceiv", &[])),
 GetProgramPipelineInfoLog: FnPtr::new(metaloadfn("glGetProgramPipelineInfoLog", &[])),
 GetProgramPipelineiv: FnPtr::new(metaloadfn("glGetProgramPipelineiv", &[])),
-GetProgramResourceIndex: FnPtr::new(metaloadfn("glGetProgramResourceIndex", &[])),
-GetProgramResourceLocation: FnPtr::new(metaloadfn("glGetProgramResourceLocation", &[])),
-GetProgramResourceLocationIndex: FnPtr::new(metaloadfn("glGetProgramResourceLocationIndex", &[])),
-GetProgramResourceName: FnPtr::new(metaloadfn("glGetProgramResourceName", &[])),
-GetProgramResourceiv: FnPtr::new(metaloadfn("glGetProgramResourceiv", &[])),
 GetProgramStageiv: FnPtr::new(metaloadfn("glGetProgramStageiv", &[])),
 GetProgramiv: FnPtr::new(metaloadfn("glGetProgramiv", &[])),
-GetQueryBufferObjecti64v: FnPtr::new(metaloadfn("glGetQueryBufferObjecti64v", &[])),
-GetQueryBufferObjectiv: FnPtr::new(metaloadfn("glGetQueryBufferObjectiv", &[])),
-GetQueryBufferObjectui64v: FnPtr::new(metaloadfn("glGetQueryBufferObjectui64v", &[])),
-GetQueryBufferObjectuiv: FnPtr::new(metaloadfn("glGetQueryBufferObjectuiv", &[])),
 GetQueryIndexediv: FnPtr::new(metaloadfn("glGetQueryIndexediv", &[])),
 GetQueryObjecti64v: FnPtr::new(metaloadfn("glGetQueryObjecti64v", &["glGetQueryObjecti64vEXT"])),
 GetQueryObjectiv: FnPtr::new(metaloadfn("glGetQueryObjectiv", &["glGetQueryObjectivARB", "glGetQueryObjectivEXT"])),
@@ -2885,18 +2134,7 @@ GetTexParameterIiv: FnPtr::new(metaloadfn("glGetTexParameterIiv", &["glGetTexPar
 GetTexParameterIuiv: FnPtr::new(metaloadfn("glGetTexParameterIuiv", &["glGetTexParameterIuivEXT", "glGetTexParameterIuivOES"])),
 GetTexParameterfv: FnPtr::new(metaloadfn("glGetTexParameterfv", &[])),
 GetTexParameteriv: FnPtr::new(metaloadfn("glGetTexParameteriv", &[])),
-GetTextureImage: FnPtr::new(metaloadfn("glGetTextureImage", &[])),
-GetTextureLevelParameterfv: FnPtr::new(metaloadfn("glGetTextureLevelParameterfv", &[])),
-GetTextureLevelParameteriv: FnPtr::new(metaloadfn("glGetTextureLevelParameteriv", &[])),
-GetTextureParameterIiv: FnPtr::new(metaloadfn("glGetTextureParameterIiv", &[])),
-GetTextureParameterIuiv: FnPtr::new(metaloadfn("glGetTextureParameterIuiv", &[])),
-GetTextureParameterfv: FnPtr::new(metaloadfn("glGetTextureParameterfv", &[])),
-GetTextureParameteriv: FnPtr::new(metaloadfn("glGetTextureParameteriv", &[])),
-GetTextureSubImage: FnPtr::new(metaloadfn("glGetTextureSubImage", &[])),
 GetTransformFeedbackVarying: FnPtr::new(metaloadfn("glGetTransformFeedbackVarying", &["glGetTransformFeedbackVaryingEXT"])),
-GetTransformFeedbacki64_v: FnPtr::new(metaloadfn("glGetTransformFeedbacki64_v", &[])),
-GetTransformFeedbacki_v: FnPtr::new(metaloadfn("glGetTransformFeedbacki_v", &[])),
-GetTransformFeedbackiv: FnPtr::new(metaloadfn("glGetTransformFeedbackiv", &[])),
 GetUniformBlockIndex: FnPtr::new(metaloadfn("glGetUniformBlockIndex", &[])),
 GetUniformIndices: FnPtr::new(metaloadfn("glGetUniformIndices", &[])),
 GetUniformLocation: FnPtr::new(metaloadfn("glGetUniformLocation", &["glGetUniformLocationARB"])),
@@ -2905,9 +2143,6 @@ GetUniformdv: FnPtr::new(metaloadfn("glGetUniformdv", &[])),
 GetUniformfv: FnPtr::new(metaloadfn("glGetUniformfv", &["glGetUniformfvARB"])),
 GetUniformiv: FnPtr::new(metaloadfn("glGetUniformiv", &["glGetUniformivARB"])),
 GetUniformuiv: FnPtr::new(metaloadfn("glGetUniformuiv", &["glGetUniformuivEXT"])),
-GetVertexArrayIndexed64iv: FnPtr::new(metaloadfn("glGetVertexArrayIndexed64iv", &[])),
-GetVertexArrayIndexediv: FnPtr::new(metaloadfn("glGetVertexArrayIndexediv", &[])),
-GetVertexArrayiv: FnPtr::new(metaloadfn("glGetVertexArrayiv", &[])),
 GetVertexAttribIiv: FnPtr::new(metaloadfn("glGetVertexAttribIiv", &["glGetVertexAttribIivEXT"])),
 GetVertexAttribIuiv: FnPtr::new(metaloadfn("glGetVertexAttribIuiv", &["glGetVertexAttribIuivEXT"])),
 GetVertexAttribLdv: FnPtr::new(metaloadfn("glGetVertexAttribLdv", &["glGetVertexAttribLdvEXT"])),
@@ -2915,33 +2150,7 @@ GetVertexAttribPointerv: FnPtr::new(metaloadfn("glGetVertexAttribPointerv", &["g
 GetVertexAttribdv: FnPtr::new(metaloadfn("glGetVertexAttribdv", &["glGetVertexAttribdvARB", "glGetVertexAttribdvNV"])),
 GetVertexAttribfv: FnPtr::new(metaloadfn("glGetVertexAttribfv", &["glGetVertexAttribfvARB", "glGetVertexAttribfvNV"])),
 GetVertexAttribiv: FnPtr::new(metaloadfn("glGetVertexAttribiv", &["glGetVertexAttribivARB", "glGetVertexAttribivNV"])),
-GetnColorTable: FnPtr::new(metaloadfn("glGetnColorTable", &[])),
-GetnCompressedTexImage: FnPtr::new(metaloadfn("glGetnCompressedTexImage", &[])),
-GetnConvolutionFilter: FnPtr::new(metaloadfn("glGetnConvolutionFilter", &[])),
-GetnHistogram: FnPtr::new(metaloadfn("glGetnHistogram", &[])),
-GetnMapdv: FnPtr::new(metaloadfn("glGetnMapdv", &[])),
-GetnMapfv: FnPtr::new(metaloadfn("glGetnMapfv", &[])),
-GetnMapiv: FnPtr::new(metaloadfn("glGetnMapiv", &[])),
-GetnMinmax: FnPtr::new(metaloadfn("glGetnMinmax", &[])),
-GetnPixelMapfv: FnPtr::new(metaloadfn("glGetnPixelMapfv", &[])),
-GetnPixelMapuiv: FnPtr::new(metaloadfn("glGetnPixelMapuiv", &[])),
-GetnPixelMapusv: FnPtr::new(metaloadfn("glGetnPixelMapusv", &[])),
-GetnPolygonStipple: FnPtr::new(metaloadfn("glGetnPolygonStipple", &[])),
-GetnSeparableFilter: FnPtr::new(metaloadfn("glGetnSeparableFilter", &[])),
-GetnTexImage: FnPtr::new(metaloadfn("glGetnTexImage", &[])),
-GetnUniformdv: FnPtr::new(metaloadfn("glGetnUniformdv", &[])),
-GetnUniformfv: FnPtr::new(metaloadfn("glGetnUniformfv", &["glGetnUniformfvEXT", "glGetnUniformfvKHR"])),
-GetnUniformiv: FnPtr::new(metaloadfn("glGetnUniformiv", &["glGetnUniformivEXT", "glGetnUniformivKHR"])),
-GetnUniformuiv: FnPtr::new(metaloadfn("glGetnUniformuiv", &["glGetnUniformuivKHR"])),
 Hint: FnPtr::new(metaloadfn("glHint", &[])),
-InvalidateBufferData: FnPtr::new(metaloadfn("glInvalidateBufferData", &[])),
-InvalidateBufferSubData: FnPtr::new(metaloadfn("glInvalidateBufferSubData", &[])),
-InvalidateFramebuffer: FnPtr::new(metaloadfn("glInvalidateFramebuffer", &[])),
-InvalidateNamedFramebufferData: FnPtr::new(metaloadfn("glInvalidateNamedFramebufferData", &[])),
-InvalidateNamedFramebufferSubData: FnPtr::new(metaloadfn("glInvalidateNamedFramebufferSubData", &[])),
-InvalidateSubFramebuffer: FnPtr::new(metaloadfn("glInvalidateSubFramebuffer", &[])),
-InvalidateTexImage: FnPtr::new(metaloadfn("glInvalidateTexImage", &[])),
-InvalidateTexSubImage: FnPtr::new(metaloadfn("glInvalidateTexSubImage", &[])),
 IsBuffer: FnPtr::new(metaloadfn("glIsBuffer", &["glIsBufferARB"])),
 IsEnabled: FnPtr::new(metaloadfn("glIsEnabled", &[])),
 IsEnabledi: FnPtr::new(metaloadfn("glIsEnabledi", &["glIsEnabledIndexedEXT", "glIsEnablediEXT", "glIsEnablediNV", "glIsEnablediOES"])),
@@ -2961,18 +2170,10 @@ LinkProgram: FnPtr::new(metaloadfn("glLinkProgram", &["glLinkProgramARB"])),
 LogicOp: FnPtr::new(metaloadfn("glLogicOp", &[])),
 MapBuffer: FnPtr::new(metaloadfn("glMapBuffer", &["glMapBufferARB", "glMapBufferOES"])),
 MapBufferRange: FnPtr::new(metaloadfn("glMapBufferRange", &["glMapBufferRangeEXT"])),
-MapNamedBuffer: FnPtr::new(metaloadfn("glMapNamedBuffer", &[])),
-MapNamedBufferRange: FnPtr::new(metaloadfn("glMapNamedBufferRange", &[])),
-MemoryBarrier: FnPtr::new(metaloadfn("glMemoryBarrier", &["glMemoryBarrierEXT"])),
-MemoryBarrierByRegion: FnPtr::new(metaloadfn("glMemoryBarrierByRegion", &[])),
 MinSampleShading: FnPtr::new(metaloadfn("glMinSampleShading", &["glMinSampleShadingARB", "glMinSampleShadingOES"])),
 MultiDrawArrays: FnPtr::new(metaloadfn("glMultiDrawArrays", &["glMultiDrawArraysEXT"])),
-MultiDrawArraysIndirect: FnPtr::new(metaloadfn("glMultiDrawArraysIndirect", &["glMultiDrawArraysIndirectAMD", "glMultiDrawArraysIndirectEXT"])),
-MultiDrawArraysIndirectCount: FnPtr::new(metaloadfn("glMultiDrawArraysIndirectCount", &["glMultiDrawArraysIndirectCountARB"])),
 MultiDrawElements: FnPtr::new(metaloadfn("glMultiDrawElements", &["glMultiDrawElementsEXT"])),
 MultiDrawElementsBaseVertex: FnPtr::new(metaloadfn("glMultiDrawElementsBaseVertex", &["glMultiDrawElementsBaseVertexEXT"])),
-MultiDrawElementsIndirect: FnPtr::new(metaloadfn("glMultiDrawElementsIndirect", &["glMultiDrawElementsIndirectAMD", "glMultiDrawElementsIndirectEXT"])),
-MultiDrawElementsIndirectCount: FnPtr::new(metaloadfn("glMultiDrawElementsIndirectCount", &["glMultiDrawElementsIndirectCountARB"])),
 MultiTexCoordP1ui: FnPtr::new(metaloadfn("glMultiTexCoordP1ui", &[])),
 MultiTexCoordP1uiv: FnPtr::new(metaloadfn("glMultiTexCoordP1uiv", &[])),
 MultiTexCoordP2ui: FnPtr::new(metaloadfn("glMultiTexCoordP2ui", &[])),
@@ -2981,22 +2182,8 @@ MultiTexCoordP3ui: FnPtr::new(metaloadfn("glMultiTexCoordP3ui", &[])),
 MultiTexCoordP3uiv: FnPtr::new(metaloadfn("glMultiTexCoordP3uiv", &[])),
 MultiTexCoordP4ui: FnPtr::new(metaloadfn("glMultiTexCoordP4ui", &[])),
 MultiTexCoordP4uiv: FnPtr::new(metaloadfn("glMultiTexCoordP4uiv", &[])),
-NamedBufferData: FnPtr::new(metaloadfn("glNamedBufferData", &[])),
-NamedBufferStorage: FnPtr::new(metaloadfn("glNamedBufferStorage", &["glNamedBufferStorageEXT"])),
-NamedBufferSubData: FnPtr::new(metaloadfn("glNamedBufferSubData", &["glNamedBufferSubDataEXT"])),
-NamedFramebufferDrawBuffer: FnPtr::new(metaloadfn("glNamedFramebufferDrawBuffer", &[])),
-NamedFramebufferDrawBuffers: FnPtr::new(metaloadfn("glNamedFramebufferDrawBuffers", &[])),
-NamedFramebufferParameteri: FnPtr::new(metaloadfn("glNamedFramebufferParameteri", &[])),
-NamedFramebufferReadBuffer: FnPtr::new(metaloadfn("glNamedFramebufferReadBuffer", &[])),
-NamedFramebufferRenderbuffer: FnPtr::new(metaloadfn("glNamedFramebufferRenderbuffer", &[])),
-NamedFramebufferTexture: FnPtr::new(metaloadfn("glNamedFramebufferTexture", &[])),
-NamedFramebufferTextureLayer: FnPtr::new(metaloadfn("glNamedFramebufferTextureLayer", &[])),
-NamedRenderbufferStorage: FnPtr::new(metaloadfn("glNamedRenderbufferStorage", &[])),
-NamedRenderbufferStorageMultisample: FnPtr::new(metaloadfn("glNamedRenderbufferStorageMultisample", &[])),
 NormalP3ui: FnPtr::new(metaloadfn("glNormalP3ui", &[])),
 NormalP3uiv: FnPtr::new(metaloadfn("glNormalP3uiv", &[])),
-ObjectLabel: FnPtr::new(metaloadfn("glObjectLabel", &["glObjectLabelKHR"])),
-ObjectPtrLabel: FnPtr::new(metaloadfn("glObjectPtrLabel", &["glObjectPtrLabelKHR"])),
 PatchParameterfv: FnPtr::new(metaloadfn("glPatchParameterfv", &[])),
 PatchParameteri: FnPtr::new(metaloadfn("glPatchParameteri", &["glPatchParameteriEXT", "glPatchParameteriOES"])),
 PauseTransformFeedback: FnPtr::new(metaloadfn("glPauseTransformFeedback", &["glPauseTransformFeedbackNV"])),
@@ -3009,8 +2196,6 @@ PointParameteriv: FnPtr::new(metaloadfn("glPointParameteriv", &["glPointParamete
 PointSize: FnPtr::new(metaloadfn("glPointSize", &[])),
 PolygonMode: FnPtr::new(metaloadfn("glPolygonMode", &["glPolygonModeNV"])),
 PolygonOffset: FnPtr::new(metaloadfn("glPolygonOffset", &[])),
-PolygonOffsetClamp: FnPtr::new(metaloadfn("glPolygonOffsetClamp", &["glPolygonOffsetClampEXT"])),
-PopDebugGroup: FnPtr::new(metaloadfn("glPopDebugGroup", &["glPopDebugGroupKHR"])),
 PrimitiveRestartIndex: FnPtr::new(metaloadfn("glPrimitiveRestartIndex", &[])),
 ProgramBinary: FnPtr::new(metaloadfn("glProgramBinary", &["glProgramBinaryOES"])),
 ProgramParameteri: FnPtr::new(metaloadfn("glProgramParameteri", &["glProgramParameteriARB", "glProgramParameteriEXT"])),
@@ -3065,11 +2250,9 @@ ProgramUniformMatrix4x2fv: FnPtr::new(metaloadfn("glProgramUniformMatrix4x2fv", 
 ProgramUniformMatrix4x3dv: FnPtr::new(metaloadfn("glProgramUniformMatrix4x3dv", &[])),
 ProgramUniformMatrix4x3fv: FnPtr::new(metaloadfn("glProgramUniformMatrix4x3fv", &["glProgramUniformMatrix4x3fvEXT"])),
 ProvokingVertex: FnPtr::new(metaloadfn("glProvokingVertex", &["glProvokingVertexEXT"])),
-PushDebugGroup: FnPtr::new(metaloadfn("glPushDebugGroup", &["glPushDebugGroupKHR"])),
 QueryCounter: FnPtr::new(metaloadfn("glQueryCounter", &["glQueryCounterEXT"])),
 ReadBuffer: FnPtr::new(metaloadfn("glReadBuffer", &[])),
 ReadPixels: FnPtr::new(metaloadfn("glReadPixels", &[])),
-ReadnPixels: FnPtr::new(metaloadfn("glReadnPixels", &["glReadnPixelsARB", "glReadnPixelsEXT", "glReadnPixelsKHR"])),
 ReleaseShaderCompiler: FnPtr::new(metaloadfn("glReleaseShaderCompiler", &[])),
 RenderbufferStorage: FnPtr::new(metaloadfn("glRenderbufferStorage", &["glRenderbufferStorageEXT"])),
 RenderbufferStorageMultisample: FnPtr::new(metaloadfn("glRenderbufferStorageMultisample", &["glRenderbufferStorageMultisampleEXT", "glRenderbufferStorageMultisampleNV"])),
@@ -3090,8 +2273,6 @@ SecondaryColorP3ui: FnPtr::new(metaloadfn("glSecondaryColorP3ui", &[])),
 SecondaryColorP3uiv: FnPtr::new(metaloadfn("glSecondaryColorP3uiv", &[])),
 ShaderBinary: FnPtr::new(metaloadfn("glShaderBinary", &[])),
 ShaderSource: FnPtr::new(metaloadfn("glShaderSource", &["glShaderSourceARB"])),
-ShaderStorageBlockBinding: FnPtr::new(metaloadfn("glShaderStorageBlockBinding", &[])),
-SpecializeShader: FnPtr::new(metaloadfn("glSpecializeShader", &["glSpecializeShaderARB"])),
 StencilFunc: FnPtr::new(metaloadfn("glStencilFunc", &[])),
 StencilFuncSeparate: FnPtr::new(metaloadfn("glStencilFuncSeparate", &[])),
 StencilMask: FnPtr::new(metaloadfn("glStencilMask", &[])),
@@ -3099,7 +2280,6 @@ StencilMaskSeparate: FnPtr::new(metaloadfn("glStencilMaskSeparate", &[])),
 StencilOp: FnPtr::new(metaloadfn("glStencilOp", &[])),
 StencilOpSeparate: FnPtr::new(metaloadfn("glStencilOpSeparate", &["glStencilOpSeparateATI"])),
 TexBuffer: FnPtr::new(metaloadfn("glTexBuffer", &["glTexBufferARB", "glTexBufferEXT", "glTexBufferOES"])),
-TexBufferRange: FnPtr::new(metaloadfn("glTexBufferRange", &["glTexBufferRangeEXT", "glTexBufferRangeOES"])),
 TexCoordP1ui: FnPtr::new(metaloadfn("glTexCoordP1ui", &[])),
 TexCoordP1uiv: FnPtr::new(metaloadfn("glTexCoordP1uiv", &[])),
 TexCoordP2ui: FnPtr::new(metaloadfn("glTexCoordP2ui", &[])),
@@ -3119,34 +2299,9 @@ TexParameterf: FnPtr::new(metaloadfn("glTexParameterf", &[])),
 TexParameterfv: FnPtr::new(metaloadfn("glTexParameterfv", &[])),
 TexParameteri: FnPtr::new(metaloadfn("glTexParameteri", &[])),
 TexParameteriv: FnPtr::new(metaloadfn("glTexParameteriv", &[])),
-TexStorage1D: FnPtr::new(metaloadfn("glTexStorage1D", &["glTexStorage1DEXT"])),
-TexStorage2D: FnPtr::new(metaloadfn("glTexStorage2D", &["glTexStorage2DEXT"])),
-TexStorage2DMultisample: FnPtr::new(metaloadfn("glTexStorage2DMultisample", &[])),
-TexStorage3D: FnPtr::new(metaloadfn("glTexStorage3D", &["glTexStorage3DEXT"])),
-TexStorage3DMultisample: FnPtr::new(metaloadfn("glTexStorage3DMultisample", &["glTexStorage3DMultisampleOES"])),
 TexSubImage1D: FnPtr::new(metaloadfn("glTexSubImage1D", &["glTexSubImage1DEXT"])),
 TexSubImage2D: FnPtr::new(metaloadfn("glTexSubImage2D", &["glTexSubImage2DEXT"])),
 TexSubImage3D: FnPtr::new(metaloadfn("glTexSubImage3D", &["glTexSubImage3DEXT"])),
-TextureBarrier: FnPtr::new(metaloadfn("glTextureBarrier", &[])),
-TextureBuffer: FnPtr::new(metaloadfn("glTextureBuffer", &[])),
-TextureBufferRange: FnPtr::new(metaloadfn("glTextureBufferRange", &[])),
-TextureParameterIiv: FnPtr::new(metaloadfn("glTextureParameterIiv", &[])),
-TextureParameterIuiv: FnPtr::new(metaloadfn("glTextureParameterIuiv", &[])),
-TextureParameterf: FnPtr::new(metaloadfn("glTextureParameterf", &[])),
-TextureParameterfv: FnPtr::new(metaloadfn("glTextureParameterfv", &[])),
-TextureParameteri: FnPtr::new(metaloadfn("glTextureParameteri", &[])),
-TextureParameteriv: FnPtr::new(metaloadfn("glTextureParameteriv", &[])),
-TextureStorage1D: FnPtr::new(metaloadfn("glTextureStorage1D", &[])),
-TextureStorage2D: FnPtr::new(metaloadfn("glTextureStorage2D", &[])),
-TextureStorage2DMultisample: FnPtr::new(metaloadfn("glTextureStorage2DMultisample", &[])),
-TextureStorage3D: FnPtr::new(metaloadfn("glTextureStorage3D", &[])),
-TextureStorage3DMultisample: FnPtr::new(metaloadfn("glTextureStorage3DMultisample", &[])),
-TextureSubImage1D: FnPtr::new(metaloadfn("glTextureSubImage1D", &[])),
-TextureSubImage2D: FnPtr::new(metaloadfn("glTextureSubImage2D", &[])),
-TextureSubImage3D: FnPtr::new(metaloadfn("glTextureSubImage3D", &[])),
-TextureView: FnPtr::new(metaloadfn("glTextureView", &["glTextureViewEXT", "glTextureViewOES"])),
-TransformFeedbackBufferBase: FnPtr::new(metaloadfn("glTransformFeedbackBufferBase", &[])),
-TransformFeedbackBufferRange: FnPtr::new(metaloadfn("glTransformFeedbackBufferRange", &[])),
 TransformFeedbackVaryings: FnPtr::new(metaloadfn("glTransformFeedbackVaryings", &["glTransformFeedbackVaryingsEXT"])),
 Uniform1d: FnPtr::new(metaloadfn("glUniform1d", &[])),
 Uniform1dv: FnPtr::new(metaloadfn("glUniform1dv", &[])),
@@ -3201,19 +2356,10 @@ UniformMatrix4x3dv: FnPtr::new(metaloadfn("glUniformMatrix4x3dv", &[])),
 UniformMatrix4x3fv: FnPtr::new(metaloadfn("glUniformMatrix4x3fv", &["glUniformMatrix4x3fvNV"])),
 UniformSubroutinesuiv: FnPtr::new(metaloadfn("glUniformSubroutinesuiv", &[])),
 UnmapBuffer: FnPtr::new(metaloadfn("glUnmapBuffer", &["glUnmapBufferARB", "glUnmapBufferOES"])),
-UnmapNamedBuffer: FnPtr::new(metaloadfn("glUnmapNamedBuffer", &[])),
 UseProgram: FnPtr::new(metaloadfn("glUseProgram", &["glUseProgramObjectARB"])),
 UseProgramStages: FnPtr::new(metaloadfn("glUseProgramStages", &[])),
 ValidateProgram: FnPtr::new(metaloadfn("glValidateProgram", &["glValidateProgramARB"])),
 ValidateProgramPipeline: FnPtr::new(metaloadfn("glValidateProgramPipeline", &[])),
-VertexArrayAttribBinding: FnPtr::new(metaloadfn("glVertexArrayAttribBinding", &[])),
-VertexArrayAttribFormat: FnPtr::new(metaloadfn("glVertexArrayAttribFormat", &[])),
-VertexArrayAttribIFormat: FnPtr::new(metaloadfn("glVertexArrayAttribIFormat", &[])),
-VertexArrayAttribLFormat: FnPtr::new(metaloadfn("glVertexArrayAttribLFormat", &[])),
-VertexArrayBindingDivisor: FnPtr::new(metaloadfn("glVertexArrayBindingDivisor", &[])),
-VertexArrayElementBuffer: FnPtr::new(metaloadfn("glVertexArrayElementBuffer", &[])),
-VertexArrayVertexBuffer: FnPtr::new(metaloadfn("glVertexArrayVertexBuffer", &[])),
-VertexArrayVertexBuffers: FnPtr::new(metaloadfn("glVertexArrayVertexBuffers", &[])),
 VertexAttrib1d: FnPtr::new(metaloadfn("glVertexAttrib1d", &["glVertexAttrib1dARB", "glVertexAttrib1dNV"])),
 VertexAttrib1dv: FnPtr::new(metaloadfn("glVertexAttrib1dv", &["glVertexAttrib1dvARB", "glVertexAttrib1dvNV"])),
 VertexAttrib1f: FnPtr::new(metaloadfn("glVertexAttrib1f", &["glVertexAttrib1fARB", "glVertexAttrib1fNV"])),
@@ -3250,9 +2396,7 @@ VertexAttrib4sv: FnPtr::new(metaloadfn("glVertexAttrib4sv", &["glVertexAttrib4sv
 VertexAttrib4ubv: FnPtr::new(metaloadfn("glVertexAttrib4ubv", &["glVertexAttrib4ubvARB"])),
 VertexAttrib4uiv: FnPtr::new(metaloadfn("glVertexAttrib4uiv", &["glVertexAttrib4uivARB"])),
 VertexAttrib4usv: FnPtr::new(metaloadfn("glVertexAttrib4usv", &["glVertexAttrib4usvARB"])),
-VertexAttribBinding: FnPtr::new(metaloadfn("glVertexAttribBinding", &[])),
 VertexAttribDivisor: FnPtr::new(metaloadfn("glVertexAttribDivisor", &["glVertexAttribDivisorANGLE", "glVertexAttribDivisorARB", "glVertexAttribDivisorEXT", "glVertexAttribDivisorNV"])),
-VertexAttribFormat: FnPtr::new(metaloadfn("glVertexAttribFormat", &[])),
 VertexAttribI1i: FnPtr::new(metaloadfn("glVertexAttribI1i", &["glVertexAttribI1iEXT"])),
 VertexAttribI1iv: FnPtr::new(metaloadfn("glVertexAttribI1iv", &["glVertexAttribI1ivEXT"])),
 VertexAttribI1ui: FnPtr::new(metaloadfn("glVertexAttribI1ui", &["glVertexAttribI1uiEXT"])),
@@ -3273,7 +2417,6 @@ VertexAttribI4ubv: FnPtr::new(metaloadfn("glVertexAttribI4ubv", &["glVertexAttri
 VertexAttribI4ui: FnPtr::new(metaloadfn("glVertexAttribI4ui", &["glVertexAttribI4uiEXT"])),
 VertexAttribI4uiv: FnPtr::new(metaloadfn("glVertexAttribI4uiv", &["glVertexAttribI4uivEXT"])),
 VertexAttribI4usv: FnPtr::new(metaloadfn("glVertexAttribI4usv", &["glVertexAttribI4usvEXT"])),
-VertexAttribIFormat: FnPtr::new(metaloadfn("glVertexAttribIFormat", &[])),
 VertexAttribIPointer: FnPtr::new(metaloadfn("glVertexAttribIPointer", &["glVertexAttribIPointerEXT"])),
 VertexAttribL1d: FnPtr::new(metaloadfn("glVertexAttribL1d", &["glVertexAttribL1dEXT"])),
 VertexAttribL1dv: FnPtr::new(metaloadfn("glVertexAttribL1dv", &["glVertexAttribL1dvEXT"])),
@@ -3283,7 +2426,6 @@ VertexAttribL3d: FnPtr::new(metaloadfn("glVertexAttribL3d", &["glVertexAttribL3d
 VertexAttribL3dv: FnPtr::new(metaloadfn("glVertexAttribL3dv", &["glVertexAttribL3dvEXT"])),
 VertexAttribL4d: FnPtr::new(metaloadfn("glVertexAttribL4d", &["glVertexAttribL4dEXT"])),
 VertexAttribL4dv: FnPtr::new(metaloadfn("glVertexAttribL4dv", &["glVertexAttribL4dvEXT"])),
-VertexAttribLFormat: FnPtr::new(metaloadfn("glVertexAttribLFormat", &[])),
 VertexAttribLPointer: FnPtr::new(metaloadfn("glVertexAttribLPointer", &["glVertexAttribLPointerEXT"])),
 VertexAttribP1ui: FnPtr::new(metaloadfn("glVertexAttribP1ui", &[])),
 VertexAttribP1uiv: FnPtr::new(metaloadfn("glVertexAttribP1uiv", &[])),
@@ -3294,7 +2436,6 @@ VertexAttribP3uiv: FnPtr::new(metaloadfn("glVertexAttribP3uiv", &[])),
 VertexAttribP4ui: FnPtr::new(metaloadfn("glVertexAttribP4ui", &[])),
 VertexAttribP4uiv: FnPtr::new(metaloadfn("glVertexAttribP4uiv", &[])),
 VertexAttribPointer: FnPtr::new(metaloadfn("glVertexAttribPointer", &["glVertexAttribPointerARB"])),
-VertexBindingDivisor: FnPtr::new(metaloadfn("glVertexBindingDivisor", &[])),
 VertexP2ui: FnPtr::new(metaloadfn("glVertexP2ui", &[])),
 VertexP2uiv: FnPtr::new(metaloadfn("glVertexP2uiv", &[])),
 VertexP3ui: FnPtr::new(metaloadfn("glVertexP3ui", &[])),
@@ -3332,19 +2473,11 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindBufferRange(&self, target: types::GLenum, index: types::GLuint, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.BindBufferRange.f)(target, index, buffer, offset, size) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindBuffersBase(&self, target: types::GLenum, first: types::GLuint, count: types::GLsizei, buffers: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei, *const types::GLuint) -> ()>(self.BindBuffersBase.f)(target, first, count, buffers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindBuffersRange(&self, target: types::GLenum, first: types::GLuint, count: types::GLsizei, buffers: *const types::GLuint, offsets: *const types::GLintptr, sizes: *const types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei, *const types::GLuint, *const types::GLintptr, *const types::GLsizeiptr) -> ()>(self.BindBuffersRange.f)(target, first, count, buffers, offsets, sizes) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindFragDataLocation(&self, program: types::GLuint, color: types::GLuint, name: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, *const types::GLchar) -> ()>(self.BindFragDataLocation.f)(program, color, name) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindFragDataLocationIndexed(&self, program: types::GLuint, colorNumber: types::GLuint, index: types::GLuint, name: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint, *const types::GLchar) -> ()>(self.BindFragDataLocationIndexed.f)(program, colorNumber, index, name) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindFramebuffer(&self, target: types::GLenum, framebuffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.BindFramebuffer.f)(target, framebuffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindImageTexture(&self, unit: types::GLuint, texture: types::GLuint, level: types::GLint, layered: types::GLboolean, layer: types::GLint, access: types::GLenum, format: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLint, types::GLboolean, types::GLint, types::GLenum, types::GLenum) -> ()>(self.BindImageTexture.f)(unit, texture, level, layered, layer, access, format) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindImageTextures(&self, first: types::GLuint, count: types::GLsizei, textures: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLuint) -> ()>(self.BindImageTextures.f)(first, count, textures) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindProgramPipeline(&self, pipeline: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.BindProgramPipeline.f)(pipeline) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3352,21 +2485,11 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindSampler(&self, unit: types::GLuint, sampler: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.BindSampler.f)(unit, sampler) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindSamplers(&self, first: types::GLuint, count: types::GLsizei, samplers: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLuint) -> ()>(self.BindSamplers.f)(first, count, samplers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindTexture(&self, target: types::GLenum, texture: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.BindTexture.f)(target, texture) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindTextureUnit(&self, unit: types::GLuint, texture: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.BindTextureUnit.f)(unit, texture) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindTextures(&self, first: types::GLuint, count: types::GLsizei, textures: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLuint) -> ()>(self.BindTextures.f)(first, count, textures) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindTransformFeedback(&self, target: types::GLenum, id: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.BindTransformFeedback.f)(target, id) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BindVertexArray(&self, array: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.BindVertexArray.f)(array) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindVertexBuffer(&self, bindingindex: types::GLuint, buffer: types::GLuint, offset: types::GLintptr, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLintptr, types::GLsizei) -> ()>(self.BindVertexBuffer.f)(bindingindex, buffer, offset, stride) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BindVertexBuffers(&self, first: types::GLuint, count: types::GLsizei, buffers: *const types::GLuint, offsets: *const types::GLintptr, strides: *const types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLuint, *const types::GLintptr, *const types::GLsizei) -> ()>(self.BindVertexBuffers.f)(first, count, buffers, offsets, strides) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BlendColor(&self, red: types::GLfloat, green: types::GLfloat, blue: types::GLfloat, alpha: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLfloat, types::GLfloat, types::GLfloat, types::GLfloat) -> ()>(self.BlendColor.f)(red, green, blue, alpha) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3388,25 +2511,15 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BlitFramebuffer(&self, srcX0: types::GLint, srcY0: types::GLint, srcX1: types::GLint, srcY1: types::GLint, dstX0: types::GLint, dstY0: types::GLint, dstX1: types::GLint, dstY1: types::GLint, mask: types::GLbitfield, filter: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLbitfield, types::GLenum) -> ()>(self.BlitFramebuffer.f)(srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BlitNamedFramebuffer(&self, readFramebuffer: types::GLuint, drawFramebuffer: types::GLuint, srcX0: types::GLint, srcY0: types::GLint, srcX1: types::GLint, srcY1: types::GLint, dstX0: types::GLint, dstY0: types::GLint, dstX1: types::GLint, dstY1: types::GLint, mask: types::GLbitfield, filter: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLbitfield, types::GLenum) -> ()>(self.BlitNamedFramebuffer.f)(readFramebuffer, drawFramebuffer, srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BufferData(&self, target: types::GLenum, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void, usage: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizeiptr, *const __gl_imports::raw::c_void, types::GLenum) -> ()>(self.BufferData.f)(target, size, data, usage) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn BufferStorage(&self, target: types::GLenum, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void, flags: types::GLbitfield) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizeiptr, *const __gl_imports::raw::c_void, types::GLbitfield) -> ()>(self.BufferStorage.f)(target, size, data, flags) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn BufferSubData(&self, target: types::GLenum, offset: types::GLintptr, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLintptr, types::GLsizeiptr, *const __gl_imports::raw::c_void) -> ()>(self.BufferSubData.f)(target, offset, size, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CheckFramebufferStatus(&self, target: types::GLenum) -> types::GLenum { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> types::GLenum>(self.CheckFramebufferStatus.f)(target) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CheckNamedFramebufferStatus(&self, framebuffer: types::GLuint, target: types::GLenum) -> types::GLenum { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum) -> types::GLenum>(self.CheckNamedFramebufferStatus.f)(framebuffer, target) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ClampColor(&self, target: types::GLenum, clamp: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum) -> ()>(self.ClampColor.f)(target, clamp) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn Clear(&self, mask: types::GLbitfield) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLbitfield) -> ()>(self.Clear.f)(mask) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearBufferData(&self, target: types::GLenum, internalformat: types::GLenum, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearBufferData.f)(target, internalformat, format, type_, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearBufferSubData(&self, target: types::GLenum, internalformat: types::GLenum, offset: types::GLintptr, size: types::GLsizeiptr, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLintptr, types::GLsizeiptr, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearBufferSubData.f)(target, internalformat, offset, size, format, type_, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ClearBufferfi(&self, buffer: types::GLenum, drawbuffer: types::GLint, depth: types::GLfloat, stencil: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLfloat, types::GLint) -> ()>(self.ClearBufferfi.f)(buffer, drawbuffer, depth, stencil) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3422,27 +2535,9 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ClearDepthf(&self, d: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLfloat) -> ()>(self.ClearDepthf.f)(d) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedBufferData(&self, buffer: types::GLuint, internalformat: types::GLenum, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearNamedBufferData.f)(buffer, internalformat, format, type_, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedBufferSubData(&self, buffer: types::GLuint, internalformat: types::GLenum, offset: types::GLintptr, size: types::GLsizeiptr, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLintptr, types::GLsizeiptr, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearNamedBufferSubData.f)(buffer, internalformat, offset, size, format, type_, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedFramebufferfi(&self, framebuffer: types::GLuint, buffer: types::GLenum, drawbuffer: types::GLint, depth: types::GLfloat, stencil: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint, types::GLfloat, types::GLint) -> ()>(self.ClearNamedFramebufferfi.f)(framebuffer, buffer, drawbuffer, depth, stencil) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedFramebufferfv(&self, framebuffer: types::GLuint, buffer: types::GLenum, drawbuffer: types::GLint, value: *const types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint, *const types::GLfloat) -> ()>(self.ClearNamedFramebufferfv.f)(framebuffer, buffer, drawbuffer, value) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedFramebufferiv(&self, framebuffer: types::GLuint, buffer: types::GLenum, drawbuffer: types::GLint, value: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint, *const types::GLint) -> ()>(self.ClearNamedFramebufferiv.f)(framebuffer, buffer, drawbuffer, value) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearNamedFramebufferuiv(&self, framebuffer: types::GLuint, buffer: types::GLenum, drawbuffer: types::GLint, value: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint, *const types::GLuint) -> ()>(self.ClearNamedFramebufferuiv.f)(framebuffer, buffer, drawbuffer, value) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ClearStencil(&self, s: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLint) -> ()>(self.ClearStencil.f)(s) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearTexImage(&self, texture: types::GLuint, level: types::GLint, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearTexImage.f)(texture, level, format, type_, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClearTexSubImage(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, type_: types::GLenum, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.ClearTexSubImage.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ClientWaitSync(&self, sync: types::GLsync, flags: types::GLbitfield, timeout: types::GLuint64) -> types::GLenum { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsync, types::GLbitfield, types::GLuint64) -> types::GLenum>(self.ClientWaitSync.f)(sync, flags, timeout) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ClipControl(&self, origin: types::GLenum, depth: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum) -> ()>(self.ClipControl.f)(origin, depth) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ColorMask(&self, red: types::GLboolean, green: types::GLboolean, blue: types::GLboolean, alpha: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLboolean, types::GLboolean, types::GLboolean, types::GLboolean) -> ()>(self.ColorMask.f)(red, green, blue, alpha) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3470,17 +2565,7 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CompressedTexSubImage3D(&self, target: types::GLenum, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, imageSize: types::GLsizei, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.CompressedTexSubImage3D.f)(target, level, xoffset, yoffset, zoffset, width, height, depth, format, imageSize, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CompressedTextureSubImage1D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, width: types::GLsizei, format: types::GLenum, imageSize: types::GLsizei, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLsizei, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.CompressedTextureSubImage1D.f)(texture, level, xoffset, width, format, imageSize, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CompressedTextureSubImage2D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, format: types::GLenum, imageSize: types::GLsizei, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.CompressedTextureSubImage2D.f)(texture, level, xoffset, yoffset, width, height, format, imageSize, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CompressedTextureSubImage3D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, imageSize: types::GLsizei, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.CompressedTextureSubImage3D.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, imageSize, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CopyBufferSubData(&self, readTarget: types::GLenum, writeTarget: types::GLenum, readOffset: types::GLintptr, writeOffset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLintptr, types::GLintptr, types::GLsizeiptr) -> ()>(self.CopyBufferSubData.f)(readTarget, writeTarget, readOffset, writeOffset, size) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CopyImageSubData(&self, srcName: types::GLuint, srcTarget: types::GLenum, srcLevel: types::GLint, srcX: types::GLint, srcY: types::GLint, srcZ: types::GLint, dstName: types::GLuint, dstTarget: types::GLenum, dstLevel: types::GLint, dstX: types::GLint, dstY: types::GLint, dstZ: types::GLint, srcWidth: types::GLsizei, srcHeight: types::GLsizei, srcDepth: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint, types::GLint, types::GLint, types::GLint, types::GLuint, types::GLenum, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei) -> ()>(self.CopyImageSubData.f)(srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, srcWidth, srcHeight, srcDepth) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CopyNamedBufferSubData(&self, readBuffer: types::GLuint, writeBuffer: types::GLuint, readOffset: types::GLintptr, writeOffset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLintptr, types::GLintptr, types::GLsizeiptr) -> ()>(self.CopyNamedBufferSubData.f)(readBuffer, writeBuffer, readOffset, writeOffset, size) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CopyTexImage1D(&self, target: types::GLenum, level: types::GLint, internalformat: types::GLenum, x: types::GLint, y: types::GLint, width: types::GLsizei, border: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLenum, types::GLint, types::GLint, types::GLsizei, types::GLint) -> ()>(self.CopyTexImage1D.f)(target, level, internalformat, x, y, width, border) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3492,43 +2577,13 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CopyTexSubImage3D(&self, target: types::GLenum, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.CopyTexSubImage3D.f)(target, level, xoffset, yoffset, zoffset, x, y, width, height) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CopyTextureSubImage1D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, x: types::GLint, y: types::GLint, width: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei) -> ()>(self.CopyTextureSubImage1D.f)(texture, level, xoffset, x, y, width) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CopyTextureSubImage2D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.CopyTextureSubImage2D.f)(texture, level, xoffset, yoffset, x, y, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CopyTextureSubImage3D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.CopyTextureSubImage3D.f)(texture, level, xoffset, yoffset, zoffset, x, y, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateBuffers(&self, n: types::GLsizei, buffers: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateBuffers.f)(n, buffers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateFramebuffers(&self, n: types::GLsizei, framebuffers: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateFramebuffers.f)(n, framebuffers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CreateProgram(&self, ) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn() -> types::GLuint>(self.CreateProgram.f)() }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateProgramPipelines(&self, n: types::GLsizei, pipelines: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateProgramPipelines.f)(n, pipelines) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateQueries(&self, target: types::GLenum, n: types::GLsizei, ids: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *mut types::GLuint) -> ()>(self.CreateQueries.f)(target, n, ids) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateRenderbuffers(&self, n: types::GLsizei, renderbuffers: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateRenderbuffers.f)(n, renderbuffers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateSamplers(&self, n: types::GLsizei, samplers: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateSamplers.f)(n, samplers) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CreateShader(&self, type_: types::GLenum) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> types::GLuint>(self.CreateShader.f)(type_) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CreateShaderProgramv(&self, type_: types::GLenum, count: types::GLsizei, strings: *const *const types::GLchar) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *const *const types::GLchar) -> types::GLuint>(self.CreateShaderProgramv.f)(type_, count, strings) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateTextures(&self, target: types::GLenum, n: types::GLsizei, textures: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *mut types::GLuint) -> ()>(self.CreateTextures.f)(target, n, textures) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateTransformFeedbacks(&self, n: types::GLsizei, ids: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateTransformFeedbacks.f)(n, ids) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn CreateVertexArrays(&self, n: types::GLsizei, arrays: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.CreateVertexArrays.f)(n, arrays) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn CullFace(&self, mode: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.CullFace.f)(mode) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DebugMessageCallback(&self, callback: types::GLDEBUGPROC, userParam: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLDEBUGPROC, *const __gl_imports::raw::c_void) -> ()>(self.DebugMessageCallback.f)(callback, userParam) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DebugMessageControl(&self, source: types::GLenum, type_: types::GLenum, severity: types::GLenum, count: types::GLsizei, ids: *const types::GLuint, enabled: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *const types::GLuint, types::GLboolean) -> ()>(self.DebugMessageControl.f)(source, type_, severity, count, ids, enabled) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DebugMessageInsert(&self, source: types::GLenum, type_: types::GLenum, id: types::GLuint, severity: types::GLenum, length: types::GLsizei, buf: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLuint, types::GLenum, types::GLsizei, *const types::GLchar) -> ()>(self.DebugMessageInsert.f)(source, type_, id, severity, length, buf) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DeleteBuffers(&self, n: types::GLsizei, buffers: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *const types::GLuint) -> ()>(self.DeleteBuffers.f)(n, buffers) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3570,23 +2625,15 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn Disable(&self, cap: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.Disable.f)(cap) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DisableVertexArrayAttrib(&self, vaobj: types::GLuint, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.DisableVertexArrayAttrib.f)(vaobj, index) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DisableVertexAttribArray(&self, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.DisableVertexAttribArray.f)(index) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn Disablei(&self, target: types::GLenum, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.Disablei.f)(target, index) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DispatchCompute(&self, num_groups_x: types::GLuint, num_groups_y: types::GLuint, num_groups_z: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint) -> ()>(self.DispatchCompute.f)(num_groups_x, num_groups_y, num_groups_z) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DispatchComputeIndirect(&self, indirect: types::GLintptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLintptr) -> ()>(self.DispatchComputeIndirect.f)(indirect) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawArrays(&self, mode: types::GLenum, first: types::GLint, count: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLsizei) -> ()>(self.DrawArrays.f)(mode, first, count) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawArraysIndirect(&self, mode: types::GLenum, indirect: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.DrawArraysIndirect.f)(mode, indirect) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawArraysInstanced(&self, mode: types::GLenum, first: types::GLint, count: types::GLsizei, instancecount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.DrawArraysInstanced.f)(mode, first, count, instancecount) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DrawArraysInstancedBaseInstance(&self, mode: types::GLenum, first: types::GLint, count: types::GLsizei, instancecount: types::GLsizei, baseinstance: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLsizei, types::GLsizei, types::GLuint) -> ()>(self.DrawArraysInstancedBaseInstance.f)(mode, first, count, instancecount, baseinstance) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawBuffer(&self, buf: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.DrawBuffer.f)(buf) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3600,11 +2647,7 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawElementsInstanced(&self, mode: types::GLenum, count: types::GLsizei, type_: types::GLenum, indices: *const __gl_imports::raw::c_void, instancecount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei) -> ()>(self.DrawElementsInstanced.f)(mode, count, type_, indices, instancecount) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DrawElementsInstancedBaseInstance(&self, mode: types::GLenum, count: types::GLsizei, type_: types::GLenum, indices: *const __gl_imports::raw::c_void, instancecount: types::GLsizei, baseinstance: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei, types::GLuint) -> ()>(self.DrawElementsInstancedBaseInstance.f)(mode, count, type_, indices, instancecount, baseinstance) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawElementsInstancedBaseVertex(&self, mode: types::GLenum, count: types::GLsizei, type_: types::GLenum, indices: *const __gl_imports::raw::c_void, instancecount: types::GLsizei, basevertex: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei, types::GLint) -> ()>(self.DrawElementsInstancedBaseVertex.f)(mode, count, type_, indices, instancecount, basevertex) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DrawElementsInstancedBaseVertexBaseInstance(&self, mode: types::GLenum, count: types::GLsizei, type_: types::GLenum, indices: *const __gl_imports::raw::c_void, instancecount: types::GLsizei, basevertex: types::GLint, baseinstance: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei, types::GLint, types::GLuint) -> ()>(self.DrawElementsInstancedBaseVertexBaseInstance.f)(mode, count, type_, indices, instancecount, basevertex, baseinstance) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawRangeElements(&self, mode: types::GLenum, start: types::GLuint, end: types::GLuint, count: types::GLsizei, type_: types::GLenum, indices: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLuint, types::GLsizei, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.DrawRangeElements.f)(mode, start, end, count, type_, indices) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3612,15 +2655,9 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawTransformFeedback(&self, mode: types::GLenum, id: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.DrawTransformFeedback.f)(mode, id) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DrawTransformFeedbackInstanced(&self, mode: types::GLenum, id: types::GLuint, instancecount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei) -> ()>(self.DrawTransformFeedbackInstanced.f)(mode, id, instancecount) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn DrawTransformFeedbackStream(&self, mode: types::GLenum, id: types::GLuint, stream: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLuint) -> ()>(self.DrawTransformFeedbackStream.f)(mode, id, stream) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn DrawTransformFeedbackStreamInstanced(&self, mode: types::GLenum, id: types::GLuint, stream: types::GLuint, instancecount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLuint, types::GLsizei) -> ()>(self.DrawTransformFeedbackStreamInstanced.f)(mode, id, stream, instancecount) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn Enable(&self, cap: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.Enable.f)(cap) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn EnableVertexArrayAttrib(&self, vaobj: types::GLuint, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.EnableVertexArrayAttrib.f)(vaobj, index) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn EnableVertexAttribArray(&self, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.EnableVertexAttribArray.f)(index) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3641,10 +2678,6 @@ _priv: ()
             #[inline] pub unsafe fn Flush(&self, ) -> () { __gl_imports::mem::transmute::<_, extern "system" fn() -> ()>(self.Flush.f)() }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn FlushMappedBufferRange(&self, target: types::GLenum, offset: types::GLintptr, length: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLintptr, types::GLsizeiptr) -> ()>(self.FlushMappedBufferRange.f)(target, offset, length) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn FlushMappedNamedBufferRange(&self, buffer: types::GLuint, offset: types::GLintptr, length: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.FlushMappedNamedBufferRange.f)(buffer, offset, length) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn FramebufferParameteri(&self, target: types::GLenum, pname: types::GLenum, param: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLint) -> ()>(self.FramebufferParameteri.f)(target, pname, param) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn FramebufferRenderbuffer(&self, target: types::GLenum, attachment: types::GLenum, renderbuffertarget: types::GLenum, renderbuffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLuint) -> ()>(self.FramebufferRenderbuffer.f)(target, attachment, renderbuffertarget, renderbuffer) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3679,10 +2712,6 @@ _priv: ()
             #[inline] pub unsafe fn GenVertexArrays(&self, n: types::GLsizei, arrays: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLuint) -> ()>(self.GenVertexArrays.f)(n, arrays) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GenerateMipmap(&self, target: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.GenerateMipmap.f)(target) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GenerateTextureMipmap(&self, texture: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.GenerateTextureMipmap.f)(texture) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetActiveAtomicCounterBufferiv(&self, program: types::GLuint, bufferIndex: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetActiveAtomicCounterBufferiv.f)(program, bufferIndex, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetActiveAttrib(&self, program: types::GLuint, index: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, size: *mut types::GLint, type_: *mut types::GLenum, name: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLint, *mut types::GLenum, *mut types::GLchar) -> ()>(self.GetActiveAttrib.f)(program, index, bufSize, length, size, type_, name) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3720,12 +2749,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetCompressedTexImage(&self, target: types::GLenum, level: types::GLint, img: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, *mut __gl_imports::raw::c_void) -> ()>(self.GetCompressedTexImage.f)(target, level, img) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetCompressedTextureImage(&self, texture: types::GLuint, level: types::GLint, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetCompressedTextureImage.f)(texture, level, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetCompressedTextureSubImage(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetCompressedTextureSubImage.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetDebugMessageLog(&self, count: types::GLuint, bufSize: types::GLsizei, sources: *mut types::GLenum, types: *mut types::GLenum, ids: *mut types::GLuint, severities: *mut types::GLenum, lengths: *mut types::GLsizei, messageLog: *mut types::GLchar) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *mut types::GLenum, *mut types::GLenum, *mut types::GLuint, *mut types::GLenum, *mut types::GLsizei, *mut types::GLchar) -> types::GLuint>(self.GetDebugMessageLog.f)(count, bufSize, sources, types, ids, severities, lengths, messageLog) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetDoublei_v(&self, target: types::GLenum, index: types::GLuint, data: *mut types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, *mut types::GLdouble) -> ()>(self.GetDoublei_v.f)(target, index, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetDoublev(&self, pname: types::GLenum, data: *mut types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *mut types::GLdouble) -> ()>(self.GetDoublev.f)(pname, data) }
@@ -3742,10 +2765,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetFramebufferAttachmentParameteriv(&self, target: types::GLenum, attachment: types::GLenum, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetFramebufferAttachmentParameteriv.f)(target, attachment, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetFramebufferParameteriv(&self, target: types::GLenum, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetFramebufferParameteriv.f)(target, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetGraphicsResetStatus(&self, ) -> types::GLenum { __gl_imports::mem::transmute::<_, extern "system" fn() -> types::GLenum>(self.GetGraphicsResetStatus.f)() }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetInteger64i_v(&self, target: types::GLenum, index: types::GLuint, data: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, *mut types::GLint64) -> ()>(self.GetInteger64i_v.f)(target, index, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetInteger64v(&self, pname: types::GLenum, data: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *mut types::GLint64) -> ()>(self.GetInteger64v.f)(pname, data) }
@@ -3754,63 +2773,19 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetIntegerv(&self, pname: types::GLenum, data: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *mut types::GLint) -> ()>(self.GetIntegerv.f)(pname, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetInternalformati64v(&self, target: types::GLenum, internalformat: types::GLenum, pname: types::GLenum, bufSize: types::GLsizei, params: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *mut types::GLint64) -> ()>(self.GetInternalformati64v.f)(target, internalformat, pname, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetInternalformativ(&self, target: types::GLenum, internalformat: types::GLenum, pname: types::GLenum, bufSize: types::GLsizei, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *mut types::GLint) -> ()>(self.GetInternalformativ.f)(target, internalformat, pname, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetMultisamplefv(&self, pname: types::GLenum, index: types::GLuint, val: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, *mut types::GLfloat) -> ()>(self.GetMultisamplefv.f)(pname, index, val) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedBufferParameteri64v(&self, buffer: types::GLuint, pname: types::GLenum, params: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint64) -> ()>(self.GetNamedBufferParameteri64v.f)(buffer, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedBufferParameteriv(&self, buffer: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetNamedBufferParameteriv.f)(buffer, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedBufferPointerv(&self, buffer: types::GLuint, pname: types::GLenum, params: *const *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const *mut __gl_imports::raw::c_void) -> ()>(self.GetNamedBufferPointerv.f)(buffer, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedBufferSubData(&self, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr, data: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLintptr, types::GLsizeiptr, *mut __gl_imports::raw::c_void) -> ()>(self.GetNamedBufferSubData.f)(buffer, offset, size, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedFramebufferAttachmentParameteriv(&self, framebuffer: types::GLuint, attachment: types::GLenum, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetNamedFramebufferAttachmentParameteriv.f)(framebuffer, attachment, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedFramebufferParameteriv(&self, framebuffer: types::GLuint, pname: types::GLenum, param: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetNamedFramebufferParameteriv.f)(framebuffer, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetNamedRenderbufferParameteriv(&self, renderbuffer: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetNamedRenderbufferParameteriv.f)(renderbuffer, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetObjectLabel(&self, identifier: types::GLenum, name: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, label: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLchar) -> ()>(self.GetObjectLabel.f)(identifier, name, bufSize, length, label) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetObjectPtrLabel(&self, ptr: *const __gl_imports::raw::c_void, bufSize: types::GLsizei, length: *mut types::GLsizei, label: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(*const __gl_imports::raw::c_void, types::GLsizei, *mut types::GLsizei, *mut types::GLchar) -> ()>(self.GetObjectPtrLabel.f)(ptr, bufSize, length, label) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetPointerv(&self, pname: types::GLenum, params: *const *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const *mut __gl_imports::raw::c_void) -> ()>(self.GetPointerv.f)(pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramBinary(&self, program: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, binaryFormat: *mut types::GLenum, binary: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLenum, *mut __gl_imports::raw::c_void) -> ()>(self.GetProgramBinary.f)(program, bufSize, length, binaryFormat, binary) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramInfoLog(&self, program: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, infoLog: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLchar) -> ()>(self.GetProgramInfoLog.f)(program, bufSize, length, infoLog) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramInterfaceiv(&self, program: types::GLuint, programInterface: types::GLenum, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetProgramInterfaceiv.f)(program, programInterface, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramPipelineInfoLog(&self, pipeline: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, infoLog: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLchar) -> ()>(self.GetProgramPipelineInfoLog.f)(pipeline, bufSize, length, infoLog) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramPipelineiv(&self, pipeline: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetProgramPipelineiv.f)(pipeline, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramResourceIndex(&self, program: types::GLuint, programInterface: types::GLenum, name: *const types::GLchar) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLchar) -> types::GLuint>(self.GetProgramResourceIndex.f)(program, programInterface, name) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramResourceLocation(&self, program: types::GLuint, programInterface: types::GLenum, name: *const types::GLchar) -> types::GLint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLchar) -> types::GLint>(self.GetProgramResourceLocation.f)(program, programInterface, name) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramResourceLocationIndex(&self, program: types::GLuint, programInterface: types::GLenum, name: *const types::GLchar) -> types::GLint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLchar) -> types::GLint>(self.GetProgramResourceLocationIndex.f)(program, programInterface, name) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramResourceName(&self, program: types::GLuint, programInterface: types::GLenum, index: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, name: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLchar) -> ()>(self.GetProgramResourceName.f)(program, programInterface, index, bufSize, length, name) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetProgramResourceiv(&self, program: types::GLuint, programInterface: types::GLenum, index: types::GLuint, propCount: types::GLsizei, props: *const types::GLenum, bufSize: types::GLsizei, length: *mut types::GLsizei, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLsizei, *const types::GLenum, types::GLsizei, *mut types::GLsizei, *mut types::GLint) -> ()>(self.GetProgramResourceiv.f)(program, programInterface, index, propCount, props, bufSize, length, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramStageiv(&self, program: types::GLuint, shadertype: types::GLenum, pname: types::GLenum, values: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetProgramStageiv.f)(program, shadertype, pname, values) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetProgramiv(&self, program: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetProgramiv.f)(program, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetQueryBufferObjecti64v(&self, id: types::GLuint, buffer: types::GLuint, pname: types::GLenum, offset: types::GLintptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, types::GLintptr) -> ()>(self.GetQueryBufferObjecti64v.f)(id, buffer, pname, offset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetQueryBufferObjectiv(&self, id: types::GLuint, buffer: types::GLuint, pname: types::GLenum, offset: types::GLintptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, types::GLintptr) -> ()>(self.GetQueryBufferObjectiv.f)(id, buffer, pname, offset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetQueryBufferObjectui64v(&self, id: types::GLuint, buffer: types::GLuint, pname: types::GLenum, offset: types::GLintptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, types::GLintptr) -> ()>(self.GetQueryBufferObjectui64v.f)(id, buffer, pname, offset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetQueryBufferObjectuiv(&self, id: types::GLuint, buffer: types::GLuint, pname: types::GLenum, offset: types::GLintptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, types::GLintptr) -> ()>(self.GetQueryBufferObjectuiv.f)(id, buffer, pname, offset) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetQueryIndexediv(&self, target: types::GLenum, index: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetQueryIndexediv.f)(target, index, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3866,29 +2841,7 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetTexParameteriv(&self, target: types::GLenum, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *mut types::GLint) -> ()>(self.GetTexParameteriv.f)(target, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureImage(&self, texture: types::GLuint, level: types::GLint, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetTextureImage.f)(texture, level, format, type_, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureLevelParameterfv(&self, texture: types::GLuint, level: types::GLint, pname: types::GLenum, params: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, *mut types::GLfloat) -> ()>(self.GetTextureLevelParameterfv.f)(texture, level, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureLevelParameteriv(&self, texture: types::GLuint, level: types::GLint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, *mut types::GLint) -> ()>(self.GetTextureLevelParameteriv.f)(texture, level, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureParameterIiv(&self, texture: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetTextureParameterIiv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureParameterIuiv(&self, texture: types::GLuint, pname: types::GLenum, params: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLuint) -> ()>(self.GetTextureParameterIuiv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureParameterfv(&self, texture: types::GLuint, pname: types::GLenum, params: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLfloat) -> ()>(self.GetTextureParameterfv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureParameteriv(&self, texture: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetTextureParameteriv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTextureSubImage(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetTextureSubImage.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetTransformFeedbackVarying(&self, program: types::GLuint, index: types::GLuint, bufSize: types::GLsizei, length: *mut types::GLsizei, size: *mut types::GLsizei, type_: *mut types::GLenum, name: *mut types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLsizei, *mut types::GLsizei, *mut types::GLsizei, *mut types::GLenum, *mut types::GLchar) -> ()>(self.GetTransformFeedbackVarying.f)(program, index, bufSize, length, size, type_, name) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTransformFeedbacki64_v(&self, xfb: types::GLuint, pname: types::GLenum, index: types::GLuint, param: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, *mut types::GLint64) -> ()>(self.GetTransformFeedbacki64_v.f)(xfb, pname, index, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTransformFeedbacki_v(&self, xfb: types::GLuint, pname: types::GLenum, index: types::GLuint, param: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, *mut types::GLint) -> ()>(self.GetTransformFeedbacki_v.f)(xfb, pname, index, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetTransformFeedbackiv(&self, xfb: types::GLuint, pname: types::GLenum, param: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetTransformFeedbackiv.f)(xfb, pname, param) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetUniformBlockIndex(&self, program: types::GLuint, uniformBlockName: *const types::GLchar) -> types::GLuint { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, *const types::GLchar) -> types::GLuint>(self.GetUniformBlockIndex.f)(program, uniformBlockName) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -3906,12 +2859,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetUniformuiv(&self, program: types::GLuint, location: types::GLint, params: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, *mut types::GLuint) -> ()>(self.GetUniformuiv.f)(program, location, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetVertexArrayIndexed64iv(&self, vaobj: types::GLuint, index: types::GLuint, pname: types::GLenum, param: *mut types::GLint64) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, *mut types::GLint64) -> ()>(self.GetVertexArrayIndexed64iv.f)(vaobj, index, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetVertexArrayIndexediv(&self, vaobj: types::GLuint, index: types::GLuint, pname: types::GLenum, param: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetVertexArrayIndexediv.f)(vaobj, index, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetVertexArrayiv(&self, vaobj: types::GLuint, pname: types::GLenum, param: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetVertexArrayiv.f)(vaobj, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetVertexAttribIiv(&self, index: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetVertexAttribIiv.f)(index, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetVertexAttribIuiv(&self, index: types::GLuint, pname: types::GLenum, params: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLuint) -> ()>(self.GetVertexAttribIuiv.f)(index, pname, params) }
@@ -3926,59 +2873,7 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn GetVertexAttribiv(&self, index: types::GLuint, pname: types::GLenum, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *mut types::GLint) -> ()>(self.GetVertexAttribiv.f)(index, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnColorTable(&self, target: types::GLenum, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, table: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnColorTable.f)(target, format, type_, bufSize, table) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnCompressedTexImage(&self, target: types::GLenum, lod: types::GLint, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnCompressedTexImage.f)(target, lod, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnConvolutionFilter(&self, target: types::GLenum, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, image: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnConvolutionFilter.f)(target, format, type_, bufSize, image) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnHistogram(&self, target: types::GLenum, reset: types::GLboolean, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, values: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLboolean, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnHistogram.f)(target, reset, format, type_, bufSize, values) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnMapdv(&self, target: types::GLenum, query: types::GLenum, bufSize: types::GLsizei, v: *mut types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLsizei, *mut types::GLdouble) -> ()>(self.GetnMapdv.f)(target, query, bufSize, v) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnMapfv(&self, target: types::GLenum, query: types::GLenum, bufSize: types::GLsizei, v: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLsizei, *mut types::GLfloat) -> ()>(self.GetnMapfv.f)(target, query, bufSize, v) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnMapiv(&self, target: types::GLenum, query: types::GLenum, bufSize: types::GLsizei, v: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLsizei, *mut types::GLint) -> ()>(self.GetnMapiv.f)(target, query, bufSize, v) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnMinmax(&self, target: types::GLenum, reset: types::GLboolean, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, values: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLboolean, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnMinmax.f)(target, reset, format, type_, bufSize, values) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnPixelMapfv(&self, map: types::GLenum, bufSize: types::GLsizei, values: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *mut types::GLfloat) -> ()>(self.GetnPixelMapfv.f)(map, bufSize, values) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnPixelMapuiv(&self, map: types::GLenum, bufSize: types::GLsizei, values: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *mut types::GLuint) -> ()>(self.GetnPixelMapuiv.f)(map, bufSize, values) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnPixelMapusv(&self, map: types::GLenum, bufSize: types::GLsizei, values: *mut types::GLushort) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *mut types::GLushort) -> ()>(self.GetnPixelMapusv.f)(map, bufSize, values) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnPolygonStipple(&self, bufSize: types::GLsizei, pattern: *mut types::GLubyte) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLsizei, *mut types::GLubyte) -> ()>(self.GetnPolygonStipple.f)(bufSize, pattern) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnSeparableFilter(&self, target: types::GLenum, format: types::GLenum, type_: types::GLenum, rowBufSize: types::GLsizei, row: *mut __gl_imports::raw::c_void, columnBufSize: types::GLsizei, column: *mut __gl_imports::raw::c_void, span: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void, types::GLsizei, *mut __gl_imports::raw::c_void, *mut __gl_imports::raw::c_void) -> ()>(self.GetnSeparableFilter.f)(target, format, type_, rowBufSize, row, columnBufSize, column, span) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnTexImage(&self, target: types::GLenum, level: types::GLint, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.GetnTexImage.f)(target, level, format, type_, bufSize, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnUniformdv(&self, program: types::GLuint, location: types::GLint, bufSize: types::GLsizei, params: *mut types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLsizei, *mut types::GLdouble) -> ()>(self.GetnUniformdv.f)(program, location, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnUniformfv(&self, program: types::GLuint, location: types::GLint, bufSize: types::GLsizei, params: *mut types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLsizei, *mut types::GLfloat) -> ()>(self.GetnUniformfv.f)(program, location, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnUniformiv(&self, program: types::GLuint, location: types::GLint, bufSize: types::GLsizei, params: *mut types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLsizei, *mut types::GLint) -> ()>(self.GetnUniformiv.f)(program, location, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn GetnUniformuiv(&self, program: types::GLuint, location: types::GLint, bufSize: types::GLsizei, params: *mut types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLsizei, *mut types::GLuint) -> ()>(self.GetnUniformuiv.f)(program, location, bufSize, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn Hint(&self, target: types::GLenum, mode: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum) -> ()>(self.Hint.f)(target, mode) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateBufferData(&self, buffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.InvalidateBufferData.f)(buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateBufferSubData(&self, buffer: types::GLuint, offset: types::GLintptr, length: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.InvalidateBufferSubData.f)(buffer, offset, length) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateFramebuffer(&self, target: types::GLenum, numAttachments: types::GLsizei, attachments: *const types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *const types::GLenum) -> ()>(self.InvalidateFramebuffer.f)(target, numAttachments, attachments) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateNamedFramebufferData(&self, framebuffer: types::GLuint, numAttachments: types::GLsizei, attachments: *const types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLenum) -> ()>(self.InvalidateNamedFramebufferData.f)(framebuffer, numAttachments, attachments) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateNamedFramebufferSubData(&self, framebuffer: types::GLuint, numAttachments: types::GLsizei, attachments: *const types::GLenum, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLenum, types::GLint, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.InvalidateNamedFramebufferSubData.f)(framebuffer, numAttachments, attachments, x, y, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateSubFramebuffer(&self, target: types::GLenum, numAttachments: types::GLsizei, attachments: *const types::GLenum, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, *const types::GLenum, types::GLint, types::GLint, types::GLsizei, types::GLsizei) -> ()>(self.InvalidateSubFramebuffer.f)(target, numAttachments, attachments, x, y, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateTexImage(&self, texture: types::GLuint, level: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint) -> ()>(self.InvalidateTexImage.f)(texture, level) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn InvalidateTexSubImage(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei) -> ()>(self.InvalidateTexSubImage.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn IsBuffer(&self, buffer: types::GLuint) -> types::GLboolean { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> types::GLboolean>(self.IsBuffer.f)(buffer) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4018,29 +2913,13 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MapBufferRange(&self, target: types::GLenum, offset: types::GLintptr, length: types::GLsizeiptr, access: types::GLbitfield) -> *mut __gl_imports::raw::c_void { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLintptr, types::GLsizeiptr, types::GLbitfield) -> *mut __gl_imports::raw::c_void>(self.MapBufferRange.f)(target, offset, length, access) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MapNamedBuffer(&self, buffer: types::GLuint, access: types::GLenum) -> *mut __gl_imports::raw::c_void { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum) -> *mut __gl_imports::raw::c_void>(self.MapNamedBuffer.f)(buffer, access) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MapNamedBufferRange(&self, buffer: types::GLuint, offset: types::GLintptr, length: types::GLsizeiptr, access: types::GLbitfield) -> *mut __gl_imports::raw::c_void { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLintptr, types::GLsizeiptr, types::GLbitfield) -> *mut __gl_imports::raw::c_void>(self.MapNamedBufferRange.f)(buffer, offset, length, access) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MemoryBarrier(&self, barriers: types::GLbitfield) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLbitfield) -> ()>(self.MemoryBarrier.f)(barriers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MemoryBarrierByRegion(&self, barriers: types::GLbitfield) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLbitfield) -> ()>(self.MemoryBarrierByRegion.f)(barriers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MinSampleShading(&self, value: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLfloat) -> ()>(self.MinSampleShading.f)(value) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MultiDrawArrays(&self, mode: types::GLenum, first: *const types::GLint, count: *const types::GLsizei, drawcount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const types::GLint, *const types::GLsizei, types::GLsizei) -> ()>(self.MultiDrawArrays.f)(mode, first, count, drawcount) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MultiDrawArraysIndirect(&self, mode: types::GLenum, indirect: *const __gl_imports::raw::c_void, drawcount: types::GLsizei, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei, types::GLsizei) -> ()>(self.MultiDrawArraysIndirect.f)(mode, indirect, drawcount, stride) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MultiDrawArraysIndirectCount(&self, mode: types::GLenum, indirect: *const __gl_imports::raw::c_void, drawcount: types::GLintptr, maxdrawcount: types::GLsizei, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const __gl_imports::raw::c_void, types::GLintptr, types::GLsizei, types::GLsizei) -> ()>(self.MultiDrawArraysIndirectCount.f)(mode, indirect, drawcount, maxdrawcount, stride) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MultiDrawElements(&self, mode: types::GLenum, count: *const types::GLsizei, type_: types::GLenum, indices: *const *const __gl_imports::raw::c_void, drawcount: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const types::GLsizei, types::GLenum, *const *const __gl_imports::raw::c_void, types::GLsizei) -> ()>(self.MultiDrawElements.f)(mode, count, type_, indices, drawcount) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MultiDrawElementsBaseVertex(&self, mode: types::GLenum, count: *const types::GLsizei, type_: types::GLenum, indices: *const *const __gl_imports::raw::c_void, drawcount: types::GLsizei, basevertex: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const types::GLsizei, types::GLenum, *const *const __gl_imports::raw::c_void, types::GLsizei, *const types::GLint) -> ()>(self.MultiDrawElementsBaseVertex.f)(mode, count, type_, indices, drawcount, basevertex) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MultiDrawElementsIndirect(&self, mode: types::GLenum, type_: types::GLenum, indirect: *const __gl_imports::raw::c_void, drawcount: types::GLsizei, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *const __gl_imports::raw::c_void, types::GLsizei, types::GLsizei) -> ()>(self.MultiDrawElementsIndirect.f)(mode, type_, indirect, drawcount, stride) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn MultiDrawElementsIndirectCount(&self, mode: types::GLenum, type_: types::GLenum, indirect: *const __gl_imports::raw::c_void, drawcount: types::GLintptr, maxdrawcount: types::GLsizei, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *const __gl_imports::raw::c_void, types::GLintptr, types::GLsizei, types::GLsizei) -> ()>(self.MultiDrawElementsIndirectCount.f)(mode, type_, indirect, drawcount, maxdrawcount, stride) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MultiTexCoordP1ui(&self, texture: types::GLenum, type_: types::GLenum, coords: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLuint) -> ()>(self.MultiTexCoordP1ui.f)(texture, type_, coords) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4058,37 +2937,9 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn MultiTexCoordP4uiv(&self, texture: types::GLenum, type_: types::GLenum, coords: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *const types::GLuint) -> ()>(self.MultiTexCoordP4uiv.f)(texture, type_, coords) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedBufferData(&self, buffer: types::GLuint, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void, usage: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizeiptr, *const __gl_imports::raw::c_void, types::GLenum) -> ()>(self.NamedBufferData.f)(buffer, size, data, usage) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedBufferStorage(&self, buffer: types::GLuint, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void, flags: types::GLbitfield) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizeiptr, *const __gl_imports::raw::c_void, types::GLbitfield) -> ()>(self.NamedBufferStorage.f)(buffer, size, data, flags) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedBufferSubData(&self, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr, data: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLintptr, types::GLsizeiptr, *const __gl_imports::raw::c_void) -> ()>(self.NamedBufferSubData.f)(buffer, offset, size, data) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferDrawBuffer(&self, framebuffer: types::GLuint, buf: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum) -> ()>(self.NamedFramebufferDrawBuffer.f)(framebuffer, buf) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferDrawBuffers(&self, framebuffer: types::GLuint, n: types::GLsizei, bufs: *const types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const types::GLenum) -> ()>(self.NamedFramebufferDrawBuffers.f)(framebuffer, n, bufs) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferParameteri(&self, framebuffer: types::GLuint, pname: types::GLenum, param: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint) -> ()>(self.NamedFramebufferParameteri.f)(framebuffer, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferReadBuffer(&self, framebuffer: types::GLuint, src: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum) -> ()>(self.NamedFramebufferReadBuffer.f)(framebuffer, src) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferRenderbuffer(&self, framebuffer: types::GLuint, attachment: types::GLenum, renderbuffertarget: types::GLenum, renderbuffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLenum, types::GLuint) -> ()>(self.NamedFramebufferRenderbuffer.f)(framebuffer, attachment, renderbuffertarget, renderbuffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferTexture(&self, framebuffer: types::GLuint, attachment: types::GLenum, texture: types::GLuint, level: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLint) -> ()>(self.NamedFramebufferTexture.f)(framebuffer, attachment, texture, level) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedFramebufferTextureLayer(&self, framebuffer: types::GLuint, attachment: types::GLenum, texture: types::GLuint, level: types::GLint, layer: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLint, types::GLint) -> ()>(self.NamedFramebufferTextureLayer.f)(framebuffer, attachment, texture, level, layer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedRenderbufferStorage(&self, renderbuffer: types::GLuint, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLsizei, types::GLsizei) -> ()>(self.NamedRenderbufferStorage.f)(renderbuffer, internalformat, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn NamedRenderbufferStorageMultisample(&self, renderbuffer: types::GLuint, samples: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei) -> ()>(self.NamedRenderbufferStorageMultisample.f)(renderbuffer, samples, internalformat, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn NormalP3ui(&self, type_: types::GLenum, coords: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.NormalP3ui.f)(type_, coords) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn NormalP3uiv(&self, type_: types::GLenum, coords: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const types::GLuint) -> ()>(self.NormalP3uiv.f)(type_, coords) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ObjectLabel(&self, identifier: types::GLenum, name: types::GLuint, length: types::GLsizei, label: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei, *const types::GLchar) -> ()>(self.ObjectLabel.f)(identifier, name, length, label) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ObjectPtrLabel(&self, ptr: *const __gl_imports::raw::c_void, length: types::GLsizei, label: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(*const __gl_imports::raw::c_void, types::GLsizei, *const types::GLchar) -> ()>(self.ObjectPtrLabel.f)(ptr, length, label) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn PatchParameterfv(&self, pname: types::GLenum, values: *const types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, *const types::GLfloat) -> ()>(self.PatchParameterfv.f)(pname, values) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4113,10 +2964,6 @@ _priv: ()
             #[inline] pub unsafe fn PolygonMode(&self, face: types::GLenum, mode: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum) -> ()>(self.PolygonMode.f)(face, mode) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn PolygonOffset(&self, factor: types::GLfloat, units: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLfloat, types::GLfloat) -> ()>(self.PolygonOffset.f)(factor, units) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn PolygonOffsetClamp(&self, factor: types::GLfloat, units: types::GLfloat, clamp: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLfloat, types::GLfloat, types::GLfloat) -> ()>(self.PolygonOffsetClamp.f)(factor, units, clamp) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn PopDebugGroup(&self, ) -> () { __gl_imports::mem::transmute::<_, extern "system" fn() -> ()>(self.PopDebugGroup.f)() }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn PrimitiveRestartIndex(&self, index: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.PrimitiveRestartIndex.f)(index) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4226,15 +3073,11 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ProvokingVertex(&self, mode: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.ProvokingVertex.f)(mode) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn PushDebugGroup(&self, source: types::GLenum, id: types::GLuint, length: types::GLsizei, message: *const types::GLchar) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint, types::GLsizei, *const types::GLchar) -> ()>(self.PushDebugGroup.f)(source, id, length, message) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn QueryCounter(&self, id: types::GLuint, target: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum) -> ()>(self.QueryCounter.f)(id, target) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ReadBuffer(&self, src: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> ()>(self.ReadBuffer.f)(src) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ReadPixels(&self, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *mut __gl_imports::raw::c_void) -> ()>(self.ReadPixels.f)(x, y, width, height, format, type_, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ReadnPixels(&self, x: types::GLint, y: types::GLint, width: types::GLsizei, height: types::GLsizei, format: types::GLenum, type_: types::GLenum, bufSize: types::GLsizei, data: *mut __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, types::GLsizei, *mut __gl_imports::raw::c_void) -> ()>(self.ReadnPixels.f)(x, y, width, height, format, type_, bufSize, data) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ReleaseShaderCompiler(&self, ) -> () { __gl_imports::mem::transmute::<_, extern "system" fn() -> ()>(self.ReleaseShaderCompiler.f)() }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4276,10 +3119,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ShaderSource(&self, shader: types::GLuint, count: types::GLsizei, string: *const *const types::GLchar, length: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const *const types::GLchar, *const types::GLint) -> ()>(self.ShaderSource.f)(shader, count, string, length) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn ShaderStorageBlockBinding(&self, program: types::GLuint, storageBlockIndex: types::GLuint, storageBlockBinding: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint) -> ()>(self.ShaderStorageBlockBinding.f)(program, storageBlockIndex, storageBlockBinding) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn SpecializeShader(&self, shader: types::GLuint, pEntryPoint: *const types::GLchar, numSpecializationConstants: types::GLuint, pConstantIndex: *const types::GLuint, pConstantValue: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, *const types::GLchar, types::GLuint, *const types::GLuint, *const types::GLuint) -> ()>(self.SpecializeShader.f)(shader, pEntryPoint, numSpecializationConstants, pConstantIndex, pConstantValue) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn StencilFunc(&self, func: types::GLenum, ref_: types::GLint, mask: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLuint) -> ()>(self.StencilFunc.f)(func, ref_, mask) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn StencilFuncSeparate(&self, face: types::GLenum, func: types::GLenum, ref_: types::GLint, mask: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLint, types::GLuint) -> ()>(self.StencilFuncSeparate.f)(face, func, ref_, mask) }
@@ -4293,8 +3132,6 @@ _priv: ()
             #[inline] pub unsafe fn StencilOpSeparate(&self, face: types::GLenum, sfail: types::GLenum, dpfail: types::GLenum, dppass: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLenum, types::GLenum) -> ()>(self.StencilOpSeparate.f)(face, sfail, dpfail, dppass) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexBuffer(&self, target: types::GLenum, internalformat: types::GLenum, buffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLuint) -> ()>(self.TexBuffer.f)(target, internalformat, buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexBufferRange(&self, target: types::GLenum, internalformat: types::GLenum, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.TexBufferRange.f)(target, internalformat, buffer, offset, size) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexCoordP1ui(&self, type_: types::GLenum, coords: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.TexCoordP1ui.f)(type_, coords) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4334,61 +3171,11 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexParameteriv(&self, target: types::GLenum, pname: types::GLenum, params: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLenum, *const types::GLint) -> ()>(self.TexParameteriv.f)(target, pname, params) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexStorage1D(&self, target: types::GLenum, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, types::GLsizei) -> ()>(self.TexStorage1D.f)(target, levels, internalformat, width) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexStorage2D(&self, target: types::GLenum, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei) -> ()>(self.TexStorage2D.f)(target, levels, internalformat, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexStorage2DMultisample(&self, target: types::GLenum, samples: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, fixedsamplelocations: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLboolean) -> ()>(self.TexStorage2DMultisample.f)(target, samples, internalformat, width, height, fixedsamplelocations) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexStorage3D(&self, target: types::GLenum, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLsizei) -> ()>(self.TexStorage3D.f)(target, levels, internalformat, width, height, depth) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TexStorage3DMultisample(&self, target: types::GLenum, samples: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, fixedsamplelocations: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLsizei, types::GLboolean) -> ()>(self.TexStorage3DMultisample.f)(target, samples, internalformat, width, height, depth, fixedsamplelocations) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexSubImage1D(&self, target: types::GLenum, level: types::GLint, xoffset: types::GLint, width: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLint, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TexSubImage1D.f)(target, level, xoffset, width, format, type_, pixels) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexSubImage2D(&self, target: types::GLenum, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TexSubImage2D.f)(target, level, xoffset, yoffset, width, height, format, type_, pixels) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TexSubImage3D(&self, target: types::GLenum, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TexSubImage3D.f)(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureBarrier(&self, ) -> () { __gl_imports::mem::transmute::<_, extern "system" fn() -> ()>(self.TextureBarrier.f)() }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureBuffer(&self, texture: types::GLuint, internalformat: types::GLenum, buffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint) -> ()>(self.TextureBuffer.f)(texture, internalformat, buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureBufferRange(&self, texture: types::GLuint, internalformat: types::GLenum, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.TextureBufferRange.f)(texture, internalformat, buffer, offset, size) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameterIiv(&self, texture: types::GLuint, pname: types::GLenum, params: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLint) -> ()>(self.TextureParameterIiv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameterIuiv(&self, texture: types::GLuint, pname: types::GLenum, params: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLuint) -> ()>(self.TextureParameterIuiv.f)(texture, pname, params) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameterf(&self, texture: types::GLuint, pname: types::GLenum, param: types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLfloat) -> ()>(self.TextureParameterf.f)(texture, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameterfv(&self, texture: types::GLuint, pname: types::GLenum, param: *const types::GLfloat) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLfloat) -> ()>(self.TextureParameterfv.f)(texture, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameteri(&self, texture: types::GLuint, pname: types::GLenum, param: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLint) -> ()>(self.TextureParameteri.f)(texture, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureParameteriv(&self, texture: types::GLuint, pname: types::GLenum, param: *const types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, *const types::GLint) -> ()>(self.TextureParameteriv.f)(texture, pname, param) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureStorage1D(&self, texture: types::GLuint, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei) -> ()>(self.TextureStorage1D.f)(texture, levels, internalformat, width) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureStorage2D(&self, texture: types::GLuint, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei) -> ()>(self.TextureStorage2D.f)(texture, levels, internalformat, width, height) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureStorage2DMultisample(&self, texture: types::GLuint, samples: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, fixedsamplelocations: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLboolean) -> ()>(self.TextureStorage2DMultisample.f)(texture, samples, internalformat, width, height, fixedsamplelocations) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureStorage3D(&self, texture: types::GLuint, levels: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLsizei) -> ()>(self.TextureStorage3D.f)(texture, levels, internalformat, width, height, depth) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureStorage3DMultisample(&self, texture: types::GLuint, samples: types::GLsizei, internalformat: types::GLenum, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, fixedsamplelocations: types::GLboolean) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, types::GLenum, types::GLsizei, types::GLsizei, types::GLsizei, types::GLboolean) -> ()>(self.TextureStorage3DMultisample.f)(texture, samples, internalformat, width, height, depth, fixedsamplelocations) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureSubImage1D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, width: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TextureSubImage1D.f)(texture, level, xoffset, width, format, type_, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureSubImage2D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TextureSubImage2D.f)(texture, level, xoffset, yoffset, width, height, format, type_, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureSubImage3D(&self, texture: types::GLuint, level: types::GLint, xoffset: types::GLint, yoffset: types::GLint, zoffset: types::GLint, width: types::GLsizei, height: types::GLsizei, depth: types::GLsizei, format: types::GLenum, type_: types::GLenum, pixels: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLint, types::GLint, types::GLint, types::GLsizei, types::GLsizei, types::GLsizei, types::GLenum, types::GLenum, *const __gl_imports::raw::c_void) -> ()>(self.TextureSubImage3D.f)(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TextureView(&self, texture: types::GLuint, target: types::GLenum, origtexture: types::GLuint, internalformat: types::GLenum, minlevel: types::GLuint, numlevels: types::GLuint, minlayer: types::GLuint, numlayers: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLuint, types::GLenum, types::GLuint, types::GLuint, types::GLuint, types::GLuint) -> ()>(self.TextureView.f)(texture, target, origtexture, internalformat, minlevel, numlevels, minlayer, numlayers) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TransformFeedbackBufferBase(&self, xfb: types::GLuint, index: types::GLuint, buffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint) -> ()>(self.TransformFeedbackBufferBase.f)(xfb, index, buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn TransformFeedbackBufferRange(&self, xfb: types::GLuint, index: types::GLuint, buffer: types::GLuint, offset: types::GLintptr, size: types::GLsizeiptr) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint, types::GLintptr, types::GLsizeiptr) -> ()>(self.TransformFeedbackBufferRange.f)(xfb, index, buffer, offset, size) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn TransformFeedbackVaryings(&self, program: types::GLuint, count: types::GLsizei, varyings: *const *const types::GLchar, bufferMode: types::GLenum) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLsizei, *const *const types::GLchar, types::GLenum) -> ()>(self.TransformFeedbackVaryings.f)(program, count, varyings, bufferMode) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4498,8 +3285,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn UnmapBuffer(&self, target: types::GLenum) -> types::GLboolean { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum) -> types::GLboolean>(self.UnmapBuffer.f)(target) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn UnmapNamedBuffer(&self, buffer: types::GLuint) -> types::GLboolean { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> types::GLboolean>(self.UnmapNamedBuffer.f)(buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn UseProgram(&self, program: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.UseProgram.f)(program) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn UseProgramStages(&self, pipeline: types::GLuint, stages: types::GLbitfield, program: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLbitfield, types::GLuint) -> ()>(self.UseProgramStages.f)(pipeline, stages, program) }
@@ -4507,22 +3292,6 @@ _priv: ()
             #[inline] pub unsafe fn ValidateProgram(&self, program: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.ValidateProgram.f)(program) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn ValidateProgramPipeline(&self, pipeline: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint) -> ()>(self.ValidateProgramPipeline.f)(pipeline) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayAttribBinding(&self, vaobj: types::GLuint, attribindex: types::GLuint, bindingindex: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint) -> ()>(self.VertexArrayAttribBinding.f)(vaobj, attribindex, bindingindex) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayAttribFormat(&self, vaobj: types::GLuint, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, normalized: types::GLboolean, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLint, types::GLenum, types::GLboolean, types::GLuint) -> ()>(self.VertexArrayAttribFormat.f)(vaobj, attribindex, size, type_, normalized, relativeoffset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayAttribIFormat(&self, vaobj: types::GLuint, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLint, types::GLenum, types::GLuint) -> ()>(self.VertexArrayAttribIFormat.f)(vaobj, attribindex, size, type_, relativeoffset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayAttribLFormat(&self, vaobj: types::GLuint, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLint, types::GLenum, types::GLuint) -> ()>(self.VertexArrayAttribLFormat.f)(vaobj, attribindex, size, type_, relativeoffset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayBindingDivisor(&self, vaobj: types::GLuint, bindingindex: types::GLuint, divisor: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint) -> ()>(self.VertexArrayBindingDivisor.f)(vaobj, bindingindex, divisor) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayElementBuffer(&self, vaobj: types::GLuint, buffer: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.VertexArrayElementBuffer.f)(vaobj, buffer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayVertexBuffer(&self, vaobj: types::GLuint, bindingindex: types::GLuint, buffer: types::GLuint, offset: types::GLintptr, stride: types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLuint, types::GLintptr, types::GLsizei) -> ()>(self.VertexArrayVertexBuffer.f)(vaobj, bindingindex, buffer, offset, stride) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexArrayVertexBuffers(&self, vaobj: types::GLuint, first: types::GLuint, count: types::GLsizei, buffers: *const types::GLuint, offsets: *const types::GLintptr, strides: *const types::GLsizei) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint, types::GLsizei, *const types::GLuint, *const types::GLintptr, *const types::GLsizei) -> ()>(self.VertexArrayVertexBuffers.f)(vaobj, first, count, buffers, offsets, strides) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttrib1d(&self, index: types::GLuint, x: types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLdouble) -> ()>(self.VertexAttrib1d.f)(index, x) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4596,11 +3365,7 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttrib4usv(&self, index: types::GLuint, v: *const types::GLushort) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, *const types::GLushort) -> ()>(self.VertexAttrib4usv.f)(index, v) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexAttribBinding(&self, attribindex: types::GLuint, bindingindex: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.VertexAttribBinding.f)(attribindex, bindingindex) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribDivisor(&self, index: types::GLuint, divisor: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.VertexAttribDivisor.f)(index, divisor) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexAttribFormat(&self, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, normalized: types::GLboolean, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLboolean, types::GLuint) -> ()>(self.VertexAttribFormat.f)(attribindex, size, type_, normalized, relativeoffset) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribI1i(&self, index: types::GLuint, x: types::GLint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint) -> ()>(self.VertexAttribI1i.f)(index, x) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4642,8 +3407,6 @@ _priv: ()
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribI4usv(&self, index: types::GLuint, v: *const types::GLushort) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, *const types::GLushort) -> ()>(self.VertexAttribI4usv.f)(index, v) }
 #[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexAttribIFormat(&self, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLuint) -> ()>(self.VertexAttribIFormat.f)(attribindex, size, type_, relativeoffset) }
-#[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribIPointer(&self, index: types::GLuint, size: types::GLint, type_: types::GLenum, stride: types::GLsizei, pointer: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.VertexAttribIPointer.f)(index, size, type_, stride, pointer) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribL1d(&self, index: types::GLuint, x: types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLdouble) -> ()>(self.VertexAttribL1d.f)(index, x) }
@@ -4661,8 +3424,6 @@ _priv: ()
             #[inline] pub unsafe fn VertexAttribL4d(&self, index: types::GLuint, x: types::GLdouble, y: types::GLdouble, z: types::GLdouble, w: types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLdouble, types::GLdouble, types::GLdouble, types::GLdouble) -> ()>(self.VertexAttribL4d.f)(index, x, y, z, w) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribL4dv(&self, index: types::GLuint, v: *const types::GLdouble) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, *const types::GLdouble) -> ()>(self.VertexAttribL4dv.f)(index, v) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexAttribLFormat(&self, attribindex: types::GLuint, size: types::GLint, type_: types::GLenum, relativeoffset: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLuint) -> ()>(self.VertexAttribLFormat.f)(attribindex, size, type_, relativeoffset) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribLPointer(&self, index: types::GLuint, size: types::GLint, type_: types::GLenum, stride: types::GLsizei, pointer: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.VertexAttribLPointer.f)(index, size, type_, stride, pointer) }
 #[allow(non_snake_case, unused_variables, dead_code)]
@@ -4683,8 +3444,6 @@ _priv: ()
             #[inline] pub unsafe fn VertexAttribP4uiv(&self, index: types::GLuint, type_: types::GLenum, normalized: types::GLboolean, value: *const types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLenum, types::GLboolean, *const types::GLuint) -> ()>(self.VertexAttribP4uiv.f)(index, type_, normalized, value) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexAttribPointer(&self, index: types::GLuint, size: types::GLint, type_: types::GLenum, normalized: types::GLboolean, stride: types::GLsizei, pointer: *const __gl_imports::raw::c_void) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLint, types::GLenum, types::GLboolean, types::GLsizei, *const __gl_imports::raw::c_void) -> ()>(self.VertexAttribPointer.f)(index, size, type_, normalized, stride, pointer) }
-#[allow(non_snake_case, unused_variables, dead_code)]
-            #[inline] pub unsafe fn VertexBindingDivisor(&self, bindingindex: types::GLuint, divisor: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLuint, types::GLuint) -> ()>(self.VertexBindingDivisor.f)(bindingindex, divisor) }
 #[allow(non_snake_case, unused_variables, dead_code)]
             #[inline] pub unsafe fn VertexP2ui(&self, type_: types::GLenum, value: types::GLuint) -> () { __gl_imports::mem::transmute::<_, extern "system" fn(types::GLenum, types::GLuint) -> ()>(self.VertexP2ui.f)(type_, value) }
 #[allow(non_snake_case, unused_variables, dead_code)]
