@@ -32,13 +32,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .map_err(|e| e.to_string())?;
     unsafe {
         if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4) {
-            println!("{:?}", sdl3::get_error());
+            panic!("{:?}", sdl3::get_error());
         }
         if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1) {
-            println!("{:?}", sdl3::get_error());
+            panic!("{:?}", sdl3::get_error());
         }
         if !SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE) {
-            println!("{:?}", sdl3::get_error());
+            panic!("{:?}", sdl3::get_error());
         }
     }
 
