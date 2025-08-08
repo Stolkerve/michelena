@@ -8,7 +8,7 @@ pub enum VertexAttributeDataTypes {
 }
 
 impl VertexAttributeDataTypes {
-    fn get_size(&self) -> GLint {
+    pub fn get_size(&self) -> GLint {
         match self {
             VertexAttributeDataTypes::F32 => return 4,
         }
@@ -50,20 +50,18 @@ impl VertexAttributeTypes {
     }
 }
 
-pub struct VertexBuffer {
+pub struct VertexBuffer<'a> {
     pub id: GLuint,
-    pub gl: Gl,
+    pub gl: &'a Gl,
 }
 
-impl VertexBuffer {
-    pub fn new(gl: Gl) -> Self {
+impl<'a> VertexBuffer<'a> {
+    pub fn new(gl: &'a Gl) -> Self {
         let mut id = 0;
         unsafe { gl.GenBuffers(1, &mut id) };
         Self { id, gl }
     }
-}
 
-impl VertexBuffer {
     pub fn bind(&self) {
         unsafe { self.gl.BindBuffer(gl::ARRAY_BUFFER, self.id) };
     }
@@ -80,13 +78,13 @@ impl VertexBuffer {
         }
     }
 
-    pub fn insert_data(&self, offset: isize, size: isize, data: &[f32]) {
+    pub fn insert_data(&self, offset: isize, data: &[f32]) {
         unsafe {
             self.bind();
             self.gl.BufferSubData(
                 gl::ARRAY_BUFFER,
                 offset,
-                size,
+                data.len() as isize * 4,
                 data.as_ptr() as *const c_void,
             );
         }
@@ -109,12 +107,23 @@ impl VertexBuffer {
                 stride,
                 offset
             );
+            unsafe {
+                self.gl.VertexAttribPointer(
+                    i as u32,
+                    attr.get_components_count(),
+                    gl::FLOAT,
+                    gl::FALSE,
+                    stride,
+                    &offset as *const i32 as *const c_void,
+                );
+                self.gl.EnableVertexAttribArray(i as u32);
+            }
             offset += attr.get_size();
         }
     }
 }
 
-impl Drop for VertexBuffer {
+impl<'a> Drop for VertexBuffer<'a> {
     fn drop(&mut self) {
         unsafe { self.gl.DeleteBuffers(1, &self.id as *const u32) };
     }
