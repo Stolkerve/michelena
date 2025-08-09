@@ -5,7 +5,7 @@ edition = "2021"
 build = "build.rs"
 
 [dependencies]
-sdl3 = { version = "0", features = ["build-from-source"] }
+sdl3 = { version = "0", features = ["build-from-source-static"] }
 
 [build-dependencies]
 gl_generator = "0.14.0"

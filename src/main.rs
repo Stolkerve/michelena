@@ -80,30 +80,38 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     ];
 
     let mut vao = VertexArray::new(&gl);
+    unsafe { println!("{}", gl.GetError()) }
     vao.bind();
+    unsafe { println!("{}", gl.GetError()) }
     let vbo = VertexBuffer::new(&gl);
+    unsafe { println!("{}", gl.GetError()) }
     vbo.bind();
-    vbo.alloc(VertexAttributeDataTypes::F32.get_size() as isize * (vertices.len() as isize));
-    vbo.insert_data(0, &vertices);
+    unsafe { println!("{}", gl.GetError()) }
+    vbo.alloc(4 * vertices.len() as isize);
+    unsafe { println!("{}", gl.GetError()) }
+    vbo.insert_data(0, vertices.len() as isize, vertices.as_ptr());
+    unsafe { println!("{}", gl.GetError()) }
     vbo.set_attributes(&vec![
         VertexAttributeTypes::Vec3(VertexAttributeDataTypes::F32), // vertices
-                                                                   // VertexAttributeTypes::Vec3(VertexAttributeDataTypes::F32), // colors
-                                                                   // VertexAttributeTypes::Vec2(VertexAttributeDataTypes::F32), // UV
     ]);
     vao.set_vbo(vbo);
+    unsafe { println!("{}", gl.GetError()) }
 
     let vertex_shader: GLuint;
     let fragment_shader: GLuint;
     let shader_program: GLuint;
     unsafe {
         vertex_shader = gl.CreateShader(gl::VERTEX_SHADER);
+        unsafe { println!("{}", gl.GetError()) }
         gl.ShaderSource(
             vertex_shader,
             1,
             &CString::from_str(VERTEX_SHADER_SOURCE).unwrap().as_ptr(),
             std::ptr::null(),
         );
+        unsafe { println!("{}", gl.GetError()) }
         gl.CompileShader(vertex_shader);
+        unsafe { println!("{}", gl.GetError()) }
         let mut success: GLint = 0;
         gl.GetShaderiv(
             vertex_shader,
@@ -122,12 +130,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         fragment_shader = gl.CreateShader(gl::FRAGMENT_SHADER);
+        unsafe { println!("{}", gl.GetError()) }
         gl.ShaderSource(
             fragment_shader,
             1,
             &CString::from_str(FRAGMENT_SHADER_SOURCE).unwrap().as_ptr(),
             std::ptr::null(),
         );
+        unsafe { println!("{}", gl.GetError()) }
         gl.CompileShader(fragment_shader);
         let mut success: GLint = 0;
         gl.GetShaderiv(
@@ -147,9 +157,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         shader_program = gl.CreateProgram();
+        unsafe { println!("{}", gl.GetError()) }
         gl.AttachShader(shader_program, vertex_shader);
+        println!("{}", gl.GetError());
         gl.AttachShader(shader_program, fragment_shader);
+        unsafe { println!("{}", gl.GetError()) }
         gl.LinkProgram(shader_program);
+        unsafe { println!("{}", gl.GetError()) }
         gl.GetShaderiv(fragment_shader, gl::LINK_STATUS, &mut success as *mut GLint);
         if success == 0 {
             let mut info_log: [i8; 512] = [0; 512];
@@ -189,7 +203,6 @@ const VERTEX_SHADER_SOURCE: &str = r"
 #version 330 core
 
 layout (location = 0) in vec3 aPos;
-layout (location = 1) in vec3 aColor;
 
 void main() {
    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);

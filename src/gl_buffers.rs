@@ -78,15 +78,12 @@ impl<'a> VertexBuffer<'a> {
         }
     }
 
-    pub fn insert_data(&self, offset: isize, data: &[f32]) {
+    pub fn insert_data(&self, offset: isize, size: isize, data: *const f32) {
         unsafe {
+            println!("insert {} vertices {:?}", size, data);
             self.bind();
-            self.gl.BufferSubData(
-                gl::ARRAY_BUFFER,
-                offset,
-                data.len() as isize * 4,
-                data.as_ptr() as *const c_void,
-            );
+            self.gl
+                .BufferSubData(gl::ARRAY_BUFFER, offset, size * 4, data.cast());
         }
     }
 
@@ -95,7 +92,6 @@ impl<'a> VertexBuffer<'a> {
         for attr in attrs.iter() {
             stride += attr.get_size()
         }
-        println!("stride {}", stride);
 
         let mut offset = 0;
         for i in 0..attrs.len() {
@@ -114,7 +110,7 @@ impl<'a> VertexBuffer<'a> {
                     gl::FLOAT,
                     gl::FALSE,
                     stride,
-                    &offset as *const i32 as *const c_void,
+                    offset as *const _,
                 );
                 self.gl.EnableVertexAttribArray(i as u32);
             }
