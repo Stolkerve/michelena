@@ -1,4 +1,4 @@
-use std::ffi::c_void;
+use std::os::raw;
 
 use crate::gl::{self, Gl};
 use gl::types::{GLint, GLuint};
@@ -15,6 +15,7 @@ impl VertexAttributeDataTypes {
     }
 }
 
+#[allow(dead_code)]
 pub enum VertexAttributeTypes {
     Scalar(VertexAttributeDataTypes),
     Vec2(VertexAttributeDataTypes),
@@ -66,6 +67,7 @@ impl<'a> VertexBuffer<'a> {
         unsafe { self.gl.BindBuffer(gl::ARRAY_BUFFER, self.id) };
     }
 
+    #[allow(dead_code)]
     pub fn unbind(&self) {
         unsafe { self.gl.BindBuffer(gl::ARRAY_BUFFER, 0) };
     }
@@ -78,12 +80,10 @@ impl<'a> VertexBuffer<'a> {
         }
     }
 
-    pub fn insert_data(&self, offset: isize, size: isize, data: *const f32) {
+    pub fn insert_data(&self, offset: isize, size: isize, data: *const raw::c_void) {
         unsafe {
-            println!("insert {} vertices {:?}", size, data);
             self.bind();
-            self.gl
-                .BufferSubData(gl::ARRAY_BUFFER, offset, size * 4, data.cast());
+            self.gl.BufferSubData(gl::ARRAY_BUFFER, offset, size, data);
         }
     }
 
@@ -96,13 +96,13 @@ impl<'a> VertexBuffer<'a> {
         let mut offset = 0;
         for i in 0..attrs.len() {
             let attr = attrs.get(i).unwrap();
-            println!(
-                "index {} size {} stride {} offset {}",
-                i,
-                attr.get_components_count(),
-                stride,
-                offset
-            );
+            // println!(
+            //     "index {} size {} stride {} offset {}",
+            //     i,
+            //     attr.get_components_count(),
+            //     stride,
+            //     offset
+            // );
             unsafe {
                 self.gl.VertexAttribPointer(
                     i as u32,
@@ -125,6 +125,54 @@ impl<'a> Drop for VertexBuffer<'a> {
     }
 }
 
-pub struct IndexBuffer {
+pub struct IndexBuffer<'a> {
     pub id: u32,
+    pub gl: &'a Gl,
+}
+
+impl<'a> IndexBuffer<'a> {
+    pub fn new(gl: &'a Gl) -> Self {
+        let mut id = 0;
+        unsafe { gl.GenBuffers(1, &mut id) };
+        Self { id, gl }
+    }
+
+    pub fn bind(&self) {
+        unsafe { self.gl.BindBuffer(gl::ELEMENT_ARRAY_BUFFER, self.id) };
+    }
+
+    #[allow(dead_code)]
+    pub fn unbind(&self) {
+        unsafe { self.gl.BindBuffer(gl::ELEMENT_ARRAY_BUFFER, 0) };
+    }
+
+    pub fn alloc(&self, size: usize) {
+        unsafe {
+            self.bind();
+            self.gl.BufferData(
+                gl::ELEMENT_ARRAY_BUFFER,
+                4 * size as isize,
+                std::ptr::null(),
+                gl::DYNAMIC_DRAW,
+            );
+        }
+    }
+
+    pub fn insert_data(&self, offset: isize, size: usize, data: *const GLuint) {
+        unsafe {
+            self.bind();
+            self.gl.BufferSubData(
+                gl::ELEMENT_ARRAY_BUFFER,
+                offset,
+                size as isize * 4,
+                data.cast(),
+            );
+        }
+    }
+}
+
+impl<'a> Drop for IndexBuffer<'a> {
+    fn drop(&mut self) {
+        unsafe { self.gl.DeleteBuffers(1, &self.id as *const u32) };
+    }
 }
